@@ -1,0 +1,3 @@
+[submodule "src/cake/app/vendors/php-sass"]
+	path = src/cake/app/vendors/php-sass
+	url = https://github.com/panique/php-sass.git
