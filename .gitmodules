@@ -1,3 +1,30 @@
 [submodule "src/cake/app/vendors/php-sass"]
 	path = src/cake/app/vendors/php-sass
 	url = https://github.com/panique/php-sass.git
+[submodule "src/cake/app/plugins/mexc_space"]
+	path = src/cake/app/plugins/mexc_space
+	url = https://github.com/hugomelo/mexc_space.git
+[submodule "src/cake/app/plugins/mexc_news"]
+	path = src/cake/app/plugins/mexc_news
+	url = https://github.com/hugomelo/mexc_news.git
+[submodule "src/cake/app/plugins/mexc_highlights"]
+	path = src/cake/app/plugins/mexc_highlights
+	url = https://github.com/museudecienciasunicamp/mexc_highlights.git
+[submodule "src/cake/app/plugins/mexc_galleries"]
+	path = src/cake/app/plugins/mexc_galleries
+	url = https://github.com/hugomelo/mexc_galleries.git
+[submodule "src/cake/app/plugins/mexc_events"]
+	path = src/cake/app/plugins/mexc_events
+	url = https://github.com/hugomelo/mexc_events.git
+[submodule "src/cake/app/plugins/mexc_documents"]
+	path = src/cake/app/plugins/mexc_documents
+	url = https://github.com/hugomelo/mexc_documents.git
+[submodule "src/cake/app/plugins/mexc_contacts"]
+	path = src/cake/app/plugins/mexc_contacts
+	url = https://github.com/hugomelo/mexc_contacts.git
+[submodule "src/cake/app/plugins/site_factory"]
+	path = src/cake/app/plugins/site_factory
+	url = https://github.com/hugomelo/site_factory.git
+[submodule "src/cake/app/plugins/mexc_related"]
+	path = src/cake/app/plugins/mexc_related
+	url = https://github.com/hugomelo/mexc_related.git
