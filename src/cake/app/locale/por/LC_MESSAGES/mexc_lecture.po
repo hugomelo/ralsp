@@ -1,0 +1,183 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-11-11 16:33-0400\n"
+"PO-Revision-Date: 2011-11-11 17:55-0400\n"
+"Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /models/mexc_schedule.php:20;29;32;35;38;47;51;55;64;74;77;81;90;100;103;107;116;127;131;135;156;159
+msgid "Informação obrigatória"
+msgstr ""
+
+#: /models/mexc_schedule.php:25
+msgid "A opção escolhida não é conhecida"
+msgstr ""
+
+#: /models/mexc_schedule.php:43
+msgid "O estado escolhido não é válido"
+msgstr ""
+
+#: /models/mexc_schedule.php:50
+msgid "O CEP informado não é válido. Formato aceito: 12345-987"
+msgstr ""
+
+#: /models/mexc_schedule.php:54;89;115
+msgid "Digite um formato de telefone válido. Formato aceito: (19) 9876-5432"
+msgstr ""
+
+#: /models/mexc_schedule.php:60;95;121
+msgid "O telefone deve estar idêntico ao campo anterior."
+msgstr ""
+
+#: /models/mexc_schedule.php:63;80;106
+msgid "O e-mail informado não é válido"
+msgstr ""
+
+#: /models/mexc_schedule.php:69;86;112
+msgid "O e-mail deve estar idêntico ao campo anterior."
+msgstr ""
+
+#: /models/mexc_schedule.php:126;130;134
+msgid "Digite uma data válida no formato 20/05/2012"
+msgstr ""
+
+#: /models/mexc_schedule.php:138;141;144
+msgid "Escolha um dos períodos indicados"
+msgstr ""
+
+#: /models/mexc_schedule.php:150
+msgid "Escolha uma das opções de local"
+msgstr ""
+
+#: /models/mexc_schedule.php:155
+msgid "Indique escrevendo apenas um número"
+msgstr ""
+
+#: /views/elements/mexc_lecture_form.ctp:27
+msgid "form - name label"
+msgstr "Título da palestra"
+
+#: /views/elements/mexc_lecture_form.ctp:28
+msgid "form - name instructions"
+msgstr " "
+
+#: /views/elements/mexc_lecture_form.ctp:36
+msgid "form - unitaryAutocomplete (Speaker) label"
+msgstr "Palestrante"
+
+#: /views/elements/mexc_lecture_form.ctp:37
+msgid "form - unitaryAutocomplete (Speaker) instructions"
+msgstr "Procure pelo nome. Se não for encontrado, você poderá criar um."
+
+#: /views/elements/mexc_lecture_form.ctp:51
+msgid "form - tags input label"
+msgstr "Palavras-chave"
+
+#: /views/elements/mexc_lecture_form.ctp:52
+msgid "form - tags input instructions"
+msgstr "Coloque as palavras-chave desejadas separadas por vírgulas. Ex: palavra 1, palavra 2, palavra 3. "
+
+#: /views/elements/mexc_lecture_form.ctp:73
+msgid "form - content_stream label"
+msgstr "Sobre a palestra"
+
+#: /views/elements/mexc_lecture_form.ctp:74
+msgid "form - content_stream instructions"
+msgstr "Um texto mais elaborado, descrevendo a palestra."
+
+#: /views/elements/mexc_speaker_form.ctp:31
+msgid "speaker form - name label"
+msgstr "Nome completo"
+
+#: /views/elements/mexc_speaker_form.ctp:32
+msgid "speaker form - name instructions"
+msgstr " "
+
+#: /views/elements/mexc_speaker_form.ctp:42
+msgid "speaker form - title label"
+msgstr "Tratamento do palestrante"
+
+#: /views/elements/mexc_speaker_form.ctp:43
+msgid "speaker form - title instructions"
+msgstr "Como o site vai apresentar o palestrante. Ex. \"Prof. Dr.\", \"Sra.\", etc"
+
+#: /views/elements/mexc_speaker_form.ctp:52
+msgid "speaker form - img_id label"
+msgstr "Imagem/foto (opcional)"
+
+#: /views/elements/mexc_speaker_form.ctp:53
+msgid "speaker form - img_id instructions"
+msgstr " "
+
+#: /views/elements/mexc_speaker_form.ctp:65
+msgid "speaker form - description label"
+msgstr "Descrição resumida"
+
+#: /views/elements/mexc_speaker_form.ctp:66
+msgid "speaker form - description instructions"
+msgstr "Poucas palavras (de 30 a 400 caracteres) para descrever o palestrante"
+
+#: /views/elements/mexc_speaker_form.ctp:76
+msgid "speaker form - content_stream label"
+msgstr "Descrição detalhada"
+
+#: /views/elements/mexc_speaker_form.ctp:77
+msgid "speaker form - content_stream instructions"
+msgstr "Um texto mais elaborado sobre o palestrante"
+
+#: /views/elements/mexc_speaker_form.ctp:93
+msgid "speaker form - publishing_status label"
+msgstr "Publicado/rascunho"
+
+#: /views/elements/mexc_speaker_form.ctp:94
+msgid "speaker form - publishing_status instructions"
+msgstr "Os autores que estiverem em \"rascunho\", não serão exibidos e nem suas palestras."
+
+#: /views/elements/mexc_speaker_form.ctp:97
+msgid "Publicado"
+msgstr ""
+
+#: /views/elements/mexc_speaker_form.ctp:98
+msgid "Rascunho"
+msgstr ""
+
+#: /views/elements/mexc_speaker_form.ctp:109
+msgid "save button label"
+msgstr "Salvar"
+
+#: /views/elements/mexc_speaker_form.ctp:111
+msgid "cancel link label"
+msgstr "cancelar"
+
+#: /views/mexc_lectures/agendamento.ctp:5
+msgid "Pedido de agendamento enviado"
+msgstr ""
+
+#: /views/mexc_lectures/agendamento.ctp:17
+msgid "Agendamento"
+msgstr ""
+
+#: /views/mexc_lectures/agendamento.ctp:169
+msgid "Pedir o agendamento"
+msgstr ""
+
+#: /views/mexc_lectures/read.ctp:37
+msgid "Descrição"
+msgstr ""
+
+#~ msgid "form - description label"
+#~ msgstr "Resumo da palestra"
+
+#~ msgid "form - description instructions"
+#~ msgstr ""
+#~ "Em poucas palavras, um resumo, para ser apresentado na listagem das "
+#~ "palestras."

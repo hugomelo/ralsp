@@ -1,0 +1,27 @@
+/app/tmp
+/vendors
+/plugins
+
+# Generated images shouldn't be versioned.
+/app/webroot/img/derivatives
+
+# Media directory
+/app/webroot/media
+
+# File directory
+/app/webroot/files
+/app/webroot/files_olimpiada
+
+# File directory
+/app/webroot/payments
+
+# File directory
+/app/webroot/gerador_excel
+
+# Each developer must have your database.php. Copy database.php.default and configure it to your machine.
+/app/config/database.php
+/app/config/core.php
+
+# Excluding cake console temporary folder from repo
+/cake/console/templates/skel/tmp
+

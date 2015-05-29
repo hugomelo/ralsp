@@ -1,0 +1,348 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-11-29 15:06-0300\n"
+"PO-Revision-Date: 2012-11-29 16:07-0300\n"
+"Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /config/bootstrap.php:85
+msgid "LaPoste human name"
+msgstr ""
+
+#: /config/bootstrap.php:90
+msgid "LpCopy human name"
+msgstr ""
+
+#: /plugins/backstage/config/backstage.php:21
+msgid "LaPoste header: created"
+msgstr "Criado em"
+
+#: /plugins/backstage/config/backstage.php:22
+msgid "LaPoste header: subject"
+msgstr "Assunto"
+
+#: /plugins/backstage/config/backstage.php:23
+msgid "LaPoste header: status"
+msgstr "Status"
+
+#: /plugins/backstage/config/backstage.php:24
+msgid "LaPoste header: total"
+msgstr "Nº"
+
+#: /plugins/backstage/config/backstage.php:25
+msgid "LaPoste header: sent"
+msgstr "Enviadas"
+
+#: /plugins/backstage/config/backstage.php:26
+msgid "LaPoste header: aux"
+msgstr "Identificação auxiliar"
+
+#: /plugins/backstage/config/backstage.php:39
+msgid "LpCopy header: to"
+msgstr "Para"
+
+#: /plugins/backstage/config/backstage.php:40
+msgid "LpCopy header: state"
+msgstr "Estado"
+
+#: /plugins/backstage/config/backstage.php:41
+msgid "LpCopy header: first_try"
+msgstr "1ª tentativa"
+
+#: /plugins/backstage/config/backstage.php:42
+msgid "LpCopy header: last_try"
+msgstr "Última tentativa"
+
+#: /plugins/backstage/config/backstage.php:43
+msgid "LpCopy header: tries"
+msgstr "Tentativas"
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:28
+msgid "Assunto"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:33
+msgid "Tipo de carta"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:38
+msgid "Espaço"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:45
+msgid "Criado"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:50
+msgid "Completo"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:61
+msgid "Cópias"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:67
+msgid "Enviadas"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:75
+msgid "Com erro"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:79
+msgid "Nenhuma"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:82
+msgid "Uma"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:93
+msgid "Destinatários"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:106
+msgid "LaPoste dashboard: Link for pause the process"
+msgstr "Interromper"
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:112
+msgid "LaPoste dashboard: link for cancel the process"
+msgstr "Cancelar"
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:118
+msgid "LaPoste dashboard: link for duplicate letter"
+msgstr "Nova carta para os mesmos destinatários"
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:131
+msgid "Template"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:138
+msgid "Mensagem real"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:151
+msgid "Envio das cartas"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:199
+msgid "LpCopy status: sent"
+msgstr "Enviado"
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:200
+msgid "LpCopy status: waiting"
+msgstr "Aguardando"
+
+#: /plugins/la_poste/views/elements/lp_copy.ctp:201
+msgid "LpCopy status: expired"
+msgstr "Falhou"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:37
+msgid "Sucesso"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:38
+msgid "A solicitação foi realizada com sucesso. A lista será recarregada."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:79
+msgid "sending"
+msgstr "Enviando"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:79
+msgid "paused"
+msgstr "Envio pausado"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:79
+msgid "constructing"
+msgstr "Montando"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:80
+msgid "done"
+msgstr "Concluída"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:80
+msgid "cancelled"
+msgstr "Cancelada"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:128
+msgid "LaPoste dashboard: link for continue constructing letter"
+msgstr "Continuar editando"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:136
+msgid "LaPoste dashboard: link for managing letter"
+msgstr "Gerenciar"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:146
+msgid "Ocorreu um erro ao tentar cancelar o envio. O servidor retornou \"#{error}\".  A lista será carregada."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:147
+msgid "Tem certeza que deseja cancelar o envio de todas as cópias? Não será possível voltar atrás."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:148
+msgid "LaPoste dashboard: link for cancel letter"
+msgstr "Cancelar"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:158
+msgid "Ocorreu um erro ao tentar excluir a carta. O servidor retornou \"#{error}\".  A lista será carregada."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:159
+msgid "Tem certeza que deseja apagar essa carta? Não será possível voltar atrás."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:160
+msgid "LaPoste dashboard: link for delete letter"
+msgstr "Excluir"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:170
+msgid "Ocorreu um erro ao interromper o envio das cartas. O servidor retornou \"#{error}\".  A lista será carregada."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:171
+msgid "Tem certeza que deseja interromper o envio das cópias? Será possível retomar o envio posteriormente."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:172
+msgid "LaPoste dashboard: link for pause letter"
+msgstr "Interromper"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:182
+msgid "Ocorreu um erro ao retomar o envio das cartas. O servidor retornou \"#{error}\".  A lista será carregada."
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:183
+msgid "Tem certeza que deseja retomar o envio das cópias?"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:184
+msgid "LaPoste dashboard: link for resume letter"
+msgstr "Continuar"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:279
+msgid "LpLetter form: from label"
+msgstr "De:"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:280
+msgid "LpLetter form: from instructions"
+msgstr "Ajustado pelo sistema e não pode ser alterado"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:291
+msgid "LpLetter form: to label"
+msgstr "Para:"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:292
+msgid "LpLetter to: to instructions"
+msgstr " "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:300
+msgid ":number of addressees"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:328
+msgid "LpLetter form: destination_config.addresses label"
+msgstr "Endereços de envio"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:329
+msgid "LpLetter form: destination_config.addresses instructions"
+msgstr "Liste os endereços de e-mail, separados por vírgula, para os quais essa mensagem será enviada "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:352
+msgid "LpLetter form: list of addressees by system "
+msgstr "Endereços setados pelo sistema"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:374;393
+msgid "LpLetter form: cc label"
+msgstr "Endereços adicionais, opcionais"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:375;394
+msgid "LpLetter form: cc instructions"
+msgstr " "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:389
+msgid "LpLetter form: cc super_field label"
+msgstr "Cc:"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:390
+msgid "LpLetter form: cc super_field instructions"
+msgstr "Carbon copy (vísivel para os recipientes). Busque ou cadastre novos. "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:391
+msgid "LpLetter form: bcc super_field label"
+msgstr "Bcc:"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:392
+msgid "LpLetter form: bcc super_field instructions"
+msgstr "Blind-carbon copy (invisível para os recipientes). Busque ou cadastre novos. "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:395
+msgid "LpLetter form: bcc label"
+msgstr "Endereços adicionais, opcionais"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:396
+msgid "LpLetter form: bcc instructions"
+msgstr " "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:404
+msgid "LpLetter form: subject super_field label"
+msgstr "Assunto:"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:405
+msgid "LpLetter form: subject super_field instructions"
+msgstr " "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:419
+msgid "LpLetter form: prefix label"
+msgstr "Itendificador:"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:420
+msgid "LpLetter form: prefix instructions"
+msgstr "Criado pelo sistema"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:430
+msgid "LpLetter form: subject label"
+msgstr "Assunto"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:431
+msgid "LpLetter form: subject instructions"
+msgstr " "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:444
+msgid "LpLetter form: template label"
+msgstr "Mensagem"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:445
+msgid "LpLetter form: template instructions"
+msgstr " "
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:453
+msgid "The e-mail is drafted. You can :sendlink, :savelink or :deletelink."
+msgstr "Esse e-mail está em rascunho. Você pode :sendlink, :savelink ou :deletelink."
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:455
+msgid "send e-mail link"
+msgstr "enviá-lo"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:456
+msgid "save e-mail link"
+msgstr "salvá-lo"
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:457
+msgid "delete e-mail link"
+msgstr "excluí-lo"
+
+#~ msgid "to_send"
+#~ msgstr "A enviar"
+
+#~ msgid "LaPoste header: pending"
+#~ msgstr "Pendentes"

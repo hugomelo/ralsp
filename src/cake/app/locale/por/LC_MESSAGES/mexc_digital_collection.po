@@ -1,0 +1,236 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-04-17 14:52-0300\n"
+"PO-Revision-Date: 2012-04-17 14:53-0300\n"
+"Last-Translator: Hugo Melo <hugo.melo@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_institution_form.ctp:12
+msgid "digco institution form - title label"
+msgstr "Instituição sede da exposição"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_institution_form.ctp:13
+msgid "digco institution form - title instructions"
+msgstr "Coloque o nome da instituição que sediou o evento"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_institution_form.ctp:22
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_language_form.ctp:22
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:44
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_responsible_institution_form.ctp:22
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_support_form.ctp:22
+msgid "save button label"
+msgstr "Salvar"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_institution_form.ctp:24
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_language_form.ctp:24
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:46
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_responsible_institution_form.ctp:24
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_support_form.ctp:24
+msgid "cancel link label"
+msgstr "cancelar alteração"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_language_form.ctp:12
+msgid "digco language form - title label"
+msgstr "Linguagem"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_language_form.ctp:13
+msgid "digco language form - title instructions"
+msgstr "  Adicione, uma a uma, as linguagens do documento"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:12
+msgid "digco location form - city label"
+msgstr "Cidade"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:13
+msgid "digco location form - city instructions"
+msgstr " "
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:23
+msgid "digco location form - state label"
+msgstr "Estado"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:24
+msgid "digco location form - state instructions"
+msgstr "Se o país não for Brasil, o estado pode ficar em branco."
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:34
+msgid "digco location form - country label"
+msgstr "País"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_location_form.ctp:35
+msgid "digco location form - country instructions"
+msgstr " "
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_responsible_institution.ctp:16
+msgid "Sem instituições"
+msgstr "Sem instituições"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_responsible_institution_form.ctp:12
+msgid "digco responsible institution form - title label"
+msgstr "Nome da instituição responsável"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_responsible_institution_form.ctp:13
+msgid "digco responsible institution form - title instructions"
+msgstr "Coloque o nome da instituição que administrou/criou a exposição."
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_support_form.ctp:12
+msgid "digco support form - title label"
+msgstr "título do suporte"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digco_support_form.ctp:13
+msgid "digco support form - title instructions"
+msgstr "  "
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:67
+msgid "Document Title"
+msgstr "Título do documento"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:71
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:153
+msgid "form - tags input label"
+msgstr "Palavras-chave"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:78
+msgid "format supported"
+msgstr "Formato / Mídia"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:83
+msgid "Local"
+msgstr "Local"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:87
+msgid "Date"
+msgstr "Data"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:91;240
+msgid "Responsible Institution"
+msgstr "Instituição responsável"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:95;249
+msgid "Institution"
+msgstr "Instituição sede da exposição"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:102
+msgid "Language"
+msgstr "Língua"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:231
+msgid "Título Original"
+msgstr "Título original"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:258
+msgid "Support"
+msgstr "Suporte"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:267
+msgid "Languages"
+msgstr "Línguas"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection.ctp:280
+msgid "Keywords"
+msgstr "Palavras-chave"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:38
+msgid "form - MexcDigitalCollection.title label"
+msgstr "Título"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:39
+msgid "form - MexcDigitalCollection.title instructions"
+msgstr " "
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:49
+msgid "form - MexcDigitalCollection.title_original label"
+msgstr "Título original"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:50
+msgid "form - MexcDigitalCollection.title_original instructions"
+msgstr "  "
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:63
+msgid "form - non defined date"
+msgstr "desconhecida"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:68
+msgid "form - date label"
+msgstr "Data"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:69
+msgid "form - date instructions"
+msgstr " "
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:78
+msgid "form - mexc_digital_collection_location relational label"
+msgstr "Localização"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:79
+msgid "form - mexc_digital_collection_location relational instructions"
+msgstr " "
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:93
+msgid "form - mexc_digital_collection_support relational label"
+msgstr "Suporte"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:94
+msgid "form - mexc_digital_collection_support relational instructions"
+msgstr "Escolha o tipo de suporte do acervo"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:108
+msgid "form - mexc_institution_id relational label"
+msgstr "Instituição sediadora"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:109
+msgid "form - mexc_institution_id relational instructions"
+msgstr "Escolha a instituição relacionada ao documento"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:123
+msgid "form - mexc_digco_responsible_institution_id relational label"
+msgstr "Instituição responsável"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:124
+msgid "form - mexc_digco_responsible_institution_id relational instructions"
+msgstr "Escolha a instituição responsável relacionada ao documento"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:138
+msgid "form - mexc_digital_collection_language relational label"
+msgstr "Linguagem"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:139
+msgid "form - mexc_digital_collection_language relational instructions"
+msgstr "Escolha as linguas suportadas"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:154
+msgid "form - tags input instructions"
+msgstr " Insira as palavras-chave separadas por vírgula"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:166
+msgid "form - digital collection images (relational) label"
+msgstr "Imagens"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:167
+msgid "form - digital collection images (relational) instructions"
+msgstr "Clique no + para adicionar uma imagem ao acervo digital"
+
+#: /plugins/mexc_digital_collections/views/elements/mexc_digital_collection_form.ctp:171
+msgid "form - digital collection image title"
+msgstr "Título da imagem"
+
+#~ msgid "Título do documento"
+#~ msgstr "Instituição"
+
+#~ msgid "Instituition"
+#~ msgstr "Instituição"
+
+#~ msgid "form - MexcDigitalCollection.location label"
+#~ msgstr "Localização"
+
+#~ msgid "form - MexcDigitalCollection.location instructions"
+#~ msgstr " "

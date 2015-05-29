@@ -1,0 +1,142 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-03-12 02:43+0000\n"
+"PO-Revision-Date: 2012-03-11 23:56-0300\n"
+"Last-Translator: Lucas Vignoli Reis <lucas@preface.com.br>\n"
+"Language-Team: Preface Design <preface@preface.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:31
+msgid "form - display level label"
+msgstr "Nível de publicação"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:32
+msgid "form - display level instructions"
+msgstr "Escolha se a publicação aparecerá ou não na página inicial. Se não aparecer na página inicial do Museu, continuará aparecendo na página do programa e na busca."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:46
+msgid "form - name label"
+msgstr "Nome"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:47
+msgid "form - name instructions"
+msgstr " "
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:56
+msgid "form - tags input label"
+msgstr "Palavras-chave"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:57
+msgid "form - tags input instructions"
+msgstr "Coloque as palavras-chave desejadas separadas por vírgulas. Ex: palavra 1, palavra 2, palavra 3."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:71
+msgid "form - img_id (upload) label"
+msgstr "Imagem"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:72
+msgid "form - img_id (upload) instructions"
+msgstr "Se for o caso, adicione uma imagem à este evento. Escolha uma imagem e espere até que ela seja carregada."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:79
+msgid "form - dates superfield label"
+msgstr "Duração"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:92
+msgid "form - start (date) label"
+msgstr "Início"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:93
+msgid "form - start (date) instructions"
+msgstr " "
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:108
+msgid "form - end (date) label"
+msgstr "Fim"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:109
+msgid "form - end (date) instructions"
+msgstr " "
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:116
+msgid "form - about place superfield label"
+msgstr "Informações de localização"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:121
+msgid "form - place_name label"
+msgstr "Nome do local"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:122
+msgid "form - place_name instructions"
+msgstr " "
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:130
+msgid "form - place_url label"
+msgstr "Link"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:131
+msgid "form - place_url instructions"
+msgstr "Caso o local possua algum link - que poderia ser seu site, ou ainda um link para um mapa do Google Maps - preencha aqui com o endereço. Coloque sempre o linque completo, incluindo o 'http://'."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:139
+msgid "form - about place (textile) label"
+msgstr "Mais informações sobre o local"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:140
+msgid "form - about place (textile) instructions"
+msgstr "Pode ser um endereço, ou ainda dicas de como chegar. No máximo 300 caracteres."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:154
+msgid "form - summary label"
+msgstr "Resumo"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:155
+msgid "form - summary instructions"
+msgstr "Pequeno resumo do evento, que será disposto quando o evento aparecer como miniatura. Deve ter entre 30 e 400 caracteres."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:163
+msgid "form - content_stream label"
+msgstr "Texto sobre o evento"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:164
+msgid "form - content_stream instructions"
+msgstr " "
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:175
+msgid "form - how to participate (textile) label"
+msgstr "Como participar"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:176
+msgid "form - how to participate (textile) instructions"
+msgstr "Explique aqui, se necessário, como o interessado(a) pode fazer para participar deste evento."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:187
+msgid "form - List of event items (relational) label"
+msgstr "Programação"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:188
+msgid "form - List of event items (relational) instructions"
+msgstr "Caso o evento possua uma subprogramação, inclua itens da programação abaixo, senão este campo pode ser deixado em branco."
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:194
+msgid "form - confirm delete a event item"
+msgstr "Confirmar a exclusão de um item da programação?"
+
+#: \plugins\mexc_events\views\elements\mexc_event_form.ctp:196
+msgid "form - event item title"
+msgstr "Item da programação"
+
+#~ msgid "form - textile label"
+#~ msgstr "Texto sobre o evento"
+
+#~ msgid "form - textile instructions"
+#~ msgstr " "

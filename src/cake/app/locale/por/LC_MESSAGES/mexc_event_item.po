@@ -1,0 +1,73 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-08-24 01:13-0300\n"
+"PO-Revision-Date: 2011-11-11 18:12-0400\n"
+"Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
+"Language-Team: Preface Design <preface@preface.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:19
+msgid "form - name label"
+msgstr "Nome"
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:20
+msgid "form - name instructions"
+msgstr " "
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:21
+msgid "form - name error: Required and maxLength 250 chars"
+msgstr "O nome do item da programação é necessário e deve ter no máximo 250 caracteres."
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:30
+msgid "form - description label"
+msgstr "Descrição"
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:31
+msgid "form - description instructions"
+msgstr "Se necessário inclua uma descrição deste item da programação."
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:32
+msgid "form - description error: maxLength 3000 chars"
+msgstr "A descrição de cada item da programação não pode ultrapassar 300 caracteres."
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:47
+msgid "form - start (date) label"
+msgstr "Início"
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:48
+msgid "form - start (date) instructions"
+msgstr " "
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:49
+msgid "form - start (date) error: valid date"
+msgstr "Esta data é inválida."
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:64
+msgid "form - end (date) label"
+msgstr "Fim"
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:65
+msgid "form - end (date) instructions"
+msgstr " "
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:66
+msgid "form - end (date) error: valid date"
+msgstr "Esta data é inválida."
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:73
+msgid "save form"
+msgstr "Salvar"
+
+#: \plugins\mexc_event\views\elements\mexc_event_item_form.ctp:75
+msgid "cancel form"
+msgstr "cancelar"
+

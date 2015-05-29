@@ -1,0 +1,2423 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-04-09 23:43-0300\n"
+"PO-Revision-Date: 2013-04-27 16:13-0300\n"
+"Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: /mexc_app_controller.php:87
+msgid "Atenção! A conta logada no museu mudou de repente. Provavelmente alguém logou no site em outra aba ou janela. A conta logada agora é de <b>:nome</b>. Para a sua segurança, você foi redirecionado para a página de suas inscrições e a ação que você queria fazer não foi concluída."
+msgstr ""
+
+#: /mexc_app_controller.php:95
+msgid "Atenção! Outra equipe está logada atualmente. Para a sua segurança, você foi redirecionado para a sua Área."
+msgstr ""
+
+#: /plugins/backstage/config/backstage.php:55
+msgid "SuiUser header: name"
+msgstr "Nome"
+
+#: /plugins/backstage/config/backstage.php:56
+msgid "SuiUser header: city"
+msgstr "Cidade"
+
+#: /plugins/backstage/config/backstage.php:57
+msgid "SuiUser header: state"
+msgstr "Estado"
+
+#: /plugins/backstage/config/backstage.php:58
+msgid "SuiUser header: sui_users_type_id"
+msgstr "Tipo"
+
+#: /plugins/backstage/config/backstage.php:59
+msgid "SuiUser header: user_status"
+msgstr "Status"
+
+#: /plugins/backstage/config/backstage.php:60
+msgid "SuiUser header: username"
+msgstr "Email"
+
+#: /plugins/backstage/config/backstage.php:61
+msgid "SuiUser header: institutions"
+msgstr "Instituições"
+
+#: /plugins/backstage/config/backstage.php:62
+msgid "SuiUser header: subscriptions"
+msgstr "Nº inscrições"
+
+#: /plugins/backstage/config/backstage.php:72
+msgid "SuiInstitution header: name"
+msgstr "Nome"
+
+#: /plugins/backstage/config/backstage.php:73
+msgid "SuiInstitution header: city"
+msgstr "Cidade"
+
+#: /plugins/backstage/config/backstage.php:74
+msgid "SuiInstitution header: state"
+msgstr "Estado"
+
+#: /plugins/backstage/config/backstage.php:75
+msgid "SuiInstitution header: cnpj"
+msgstr "CNPJ"
+
+#: /plugins/backstage/config/backstage.php:76
+msgid "SuiInstitution header: type"
+msgstr "Tipo"
+
+#: /plugins/backstage/config/backstage.php:77
+msgid "SuiInstitution header: subscriptions"
+msgstr "Nº inscrições"
+
+#: /plugins/backstage/config/backstage.php:87
+msgid "SuiSubscription header: name"
+msgstr "Modelo"
+
+#: /plugins/backstage/config/backstage.php:88
+msgid "SuiSubscription header: title"
+msgstr "Nome"
+
+#: /plugins/backstage/config/backstage.php:89
+msgid "SuiSubscription header: start"
+msgstr "Período"
+
+#: /plugins/backstage/config/backstage.php:90
+msgid "SuiSubscription header: subscription_status"
+msgstr "Status"
+
+#: /plugins/backstage/config/backstage.php:91
+msgid "SuiSubscription header: subscriptions_completed"
+msgstr "Completas"
+
+#: /plugins/backstage/config/backstage.php:92
+msgid "SuiSubscription header: subscriptions_waiting"
+msgstr "Incompletas"
+
+#: /plugins/backstage/config/backstage.php:105
+#: /plugins/sui/views/elements/sui_application.ctp:26
+msgid "SuiApplication header: code"
+msgstr "Código"
+
+#: /plugins/backstage/config/backstage.php:106
+#: /plugins/sui/views/elements/sui_application.ctp:38
+msgid "SuiApplication header: team_name"
+msgstr "Nome"
+
+#: /plugins/backstage/config/backstage.php:107
+#: /plugins/sui/views/elements/sui_application.ctp:45
+msgid "SuiApplication header: mode"
+msgstr "Modalidade"
+
+#: /plugins/backstage/config/backstage.php:108
+#: /plugins/sui/views/elements/sui_application.ctp:50
+msgid "SuiApplication header: type_school"
+msgstr "Tipo"
+
+#: /plugins/backstage/config/backstage.php:109
+#: /plugins/sui/views/elements/sui_application.ctp:49
+msgid "SuiApplication header: school"
+msgstr "Instituição"
+
+#: /plugins/backstage/config/backstage.php:110
+#: /plugins/sui/views/elements/sui_application.ctp:51
+msgid "SuiApplication header: where"
+msgstr "Aonde"
+
+#: /plugins/backstage/config/backstage.php:111
+#: /plugins/sui/views/elements/sui_application.ctp:60
+msgid "SuiApplication header: responsible"
+msgstr "responsável"
+
+#: /plugins/backstage/config/backstage.php:112
+#: /plugins/sui/views/elements/sui_application.ctp:61
+msgid "SuiApplication header: status"
+msgstr "Status"
+
+#: /plugins/backstage/config/backstage.php:168
+msgid "MojoQueue header: name"
+msgstr "Nome"
+
+#: /plugins/backstage/config/backstage.php:169
+msgid "MojoQueue header: slug"
+msgstr "Nome curto"
+
+#: /plugins/backstage/config/backstage.php:170
+msgid "MojoQueue header: created"
+msgstr "Criado"
+
+#: /plugins/backstage/config/backstage.php:171
+msgid "MojoQueue header: modified"
+msgstr "Modificado"
+
+#: /plugins/cities_states/views/elements/cities_states.ctp:11;20
+msgid "UF"
+msgstr ""
+
+#: /plugins/cities_states/views/elements/cities_states.ctp:12;21
+msgid "Cidade"
+msgstr ""
+
+#: /plugins/la_poste/views/elements/lp_letter.ctp:446
+msgid "Criando as cópias"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:17
+#: /plugins/sui/views/elements/sui_subscription.ctp:26
+msgid "Processo de inscrição"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:18
+msgid "Selecione um processo de inscrição, caso este formulário esteja associado com algum."
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:29
+msgid "Identificação no Mojo"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:30
+msgid "Preencha um código de identificação para o Mojo, p. ex: GD-6"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:36
+msgid "Título da página"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:37
+msgid "Preencha com o título que irá aparecer na página."
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:43
+msgid "Tem texto de dúvidas?"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:45
+msgid "Sim, a página tem um texto de dúvidas preliminares."
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:56
+msgid "Tipos de dúvida no Mojo"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo.ctp:57
+msgid "Selecione os tipos de dúvida que farão parte desta seção"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:42
+msgid "Nome customizável do tema"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:43
+msgid "Este é o nome do tema/natureza da dúvida que aparecerá pro usuário"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:49
+msgid "Nome curto do tema"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:50
+msgid "Este nome curto aparecerá no assunto da dúvida recebida no MOJO, deve conter no máximo 15 caracteres"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:56
+msgid "Só usuários logados podem ver a dúvida?"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:58
+msgid "Marque esta opção caso apenas usuários que estejam logados no sistema possam ver esta dúvida."
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:65
+msgid "Queue do MOJO"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:66
+msgid "Escolha o tema (queue) original do Mojo."
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:73
+msgid "Criar um novo"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:74
+msgid "Editar este queue do Mojo"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:80;100
+msgid "Nome da queue no Mojo"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:85;105
+msgid "Link de edição da queue no Mojo"
+msgstr ""
+
+#: /plugins/mojo/views/elements/mojo_queue.ctp:86;106
+msgid "Coloque o link completo da edição desta queue no Mojo."
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:644
+msgid "Sections: sui_user linkCaption"
+msgstr "Pessoas"
+
+#: /plugins/page_sections/config/sections.php:647
+msgid "Sections: sui_user pageTitle"
+msgstr "Pessoas"
+
+#: /plugins/page_sections/config/sections.php:648
+msgid "Sections: sui_user headerCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:649
+msgid "Sections: sui_user humanName"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:657
+msgid "Sections: sui_user users_sheet linkCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:669
+msgid "Sections: sui_institution linkCaption"
+msgstr "Instituições"
+
+#: /plugins/page_sections/config/sections.php:672
+msgid "Sections: sui_institution pageTitle"
+msgstr "Instituições"
+
+#: /plugins/page_sections/config/sections.php:673
+msgid "Sections: sui_institution headerCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:674
+msgid "Sections: sui_institution humanName"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:684
+msgid "Sections: sui_subscription linkCaption"
+msgstr "Inscrições"
+
+#: /plugins/page_sections/config/sections.php:687
+msgid "Sections: sui_subscription pageTitle"
+msgstr "Inscrições"
+
+#: /plugins/page_sections/config/sections.php:688
+msgid "Sections: sui_subscription headerCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:689
+msgid "Sections: sui_subscription humanName"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:701
+msgid "Sections: sui_application linkCaption"
+msgstr "Inscrições"
+
+#: /plugins/page_sections/config/sections.php:702
+msgid "Sections: sui_application pageTitle"
+msgstr "Inscrições"
+
+#: /plugins/page_sections/config/sections.php:703
+msgid "Sections: sui_application headerCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:704
+msgid "Sections: sui_application humanName"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:742
+msgid "Sections: mojo_queue linkCaption"
+msgstr "Temas das dúvidas"
+
+#: /plugins/page_sections/config/sections.php:745
+msgid "Sections: mojo_queue pageTitle"
+msgstr "Temas das dúvidas"
+
+#: /plugins/page_sections/config/sections.php:746
+msgid "Sections: mojo_queue headerCaption"
+msgstr "Temas das dúvidas"
+
+#: /plugins/page_sections/config/sections.php:747
+msgid "Sections: mojo_queue humanName"
+msgstr "Temas das dúvidas"
+
+#: /plugins/page_sections/config/sections.php:750
+msgid "Sections: grandedesafio linkCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:753
+msgid "Sections: grandedesafio pageTitle"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:754
+msgid "Sections: grandedesafio headerCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:755
+msgid "Sections: grandedesafio humanName"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:764
+msgid "Sections: sui_application planilha_gd_videos linkCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:772
+msgid "Sections: sui_admin linkCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:788
+msgid "Sections: sui_admin block user linkCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:798
+msgid "Sections: sui_admin get_users_type linkCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:808;813
+msgid "Sections: sui_admin get_institutions_type linkCaption"
+msgstr ""
+
+#: /plugins/sui/sui_app_controller.php:58
+msgid "Login failed. Invalid username or password."
+msgstr "A senha digitada não confere com a do cadastro."
+
+#: /plugins/sui/sui_app_controller.php:59
+msgid "You are not authorized to access that location."
+msgstr "Você precisa autenticar para acessar essa página"
+
+#: /plugins/sui/sui_app_controller.php:65
+msgid "Área de %s"
+msgstr ""
+
+#: /plugins/sui/config/types.php:4
+msgid "Pública"
+msgstr ""
+
+#: /plugins/sui/config/types.php:5
+msgid "Privada"
+msgstr ""
+
+#: /plugins/sui/config/types.php:9
+msgid "Municipal"
+msgstr ""
+
+#: /plugins/sui/config/types.php:10
+msgid "Estadual"
+msgstr ""
+
+#: /plugins/sui/config/types.php:11
+msgid "Federal"
+msgstr ""
+
+#: /plugins/sui/config/types.php:15
+msgid "Ensino pré-escolar"
+msgstr ""
+
+#: /plugins/sui/config/types.php:16
+msgid "Ensino fundamental"
+msgstr ""
+
+#: /plugins/sui/config/types.php:17
+msgid "Ensino médio"
+msgstr ""
+
+#: /plugins/sui/config/types.php:18
+msgid "Ensino técnico/profissionalizante"
+msgstr ""
+
+#: /plugins/sui/config/types.php:19
+msgid "Ensino superior"
+msgstr ""
+
+#: /plugins/sui/controllers/sui_applications_controller.php:431
+msgid "Este e-mail será enviado para todos os responsáveis pelas inscrições do processo \":proccess_title\""
+msgstr ""
+
+#: /plugins/sui/controllers/sui_applications_controller.php:508
+msgid "Erro ao criar cópias das cartas"
+msgstr ""
+
+#: /plugins/sui/controllers/sui_feedbacks_controller.php:139
+msgid "Nesse processo de inscrição é obrigatório especificar o preço manualmente."
+msgstr ""
+
+#: /plugins/sui/controllers/sui_institutions_controller.php:16
+msgid "Por favor, selecione a cidade"
+msgstr ""
+
+#: /plugins/sui/controllers/sui_institutions_controller.php:20
+msgid "Favor informar o nome"
+msgstr ""
+
+#: /plugins/sui/controllers/sui_payments_controller.php:96
+msgid "Atenção! O valor de sua inscrição pode ter mudado pois o período de inscrições mudou. Confira o novo valor da sua inscrição aqui nesta página mesmo."
+msgstr ""
+
+#: /plugins/sui/controllers/sui_payments_controller.php:98
+msgid "Atenção! O valor de suas inscrições foram atualizados pois o período de inscrições mudou. Confira os novos valores de cada inscrição aqui nesta página mesmo."
+msgstr ""
+
+#: /plugins/sui/controllers/sui_subscriptions_controller.php:110
+msgid "O processo de inscrição precisa de ter pelo menos um período de inscrições"
+msgstr ""
+
+#: /plugins/sui/controllers/sui_subscriptions_controller.php:184
+msgid "O período de inscrições \":periodo\" do programa \":programa\" está encerrado e não pode mais aceitar novas inscrições."
+msgstr ""
+
+#: /plugins/sui/controllers/sui_subscriptions_controller.php:208
+msgid "As inscrições para \":programa\" já estão encerradas."
+msgstr ""
+
+#: /plugins/sui/controllers/sui_subscriptions_controller.php:296
+msgid "Sua inscrição foi cancelada com sucesso."
+msgstr ""
+
+#: /plugins/sui/controllers/sui_subscriptions_controller.php:300
+msgid "Não foi possível cancelar a(s) inscrição(ões). Verifique se a inscrição tem um pagamento pendente ou se você tem permissão para cancelar essa inscrição."
+msgstr ""
+
+#: /plugins/sui/controllers/sui_users_controller.php:55
+msgid "Não existe conta para o e-mail \":email\". Se deseja criar uma, clique em \"Criar uma conta no museu\" logo abaixo."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:273
+msgid "Essa inscrição foi cancelada e não poderá mais ser continuada."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:278
+msgid "Essa inscrição não pode ser continuada pois o período de inscrições acabou."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:283
+msgid "Essa inscrição não pode ser continuada pois ela foi invalidada pela equipe administrativa. Entre em contato com o Museu para maiores detalhes."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:310
+msgid "É necessário concordar com o regulamento. Faça isso, marcando todos itens."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:325
+msgid "Escolha uma das modalidades disponíveis."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:344
+msgid "Selecione a sua instituição ou marque a opção para não vincular uma, agora."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:346
+msgid "Selecione a sua instituição, por favor."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:376;395
+msgid "Não foi possível continuar. Favor verificar os problemas:"
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:425
+msgid "A sua inscrição ainda está com a aprovação pendente. Aguarde resposta do Museu, em breve."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:440
+msgid "Escolha um nome para a sua equipe."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:456
+msgid "Você precisa escolher outro nome de equipe, pois esse nome já está em uso."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:497
+msgid "O usuário :nome não pode ser \":papel\", pois ele é :tipo."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:515
+msgid "O usuário :nome não pode participar pois ele é do :serie."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:538
+msgid "O :papel precisa ser professor de :materia, mas :nome está cadastrado como professor de :lista."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:552
+msgid "O :papel precisa ser professor de uma dessas materias: :lista_precisa, mas :nome está cadastrado como professor de :lista."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:589
+msgid "O usuário :nome (:email) já está participando de uma outra equipe."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:616
+msgid "\":papel\" deve ter pelo menos :min :desc"
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:622
+msgid "\":papel\" não pode ter mais de :max :desc"
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:633
+msgid "Você deve participar da equipe que está inscrevendo."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:641
+msgid "É necessário confirmar que todos os participantes são da mesma escola / instituição."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:662
+msgid "Não é possível continuar pois ainda existem participantes sem confirmar a conta de e-mail."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:663
+msgid "Quem ainda falta confirmar:"
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:678
+msgid "É necessário confirmar que os dados estão corretos."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:691
+msgid "O pagamento ainda não foi detectado."
+msgstr ""
+
+#: /plugins/sui/models/sui_application.php:848
+msgid "Ainda existem participantes sem validar a conta."
+msgstr ""
+
+#: /plugins/sui/models/sui_application_period.php:62
+msgid "A data limite não pode ter passado, ainda."
+msgstr ""
+
+#: /plugins/sui/models/sui_application_period.php:66
+msgid "A data limite tem que ser posterior ou junto ao final do período"
+msgstr ""
+
+#: /plugins/sui/models/sui_feedback.php:18
+msgid "Digite sua resposta, sem passar de 2 mil caracteres."
+msgstr ""
+
+#: /plugins/sui/models/sui_feedback.php:25
+msgid "Escolha se a inscrição pode continuar ou deve ser corrigida."
+msgstr ""
+
+#: /plugins/sui/models/sui_subscription.php:52
+msgid "O modelo de inscrições é obrigatório."
+msgstr ""
+
+#: /plugins/sui/models/sui_subscription.php:56
+msgid "O título do processo de inscrição é obrigatório e não deve passar dos 255 caracteres"
+msgstr ""
+
+#: /plugins/sui/models/sui_subscription.php:61
+msgid "O código deve ser único. O código fornecido já está em uso."
+msgstr ""
+
+#: /plugins/sui/models/sui_subscription.php:65
+msgid "Use somente letras minúsculas, números e sub-traço (_)."
+msgstr ""
+
+#: /plugins/sui/models/sui_subscription.php:69
+msgid "O código é obrigatório"
+msgstr ""
+
+#: /plugins/sui/models/sui_text.php:21
+msgid "Não deixe o texto vazio."
+msgstr ""
+
+#: /plugins/sui/views/elements/gd_6_custom_header.ctp:35
+msgid "Baixar planilha de votação nos vídeos"
+msgstr ""
+
+#: /plugins/sui/views/elements/login_box.ctp:30
+#: /plugins/sui/views/sui_users/validar.ctp:36
+msgid "Deslogar-se"
+msgstr ""
+
+#: /plugins/sui/views/elements/login_form.ctp:4
+msgid "Login username"
+msgstr "Login <small>(e-mail usado no seu cadastro no site)</small>"
+
+#: /plugins/sui/views/elements/login_form.ctp:5
+msgid "Login password"
+msgstr "Senha <small>(usada no cadastro)</small>"
+
+#: /plugins/sui/views/elements/login_form.ctp:13
+msgid "Login post"
+msgstr "Entrar"
+
+#: /plugins/sui/views/elements/login_form.ctp:26
+msgid "Create new account"
+msgstr "Criar uma conta no museu"
+
+#: /plugins/sui/views/elements/login_form.ctp:32
+msgid "Forgot e-mail/password"
+msgstr "Esqueci meu e-mail / senha"
+
+#: /plugins/sui/views/elements/login_form.ctp:38
+msgid "Não recebi o e-mail de confirmação"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:56
+msgid "SuiApplication header: approve"
+msgstr "Aprovação"
+
+#: /plugins/sui/views/elements/sui_application.ctp:80
+msgid "Não foi possível marcar a inscrição como teste."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:92
+msgid "A equipe foi atualizada com sucesso. A lista será recarregada."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:141
+msgid "Aprova essa inscrição?"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:145
+msgid "Sim. A inscrição não apresenta problemas e ela pode ser continuada."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:146
+msgid "Não. Há problemas nos dados que o responsável deverá corrigir."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:147
+msgid "Não. Invalidar essa inscrição, o que forçará o usuário a começar uma nova."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:158
+msgid "Se desejar, escreva uma mensagem para o usuário:"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:168
+msgid "Pagamento"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:176
+msgid "Preço da inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:177
+msgid "Esse será o preço usado para gerar o pagamento. Se for o caso, avise pela mensagem ao usuário sobre o novo preço."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:184
+msgid "Alterar o valor"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:201
+#: /plugins/sui/views/elements/sui_payment.ctp:42
+msgid "Vencimento"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:202
+msgid "É possível alterar a data de vencimento, caso deseje."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:214
+msgid "Vencimento atual: "
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:234
+msgid "Permitir o envio de arquivos anexados"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:235
+msgid "Selecione a caixa caso queira permitir que o usuário envie arquivos ao responder um pedido de correção."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:244
+msgid "O usuário não está na etapa de aprovação do Museu ou já foi aprovado."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:252
+msgid "Aguardando resposta do usuário."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:260
+msgid "Aprovação de inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:262
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:11
+msgid "Histórico"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:265
+msgid "Mais recente primeiro"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:273
+msgid "Erro de validação"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:280
+msgid "Aguarde..."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:349
+#: /plugins/sui/views/sui_admin/view_user.ctp:10
+msgid "Rejeitada"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:353;362;381
+msgid "Aprovada"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:367
+msgid "Aguardando análise"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:371
+msgid "Aguardando resposta do usuário"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:425
+#: /plugins/sui/views/elements/sui_institution.ctp:378
+#: /plugins/sui/views/elements/sui_user.ctp:248
+msgid "Editar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:447
+msgid "Desmarcar como teste"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:447
+msgid "Marcar como teste"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:461
+#: /plugins/sui/views/elements/sui_institution.ctp:413
+#: /plugins/sui/views/elements/sui_user.ctp:303
+msgid "Visualizar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:497
+msgid "Aprovação da inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:617
+msgid "Configurar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:629
+msgid "Voltar para a lista de processos de inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:655
+msgid "Código"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:657;713;758;767
+#: /plugins/sui/views/elements/sui_institution.ctp:452
+#: /plugins/sui/views/elements/sui_user.ctp:348;367;430
+msgid "digite algo para pesquisar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:670
+msgid "Etapa"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:681
+msgid "Modalidade"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:711
+msgid "Nome equipe"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:727
+#: /plugins/sui/views/elements/sui_institution.ctp:468
+#: /plugins/sui/views/elements/sui_institution_form.ctp:75
+#: /plugins/sui/views/elements/sui_user.ctp:383
+#: /plugins/sui/views/elements/sui_user_form.ctp:154
+msgid "Tipo"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:739
+#: /plugins/sui/views/elements/sui_institution.ctp:494
+#: /plugins/sui/views/elements/sui_user.ctp:408
+msgid "Localização"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:756
+#: /plugins/sui/views/elements/sui_user.ctp:497
+msgid "Instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:765
+msgid "Email"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:780
+msgid "limpar filtro"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:811
+msgid "Exportando a planilha com as inscrições"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:822
+msgid "Baixar planilha com todas as inscrições"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:836
+msgid "Enviar e-mail para todos os inscritos"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:889
+msgid "Equipe \":team_name\""
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application.ctp:963
+msgid "Atualmente você está participando dos seguintes programas e/ou eventos do Museu:"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_actives.ctp:25
+msgid "Participando como :tipo da equipe "
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:38
+msgid "Dados da equipe"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:44
+msgid "sui application form - picture_id label"
+msgstr "Imagem da equipe"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:45
+msgid "sui application form - picture_id instructions"
+msgstr "Escolha uma imagem para esta equipe"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:55
+msgid "sui application form - team_name label"
+msgstr "Nome da equipe"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:64
+msgid "sui application form - team_description label"
+msgstr "Descrição da equipe"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:65
+msgid "sui application form - team_description instructions"
+msgstr " "
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:73
+msgid "sui application form - members (relational) label"
+msgstr "Membros"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:74
+msgid "sui application form - members (relational) instructions"
+msgstr "Adicione ou exclua membros (devem ser usuários previamente cadastrados no sistema)"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:78
+msgid "sui application form - sui_user title"
+msgstr "Usuário"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:85
+msgid "Dados da inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:90
+msgid "sui application form - sui_institution_id label"
+msgstr "Instituição"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:91
+msgid "sui application form - sui_institution_id instructions"
+msgstr "Escolha uma instituição (é necessário que ela esteja previamente cadastrada)"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:110
+msgid "sui application form - modality label"
+msgstr "Modalidade"
+
+#: /plugins/sui/views/elements/sui_application_form.ctp:111
+msgid "sui application form - modality instructions"
+msgstr " "
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:22
+msgid "Início: "
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:25
+msgid "Fim: "
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:42
+msgid "Pagamentos com data dinâmica:"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:44
+msgid "Pagamentos têm um prazo de :dias dias após a emissão, com data máxima em :data."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:53
+msgid "Pagamentos com data fixa:"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:55
+msgid "Pagamentos devem ser feitos até :data."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:65
+msgid "Valores de inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:133
+msgid "sui_application_period form - title label"
+msgstr "Nome do período"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:134
+msgid "sui_application_period form - title instructions"
+msgstr " "
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:143
+msgid "sui_application_period form - start label"
+msgstr "Início"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:144
+msgid "sui_application_period form - start instructions"
+msgstr "Escolha data e hora do início deste período"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:160
+msgid "sui_application_period form - end label"
+msgstr "Fim"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:161
+msgid "sui_application_period form - end instructions"
+msgstr "Data e hora do fim deste período"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:187
+msgid "sui_application_period form - due type label"
+msgstr "Tipo de vencimento"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:190
+msgid "sui_application_period form - fixed_date option"
+msgstr "Data fixa (todos os vencimentos na mesma data) "
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:191
+msgid "sui_application_period form - fixed_days option"
+msgstr "Data dinâmica (permite definir o número de dias antes do vencimento)"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:205
+msgid "sui_application_period form - payment_days label"
+msgstr "Dias para o vencimento"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:206
+msgid "sui_application_period form - payment_days instructions"
+msgstr "Digite o número de dias que a pessoa terá para pagar após gerar a cobrança"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:217
+msgid "sui_application_period form - payment_date label"
+msgstr "Data limite para o pagamento"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:218
+msgid "sui_application_period form - payment_date instructions"
+msgstr " "
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:283
+msgid "sui_application_period form - period super_field label :price_group"
+msgstr "Preço para o inscritos como :price_group"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:299
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:102
+msgid "save form"
+msgstr "Salvar"
+
+#: /plugins/sui/views/elements/sui_application_period.ctp:300
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:103
+msgid "cancel form"
+msgstr "Cancelar"
+
+#: /plugins/sui/views/elements/sui_application_preview.ctp:85
+msgid "Equipe sem nome"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_preview.ctp:90
+msgid "Equipe "
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_preview.ctp:121
+msgid "Todos os participantes devem confirmar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_preview.ctp:134
+msgid "Responder as pendências ao Museu"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_preview.ctp:136
+msgid "Continuar essa inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_application_preview.ctp:151
+msgid "Inscrição gerenciada por :full_name."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_applications_sui_user_form.ctp:18
+msgid "sui application form - sui_user_id label"
+msgstr "Usuário"
+
+#: /plugins/sui/views/elements/sui_applications_sui_user_form.ctp:19
+msgid "sui application form - sui_user_id instructions"
+msgstr "Procure pelo nome ou e-mail"
+
+#: /plugins/sui/views/elements/sui_applications_sui_user_form.ctp:36
+msgid "sui application form - role_code label"
+msgstr "Papel"
+
+#: /plugins/sui/views/elements/sui_applications_sui_user_form.ctp:37
+msgid "sui application form - role_code instructions"
+msgstr "Escolha o papel deste usuário na equipe"
+
+#: /plugins/sui/views/elements/sui_institution.ctp:52
+msgid "Excluir vínculo com esta unidade"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:87
+msgid "Cadastro de instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:94
+msgid "Tipo da instituição *"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:174
+msgid "Modalidades de ensino *"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:194
+msgid "Cnpj"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:204;450
+#: /plugins/sui/views/elements/sui_institution_form.ctp:54
+#: /plugins/sui/views/elements/sui_user.ctp:346
+#: /plugins/sui/views/sui_payments/gerar.ctp:110
+msgid "Nome"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:213
+msgid "Sua Instituição faz parte de uma rede com várias unidades?"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:219;591
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:24
+msgid "Sim"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:220
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:25
+msgid "Não"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:236
+#: /plugins/sui/views/elements/sui_institution_form.ctp:113
+msgid "Nome da unidade"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:246
+#: /plugins/sui/views/elements/sui_institution_form.ctp:123
+#: /plugins/sui/views/elements/sui_user_form.ctp:117
+#: /plugins/sui/views/elements/forms/account/endereco.ctp:17
+msgid "Logradouro (rua, avenida, etc.)"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:254
+#: /plugins/sui/views/elements/sui_institution_form.ctp:128
+#: /plugins/sui/views/elements/sui_user_form.ctp:123
+#: /plugins/sui/views/elements/forms/account/endereco.ctp:27
+msgid "Número"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:265
+#: /plugins/sui/views/elements/sui_institution_form.ctp:134
+#: /plugins/sui/views/elements/sui_user_form.ctp:129
+#: /plugins/sui/views/elements/forms/account/endereco.ctp:38
+msgid "Complemento"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:283
+#: /plugins/sui/views/elements/sui_institution_form.ctp:144
+#: /plugins/sui/views/elements/sui_user_form.ctp:140
+#: /plugins/sui/views/elements/forms/account/endereco.ctp:57
+msgid "CEP"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:296
+msgid "Salvar instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:298
+msgid "cancelar inclusão"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:398
+#: /plugins/sui/views/elements/sui_user.ctp:269
+msgid "Excluir"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:542
+msgid "Associação com uma instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:546
+msgid "Registrar qual é a sua instituição de ensino não é obrigatório para finalizar o cadastro, mas o processo de inscrição em algumas atividades pode exigir o registro."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:556
+msgid "Nome da sua instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:560
+msgid "Buscar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:565
+msgid "cadastrar uma nova"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:568
+msgid "Nenhuma escola ou instituição foi encontrada, mas você pode %s."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:570
+msgid "cadastrar uma nova unidade"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:573
+msgid "Se não for, você pode %s."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:579
+msgid "Vincular mais uma unidade"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution.ctp:588
+msgid "Sua instituição é esta?"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:41
+msgid "Dados da instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:46
+msgid "CNPJ da instituição de ensino"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:63
+msgid "Tipo de instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:64
+msgid "Escolha o tipo"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:86
+msgid "Sub-tipo"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:98
+msgid "Modalidades de ensino"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:99
+msgid "Escolha as modalidades referentes a instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:114
+msgid "Preencha este campo caso seja referente a uma unidade de ensino"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_institution_form.ctp:119
+#: /plugins/sui/views/elements/sui_user.ctp:505
+#: /plugins/sui/views/elements/sui_user_form.ctp:114
+#: /plugins/sui/views/sui_admin/view_user.ctp:86
+msgid "Endereço"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:20
+msgid "Atenção: essa cobrança já venceu. Se ela foi paga, fique tranquilo e espere até que ela seja CONFIRMADA. Se o pagamento não foi realizado, será necessário cancelar essa cobrança e gerar uma nova."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:28
+msgid "Pagamento nº :numero"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:30
+msgid "Código \":codigo\""
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:35
+msgid "Gerado em"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:49
+msgid "Valor"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:66
+msgid "Inscrições para :inscricao"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:93
+msgid "Cancelar pagamento"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:106
+msgid "Visualizar boleto"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment.ctp:112
+msgid "Se você já pagou, o sistema pode demorar até 4 dias úteis para registrar o pagamento."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:14
+msgid "Intervalo de código número :internal_code (que vai de :code_start até :code_end)"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:25
+msgid "Uso do intervalo: :uso % (:interval_status)"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:28
+msgid "ativo"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:28
+msgid "fechado"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:37
+msgid "Desativar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:37
+msgid "Ativar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:74
+msgid "sui_payment_interval form - internal_code label"
+msgstr "Código interno"
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:75
+msgid "sui_payment_interval form - internal_code instructions"
+msgstr "Esse número identifica o contrato com a Funcamp"
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:84
+msgid "sui_payment_interval form - code_start label"
+msgstr "Código de boleto inicial"
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:85
+msgid "sui_payment_interval form - code_start instructions"
+msgstr "Esse número deve ser fornecido pela Funcamp"
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:94
+msgid "sui_payment_interval form - code_end label"
+msgstr "Código de boleto final"
+
+#: /plugins/sui/views/elements/sui_payment_interval.ctp:95
+msgid "sui_payment_interval form - code_end instructions"
+msgstr "Esse número deve ser fornecido pela Funcamp"
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:27
+msgid "Escolha qual o processo de inscrição está relacionado com esta seção."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:38
+msgid "Título"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:44
+msgid "Texto de ajuda"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:61
+msgid "Inscrições de :inicio a :fim (:desc)"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:75
+msgid "Iniciar uma inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:108
+msgid "Tem certeza que deseja abortar a confecção desse processo de inscrição? Essa ação excluirá essa inscrição e não poderá ser desfeita."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:127
+msgid "Tem certeza que deseja fechar essa inscrição? Essa é uma ação que não pode ser desfeita."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:147
+msgid "Tem certeza que deseja suspender as inscrições, temporariamente?"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:153
+msgid "Tem certeza que retomar as inscrições?"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:173
+msgid "Tem certeza que deseja abrir essa inscrição para o público?"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:192
+msgid "Tem certeza que deseja avançar para o próximo período de inscrições? Ele ficará disponível para o público de imediato."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:270
+msgid "Configuração"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:286
+msgid "Listagem de inscrições"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:331
+msgid "Iniciar próximo período"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:350
+msgid "Finalizar inscrições"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:363
+msgid "Abortar inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription.ctp:374
+msgid "Lançar inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:6
+msgid "Essa inscrição é baseada no modelo de inscrição \":title\""
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:23
+msgid "Subscription has been saved - TITLE."
+msgstr "A inscrição foi salva"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:24
+msgid "SuiSubscription has been saved - TEXT."
+msgstr "As configurações desta inscrição foram salvas com sucesso."
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:26
+msgid "Ok, reload page."
+msgstr "Ok, recarregar a página."
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:102
+msgid "sui subscription form - model label"
+msgstr "Modelo"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:103
+msgid "subscription form - texts (relational) instructions"
+msgstr "Escolha um modelo de inscrições no qual essa nova inscrição será baseada"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:116
+msgid "Essa inscrição está numa etapa que precisa de uma permissão especial. Quem iniciou essa etapa deverá continuar a edição dessa inscrição."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:127;141;284
+msgid "sui subscription form - configuration label"
+msgstr "YAML de configuração"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:128
+msgid "subscription form - configuration instructions"
+msgstr "Se você não faz ideia do que é isso, então ocorreu algum erro, pois não era para aparecer isso aqui."
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:157
+msgid "sui subscription form - meta-data super_field label"
+msgstr "Configurações gerais"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:158
+msgid "subscription form - meta-data super_field instructions"
+msgstr " "
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:166
+msgid "sui subscription form - title label"
+msgstr "Nome da inscrição"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:167
+msgid "subscription form - title instructions"
+msgstr "Um nome para essa inscrição. Algo como \"Inscrições para 4ª Encontro de Museus\"."
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:176
+msgid "sui subscription form - slug label"
+msgstr "Código"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:177
+msgid "subscription form - slug instructions"
+msgstr "Um código de poucos caracteres (5, no máximo) que represente essa inscrição. Algo como \"4_encontro\". "
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:187;300
+msgid "sui subscription form - periods (relational) label"
+msgstr "Períodos de inscrição"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:188;301
+msgid "subscription form - periods (relational) instructions"
+msgstr "Toda inscrição deverá possuir ao menos um período de inscrição. É aqui que se define o preço da inscrição, quando há cobrança."
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:192;305
+msgid "sui subscription form - sui_application_period title"
+msgstr "Nome do período"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:207;320
+msgid "sui subscription form - payment intervals label"
+msgstr "Números de boleto"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:208;321
+msgid "sui subscription form - payment intervals instructions"
+msgstr "Atenção: esses números devem ser fornecidos pela Funcamp apenas. Para ativar o uso dos boletos da Funcamp, primeiro procure um código existente digitando-o no campo abaixo. Se for encontrado, use-o, clicando nele. Caso contrário, escolha \"Criar um novo\". É possível cadastrar mais de um intervalo de números para a mesma inscrição. E eles serão usados conforme foram acabando os anteriores. Não é possível determinar ordem de uso, mas, se quiser forçar algum intervalo, deixe-o como o único ativo. Se acabarem os números, não será possível gerar mais boletos, portanto não deixe isso acontecer! E por último: é possível reutilizar intervalos em outros processos de inscrição, mas não é recomendável."
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:237;337
+msgid "sui subscription form - texts super_field label"
+msgstr "Textos usados na inscrição"
+
+#: /plugins/sui/views/elements/sui_subscription_form.ctp:238;338
+msgid "subscription form - texts super_field instructions"
+msgstr "Aqui é possível ajustar e criar os textos que serão apresentados durante o processo de inscrição."
+
+#: /plugins/sui/views/elements/sui_user.ctp:15
+msgid "Usuário encontrado"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:50
+msgid "Reenviar convite para :nome"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:57
+msgid "Reenviar e-mail para :nome"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:135
+msgid "Excluir membro"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:182
+msgid "Bloqueio e desbloqueio"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:183
+msgid "A requisição foi completada com sucesso."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:190
+msgid "Bloqueio e desbloqueio - ERRO"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:191
+msgid "Por algum problema não foi possível completar a requisição."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:289
+msgid "Bloquear"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:289
+msgid "Desbloquear"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:323
+msgid "Logar como..."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:365
+#: /plugins/sui/views/elements/sui_user_form.ctp:54
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:20
+#: /plugins/sui/views/sui_payments/gerar.ctp:161
+#: /plugins/sui/views/sui_users/invite.ctp:18
+#: /plugins/sui/views/sui_users/recuperar.ctp:96
+msgid "E-mail"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:428
+msgid "Escola"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:459
+msgid "Exportando a planilha de pessoas"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:469
+msgid "Baixar planilha das pessoas"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:493
+msgid "Dados de login"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:501
+#: /plugins/sui/views/elements/sui_user_form.ctp:39
+msgid "Dados pessoais"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:519
+msgid "O cadastro de usuários precisa de JavaScript para funcionar."
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:544
+msgid "Etapa anterior"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:546
+#: /plugins/sui/views/sui_subscriptions/inscrever.ctp:118
+msgid "Próxima etapa"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:574
+msgid "#{counter} / #{total} etapas preenchidas"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:584
+#: /plugins/sui/views/sui_users/invite.ctp:70
+msgid "Salvar"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:589
+#: /plugins/sui/views/sui_users/invite.ctp:75
+msgid "ou"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user.ctp:592
+msgid "cancelar edição"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:42
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:17
+#: /plugins/sui/views/sui_users/invite.ctp:43
+msgid "Primeiro nome"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:48
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:24
+#: /plugins/sui/views/sui_users/invite.ctp:50
+msgid "Sobrenome"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:61
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:35
+msgid "Data de nascimento"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:68
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:48
+msgid "Sexo"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:75
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:55
+msgid "Feminino"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:76
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:56
+msgid "Masculino"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:84
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:67
+msgid "CPF"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:91
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:79
+msgid "RG"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:98
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:94
+msgid "Telefone 1"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:105
+#: /plugins/sui/views/elements/forms/account/dados_pessoais.ctp:106
+msgid "Telefone 2"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:148
+msgid "Instituição de ensino"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:168
+msgid "Se outro, qual?"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:177
+msgid "Série"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:190
+msgid "Instituições de ensino"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:191
+msgid "Preencha as instituições de ensino (1 apenas para estudantes, e N para professores)"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:204
+msgid "Disciplinas"
+msgstr ""
+
+#: /plugins/sui/views/elements/sui_user_form.ctp:205
+msgid "Caso seja um professor, escolha as disciplinas ministradas"
+msgstr ""
+
+#: /plugins/sui/views/elements/email/html/payment_received.ctp:37
+msgid ":cod_insc - Equipe \":equipe\" (:inscricao)"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:21
+#: /plugins/sui/views/sui_users/invite.ctp:19
+msgid "É através dele que será feito o login no site do Museu."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:32
+msgid "Confirme seu e-mail"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:45
+#: /plugins/sui/views/sui_users/troca_senha.ctp:46
+msgid "Nova senha"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:45
+#: /plugins/sui/views/sui_users/recuperar.ctp:116
+msgid "Senha"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:54
+msgid "Redigite a nova senha"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:54
+msgid "Confirme sua senha"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:64
+msgid "Cancelar a alteração de sua senha"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/dados_login.ctp:75
+msgid "Alterar a sua senha"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:13
+msgid "Possui vínculo com instituição?"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:64
+msgid "Na instituição, a pessoa é"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:66
+msgid "Na instituição, você é"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:108
+msgid "O que?"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:152
+msgid "Que matérias ensina? *"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:164
+msgid "Outra"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/account/instituicao.ctp:173
+msgid "Qual?"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:23
+msgid "Última mensagem do museu para você:"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:30
+msgid "Enviada em :date às :time"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:57
+msgid "Sua inscrição foi enviada ao museu e está aguardando aprovação. Quando for aprovada, você receberá uma mensagem no seu e-mail."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:61
+msgid "Sua inscrição necessita de atenção. Veja a mensagem do museu e responda no campo abaixo."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:93
+msgid "Sua resposta"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:104
+msgid "Anexo"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:114
+msgid "Enviar mensagem"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:125
+msgid "A equipe do museu está analisando sua inscrição. Quando for aprovada, você receberá uma mensagem no seu e-mail."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:132
+msgid "A sua inscrição foi aprovada pelo Museu e poderá seguir adiante. Prossiga com a sua inscrição clicando no botão \"Próxima etapa\" logo abaixo."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao.ctp:147
+msgid "Não será mais possível continuar pois a equipe do museu não aprovou a sua inscrição."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao_log.ctp:5
+msgid "Nada no histórico, ainda."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao_log.ctp:15;43
+msgid ":user, em :date às :time"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao_log.ctp:17
+msgid "Você"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/aprovacao_log.ctp:30
+msgid "Anexo enviado"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/confirmacao_dados.ctp:13
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:11
+msgid "Equipe"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/confirmacao_dados.ctp:21
+msgid "Escola / Instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/confirmacao_dados.ctp:117
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:105
+#: /plugins/sui/views/sui_admin/view_application.ctp:302
+msgid "Baixar anexo"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/confirmacao_email.ctp:26
+msgid "Atualizar a lista"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/confirmacao_email.ctp:36
+msgid "Não confirmados"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/confirmacao_email.ctp:47
+msgid "Confirmados"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/instituicao.ctp:38
+msgid "seu cadastro"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/instituicao.ctp:42
+msgid "sua área"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/instituicao.ctp:52;66
+msgid "Atualize :link_cadastro para vincular uma instituição a essa inscrição."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/instituicao.ctp:56
+msgid "Caso sua escola / instituição não conste na lista acima,<br /> atualize :link_cadastro acessando :link_area."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/instituicao.ctp:79
+msgid "Minha escola / instituição não é esta."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/instituicao.ctp:86
+msgid "Você precisa então atualizar :link_cadastro. Faça isso acessando :link_area."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/instituicao.ctp:112
+msgid "Não vincular uma instituição a essa inscrição."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/pagamento.ctp:21
+msgid "Ocorreu um problema com a inscrição. Por favor, tente novamente mais tarde."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/pagamento.ctp:26
+msgid "Taxa de inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/pagamento.ctp:41
+msgid "página inicial"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/pagamento.ctp:50
+msgid "Gerar uma cobrança para esta inscrição."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/pagamento.ctp:57
+msgid "* O pagamento pode demorar até 4 dias úteis para ser confirmado."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:56
+msgid "Para a modalidade escolhida é necessário, no mínimo: :list."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:89
+msgid "Adicionar :quem"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:91
+msgid "Precisa de #{count}"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:92
+msgid "Até mais #{count}"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:116
+msgid "Declaro que todos os membros da equipe são da mesma escola"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:137
+#: /plugins/sui/views/sui_fact_subscriptions/new_subscription.ctp:33
+#: /plugins/sui/views/sui_users/invite.ctp:76
+msgid "cancelar"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:140
+msgid "Novo membro"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:151
+msgid "Procure pelo e-mail"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:176
+msgid "cadastrá-lo"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:177
+msgid "Usuário não encontrado. Se quiser, pode :link_cadastro."
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/participantes.ctp:186
+msgid "Adicioná-lo"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:3
+#: /plugins/sui/views/sui_payments/gerar.ctp:56
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:52
+msgid "Código de inscrição"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:16
+msgid "Escola / instituição"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:31
+msgid "Capitão da equipe"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:39
+msgid "Orientador"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:43
+msgid "Equipe sem orientador"
+msgstr ""
+
+#: /plugins/sui/views/elements/forms/subscription/relatorio.ctp:50
+msgid "Membros"
+msgstr ""
+
+#: /plugins/sui/views/sui_admin/view_user.ctp:11
+msgid "Finalizada"
+msgstr ""
+
+#: /plugins/sui/views/sui_admin/view_user.ctp:12
+msgid "Cancelada"
+msgstr ""
+
+#: /plugins/sui/views/sui_admin/view_user.ctp:13
+msgid "Perdeu prazo"
+msgstr ""
+
+#: /plugins/sui/views/sui_admin/view_user.ctp:14
+msgid "Em processo"
+msgstr ""
+
+#: /plugins/sui/views/sui_admin/view_user.ctp:136
+#: /plugins/sui/views/sui_main/index.ctp:62
+msgid "Instituições"
+msgstr ""
+
+#: /plugins/sui/views/sui_admin/view_user.ctp:163
+msgid "Inscrições"
+msgstr ""
+
+#: /plugins/sui/views/sui_admin/view_user.ctp:171
+msgid "Usuário sem inscrições"
+msgstr ""
+
+#: /plugins/sui/views/sui_fact_subscriptions/index.ctp:26
+msgid "As inscrições ainda não começaram"
+msgstr ""
+
+#: /plugins/sui/views/sui_fact_subscriptions/index.ctp:36
+msgid "Inscrições encerradas"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:21
+msgid "Olá, %s!"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:22
+msgid "Esta é sua área. Cuide bem ;)"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:33
+msgid "Seus dados"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:39
+msgid "%s do %s em %s &ndash; %s"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:44
+msgid "%s de %s em %s &ndash; %s"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:48
+msgid "Editar informações"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:52
+msgid "Contato"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/index.ctp:258
+msgid "Programas e eventos com inscrições abertas"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/mensagem.ctp:6
+msgid "Conta nova"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/mensagem.ctp:20
+msgid "Conta bloqueada"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/mensagem.ctp:26
+msgid "Convite"
+msgstr ""
+
+#: /plugins/sui/views/sui_main/mensagem.ctp:42
+msgid "Erro ao enviar e-mail"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/cancelar.ctp:4
+msgid "Pagamento cancelado"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:39
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:36
+msgid "Cobrança"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:40
+msgid "(gerando cobrança)"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:44
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:41
+msgid "Total"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:55
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:51
+msgid "#"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:57
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:53
+msgid "Item"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:58
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:54
+msgid "Custo"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:84
+msgid "Responsável pelo pagamento"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:94
+msgid "Outro"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:102
+msgid "Dados para o boleto"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:120
+msgid "Pessoa física"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:121
+msgid "Pessoa jurídica"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:130
+msgid "CPF *"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:139
+msgid "CNPJ *"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:169
+#: /plugins/sui/views/sui_users/recuperar.ctp:106
+msgid "Telefone"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:182
+msgid "Gerar cobrança"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/gerar.ctp:185
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:98
+msgid "Cancelar esta cobrança"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:71
+msgid "A cobrança foi gerada e deve ser paga até :data"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:76
+msgid "Estamos aguardando a confirmação do pagamento pela Funcamp. Se você já pagou, pode demorar até 4 dias úteis para que a cobrança seja registrada"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:83
+msgid "Visualizar o boleto"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:89
+msgid "Opções"
+msgstr ""
+
+#: /plugins/sui/views/sui_payments/ver_cobranca.ctp:106
+msgid "Voltar para a lista de inscrições"
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/index.ctp:4
+msgid "pendências"
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/index.ctp:8
+msgid "Não há pendências para você."
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/index.ctp:16
+msgid "completas"
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/inscrever.ctp:11
+msgid "Essa inscrição foi cancelada e não poderá mais ser continuada. <br>(você será redirecionado em 10 segundos para sua página de inscrições)"
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/inscrever.ctp:13
+msgid "Ok, ir para minha página de inscrições"
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/inscrever.ctp:23
+msgid "Nova inscrição"
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/inscrever.ctp:90
+msgid "Imprimir relatório"
+msgstr ""
+
+#: /plugins/sui/views/sui_subscriptions/inscrever.ctp:106
+msgid "Sua conta"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/invite.ctp:35
+msgid "Confirme o e-mail"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/login.ctp:11
+msgid "Sua senha foi atualizada com sucesso. Agora você já pode fazer login no sistema com sua nova senha."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/login.ctp:15
+msgid "O link que você acessou para recuperação de senhas não está mais ativo. Se você quiser, poderá preencher o pedido de :link_recuperacao."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/login.ctp:22
+msgid "recuperação de senhas"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:11
+msgid "Seu usuário é :email"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:15
+msgid "Nenhum cadastro foi encontrado com os dados fornecidos."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:19
+msgid "Digite seu e-mail corretamente."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:23
+msgid "Favor preencher o formulário corretamente."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:27
+msgid "Nenhum usuário foi encontrado com o e-mail fornecido."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:31
+msgid "Houve um problema ao enviar o e-mail de recuperação de senhas. Tente novamente mais tarde."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:35
+msgid "Um e-mail foi enviado para você contendo instruções de como proceder.<br>Atenção: o e-mail enviado tem validade de 48 horas. Depois desse período você terá que preencher este formulário novamente."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:39
+msgid "Sua conta não possui senha, ainda. Você precisa realizar o processo de validação de e-mail, seguindo as instruções enviadas para o seu e-mail. Se você não recebeu essas instruções, você pode :link."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:70
+msgid "Recuperar dados da conta"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:78
+msgid "Perdeu a senha ou usuário (e-mail) com o qual se cadastrou?"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:85
+msgid "Perdi minha senha"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:86
+msgid "Não sei que usuário / e-mail usei"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:107
+msgid "Informe o telefone cadastrado para recuperar o usuário"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:117
+msgid "E informe também a senha"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/recuperar.ctp:128
+msgid "Enviar"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:11
+msgid "Preencha seu e-mail na caixa \"Endereço de e-mail\""
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:16
+msgid "Nenhuma conta com o email :email foi encontrada no sistema do museu. Mas, se você desejar, é possível :link_novo_cadastro."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:24
+msgid "criar uma"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:32
+msgid "O seu usuário (:email) não precisa mais da validação. Se você esqueceu sua senha, acesse o formulário de :link_esqueceu."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:40
+msgid "recuperação de senha"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:63
+msgid "Se você não recebeu o e-mail de <b>convite</b> ou o e-mail de <b>validação</b> para continuar seu cadastro no site do museu, preencha o formulário abaixo que reenviaremos o e-mail para você."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:71
+msgid "Endereço de e-mail"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/reenviar.ctp:75
+msgid "Reenviar"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/sucesso.ctp:3
+msgid "Sucesso"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/troca_senha.ctp:12
+msgid "Olá, :nome, esse link para atualização de senha já não funciona mais porque :pq_nao_funciona. Mas é possível :link_emitir um novo caso ainda seja necessário."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/troca_senha.ctp:21
+msgid "emitir"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/troca_senha.ctp:27
+msgid "Lembre-se que, para a sua segurança, o link tem validade de apenas 48 horas e só pode ser usado uma única vez."
+msgstr ""
+
+#: /plugins/sui/views/sui_users/troca_senha.ctp:34
+msgid "Olá, :nome, aqui você poderá alterar sua senha. Para isso, basta preencher o formulário abaixo com a sua nova senha:"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/troca_senha.ctp:54
+msgid "Repita a nova senha"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/troca_senha.ctp:64
+msgid "Alterar minha senha"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/validar.ctp:8
+msgid "Erro na validação"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/validar.ctp:30
+msgid "Validação concluída"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/validar.ctp:58
+msgid "Iniciar uma inscrição para<br>"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/validar.ctp:73
+msgid "Iniciar uma inscrição para a<br>4ª ONHB"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/validar.ctp:81
+msgid "Ir para minha página"
+msgstr ""
+
+#: /plugins/sui/views/sui_users/validar.ctp:86
+msgid "Ir para página inicial do Museu"
+msgstr ""
+
+#: /views/translate_strings/translate_strings.ctp:45
+msgid "before_model"
+msgstr "Em edição - modelo"
+
+#: /views/translate_strings/translate_strings.ctp:46
+msgid "editing_config"
+msgstr "Em edição - avançada"
+
+#: /views/translate_strings/translate_strings.ctp:47
+msgid "editing"
+msgstr "Em edição"
+
+#: /views/translate_strings/translate_strings.ctp:48
+msgid "ready"
+msgstr "Em edição - pronta para lançar"
+
+#: /views/translate_strings/translate_strings.ctp:49
+msgid "in_proccess"
+msgstr "Andamento"
+
+#: /views/translate_strings/translate_strings.ctp:50
+msgid "closed"
+msgstr "Encerrada"
+
+#: /views/translate_strings/translate_strings.ctp:51
+msgid "aborted"
+msgstr "Abortado"
+
+#: /views/translate_strings/translate_strings.ctp:53
+msgid "cancelled"
+msgstr "Cancelada"
+
+#: /views/translate_strings/translate_strings.ctp:54
+msgid "completed"
+msgstr "Completa"
+
+#: /views/translate_strings/translate_strings.ctp:55
+msgid "rejected"
+msgstr "Rejeitada"
+
+#: /views/translate_strings/translate_strings.ctp:56
+msgid "private"
+msgstr "Privada"
+
+#: /views/translate_strings/translate_strings.ctp:57
+msgid "public"
+msgstr "Pública"
+
+#: /views/translate_strings/translate_strings.ctp:58
+msgid "validated"
+msgstr "Validado"
+
+#: /views/translate_strings/translate_strings.ctp:59
+msgid "blocked"
+msgstr "Bloqueado"
+
+#: /views/translate_strings/translate_strings.ctp:60
+msgid "new"
+msgstr "Novo"
+
+#: /views/translate_strings/translate_strings.ctp:63
+msgid "Step:generic"
+msgstr "Inscrições incompletas"
+
+#: /views/translate_strings/translate_strings.ctp:64
+msgid "Step:need_payment"
+msgstr "Falta o pagamento"
+
+#: /views/translate_strings/translate_strings.ctp:65
+msgid "Step:waiting_payment"
+msgstr "Aguardando confirmação do pagamento"
+
+#: /views/translate_strings/translate_strings.ctp:66
+msgid "Step:waiting_email_validations"
+msgstr "Aguardando confirmação obrigatória de usuários"
+
+#: /views/translate_strings/translate_strings.ctp:67
+msgid "Step:waiting_user_feedback"
+msgstr "Alterações solicitadas"
+
+#: /views/translate_strings/translate_strings.ctp:68
+msgid "Step:waiting_approval"
+msgstr "Aguardando aprovação do Museu"
+
+#: /views/translate_strings/translate_strings.ctp:70
+msgid "Etapa pagamento"
+msgstr "Pagamento"
+
+#: /views/translate_strings/translate_strings.ctp:71
+msgid "Etapa participantes"
+msgstr "Equipe/Participantes"
+
+#: /views/translate_strings/translate_strings.ctp:72
+msgid "Etapa instituicao"
+msgstr "Instituição"
+
+#: /views/translate_strings/translate_strings.ctp:73
+msgid "Etapa confirmacao_email"
+msgstr "Confirmação de e-mails"
+
+#: /views/translate_strings/translate_strings.ctp:74
+msgid "Etapa regulamento"
+msgstr "Regulamento"
+
+#: /views/translate_strings/translate_strings.ctp:75
+msgid "Etapa modalidade"
+msgstr "Modalidade"
+
+#: /views/translate_strings/translate_strings.ctp:76
+msgid "Etapa dados_especificos"
+msgstr "Dados do programa"
+
+#~ msgid "Step:incomplete"
+#~ msgstr "Preenchimento incompleto de informações"
+
+#~ msgid "SuiSubscription header: type"
+#~ msgstr "Status"

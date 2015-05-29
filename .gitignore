@@ -1,0 +1,10 @@
+/nbfolder
+/nbproject
+*.picasa.ini
+*.mwb.bak
+*.swp
+*.dia~
+*.pot
+docs/museu
+garbage
+src/scripts

@@ -1,0 +1,94 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-03-12 02:43+0000\n"
+"PO-Revision-Date: 2012-03-11 23:50-0300\n"
+"Last-Translator: Lucas Vignoli Reis <lucas@preface.com.br>\n"
+"Language-Team: Preface Design <preface@preface.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: \plugins\burocrata\views\helpers\backstage_buro_burocrata.php:63
+msgid "form - related content label"
+msgstr "Conteúdos relacionados"
+
+#: \plugins\burocrata\views\helpers\backstage_buro_burocrata.php:64
+msgid "form - related content instructions"
+msgstr "Faça a procura pelo nome de um documento, ou outra novidade, ou galeria de fotos, caso queira associar a esta novidade. É possível associar mais de um conteúdo."
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:43
+msgid "form - display level label"
+msgstr "Nível de publicação"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:44
+msgid "form - display level instructions"
+msgstr "Escolha se a publicação aparecerá ou não na página inicial. Se não aparecer na página inicial do Museu, continuará aparecendo na página do programa e na busca."
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:58
+msgid "form - title label"
+msgstr "Título"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:59
+msgid "form - title instructions"
+msgstr " "
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:68
+msgid "form - author label"
+msgstr "Autor"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:69
+msgid "form - author instructions"
+msgstr "Nome do autor da notícia"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:81
+msgid "form - tags input label"
+msgstr "Palavras-chave"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:82
+msgid "form - tags input instructions"
+msgstr "Coloque as palavras-chave desejadas separadas por vírgulas. Ex: palavra 1, palavra 2, palavra 3."
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:102
+msgid "form - date label"
+msgstr "Data de publicação"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:103
+msgid "form - date instructions"
+msgstr "Caso a data seja futura a novidade só será pública quando a data chegar."
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:113
+msgid "form - image label"
+msgstr "Imagem"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:114
+msgid "form - image instructions"
+msgstr "Se for o caso, adicione uma imagem à esta notícia. Escolha uma imagem e espere até que ela seja carregada. Esta imagem aparecerá na versão resumida. Você pode colocar também imagens no corpo da novidade."
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:126
+msgid "form - content_stream label"
+msgstr "Conteúdo da novidade"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:127
+msgid "form - content_stream instructions"
+msgstr "Preencha aqui com o corpo de texto da novidade."
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:140
+msgid "form - summary label"
+msgstr "Resumo"
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:141
+msgid "form - summary instructions"
+msgstr "Este resumo será disposto quando a novidade aparecer como miniatura, procure fazê-lo o menor possível. Deve ter entre 30 e 400 caracteres."
+
+#: \plugins\mexc_news\views\elements\mexc_new_form.ctp:142
+msgid "O texto deve ter entre 30 e 400 caracteres."
+msgstr ""
+

@@ -1,0 +1,35 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-11-08 07:44-0400\n"
+"PO-Revision-Date: 2011-11-08 08:58-0400\n"
+"Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:74
+msgid "confirm dissociate"
+msgstr "Você tem certeza que quer dissociar os conteúdos? Note que isso somente retira a associação e não apaga os conteúdo em questão. Ainda, se a associação for reciproca, essa ação não vai apagar a outra parte."
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:76
+msgid "mexc_related title"
+msgstr "Counteúdo relacionado"
+
+#: /plugins/mexc_related/views/elements/mexc_related_content.ctp:60
+msgid "Input label"
+msgstr "Conteúdos relacionados"
+
+#: /plugins/mexc_related/views/elements/mexc_related_content.ctp:61
+msgid "Input instructions"
+msgstr "Escolha conteúdos que deseja relacionar com esta publicação. A procura deve ser feita pelo nome."
+
+#: /plugins/mexc_related/views/elements/mexc_related_content.ctp:73
+msgid "form - reciprocal label"
+msgstr "Fazer a associação recíproca (vai colocar um registro igual a esse no outro item)"
+

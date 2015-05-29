@@ -1,0 +1,69 @@
+<?php
+
+/**
+ *
+ * Copyright 2010-2012, Preface Design LTDA (http://www.preface.com.br")
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright 2010-2011, Preface Design LTDA (http://www.preface.com.br)
+ * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ * @link          https://github.com/prefacedesign/jodeljodel Jodel Jodel public repository 
+ * @author     Bruno Franciscon Mazzotti <mazzotti@preface.com.br>
+ */
+
+/**
+ * Fixture class used in Translatable behavior test case.
+ *
+ * The fake data is about William Shakespeare's plays.
+ *
+ * The test database must br created with UFT-8 character encoding to allow the
+ * strange characters. In MySQL execute:
+ *   CREATE DATABASE database CHARACTER SET utf8 COLLATE utf8_bin
+ *
+ * @package    jodeljodel
+ * @subpackage jodeljodel.tradutore.test
+ */
+
+class BioinfoFixture extends CakeTestFixture
+{
+    var $name = 'Bioinfo';
+
+    var $fields = array(
+        'id' => array(
+            'type' => 'integer',
+            'key' => 'primary',
+            'null' => false
+        ),
+		'author_id' => array(
+            'type' => 'integer',
+            'null' => false
+        )
+    );
+    
+    var $records = array(
+        array(
+            'id' => 1,
+			'author_id' => 1
+        ),
+		array(
+            'id' => 2,
+			'author_id' => 1
+        ),
+		array(
+            'id' => 3,
+			'author_id' => 2
+        ),
+		array(
+            'id' => 4,
+			'author_id' => 2
+        ),
+		array(
+            'id' => 5,
+			'author_id' => 2
+        )
+    );
+}
+
+?>

@@ -1,0 +1,54 @@
+.giant_image_viewer .control {
+	position: relative;
+	left: 10px;
+	top: 20px;
+	width: 53px;
+}
+
+.giant_image_viewer .control .direction {
+	position: relative;
+	height: 51px;
+	width: 51px;
+	margin-bottom: 10px;
+	background: white;
+	border-radius: 51px;
+	
+}
+
+.giant_image_viewer .control .direction a {
+	background: url(/img/giant_image_viewer/roda.png) no-repeat;
+	display: block;
+	position: absolute;
+}
+
+.giant_image_viewer .control .direction .up { width: 50px; height: 17px; }
+.giant_image_viewer .control .direction .down { width: 50px; height: 17px; background-position: 0px -34px; top: 34px;}
+.giant_image_viewer .control .direction .left { width: 17px; height: 50px; }
+.giant_image_viewer .control .direction .right { width: 17px; height: 50px; background-position: -34px 0px; left: 35px;}
+
+.giant_image_viewer .control a.zoom {
+	background: RGB(246,239,234) no-repeat center center;
+	height: 20px;
+	width: 20px;
+	display: block;
+	border-radius: 2px;
+	-ie-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 0 0 2px black;
+	-moz-box-shadow: 0 0 2px black;
+	-webkit-box-shadow: 0 0 2px black;
+	margin: 1px 0 0 15px;
+}
+
+.giant_image_viewer .control a.more_zoom {
+	background-image:  url(/img/giant_image_viewer/mais.png);
+}
+
+.giant_image_viewer .control a.less_zoom {
+	background-image: url(/img/giant_image_viewer/menos.png);
+}
+
+.giant_image_viewer .layer {
+	position: relative;
+}

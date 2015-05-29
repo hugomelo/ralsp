@@ -1,0 +1,155 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-05-03 17:50-0400\n"
+"PO-Revision-Date: 2012-05-25 04:21-0400\n"
+"Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /plugins/page_sections/config/sections.php:325;331
+msgid "Login linkCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:326;332
+msgid "Login humanName"
+msgstr "Login"
+
+#: /plugins/page_sections/config/sections.php:327;333
+msgid "Login pageTitle"
+msgstr "Login"
+
+#: /plugins/page_sections/config/sections.php:336
+msgid "NewAccount SUI linkCaption"
+msgstr "Nova conta"
+
+#: /plugins/page_sections/config/sections.php:337
+msgid "NewAccount SUI humanName"
+msgstr "Nova conta"
+
+#: /plugins/page_sections/config/sections.php:341
+msgid "NewAccount success linkCaption"
+msgstr "Sucesso"
+
+#: /plugins/page_sections/config/sections.php:342
+msgid "NewAccount success humanName"
+msgstr "Sucesso"
+
+#: /plugins/page_sections/config/sections.php:343
+msgid "NewAccount success pageTitle"
+msgstr "Sucesso"
+
+#: /plugins/page_sections/config/sections.php:347
+#, fuzzy
+msgid "NewAccount recover linkCaption"
+msgstr "Sucesso"
+
+#: /plugins/page_sections/config/sections.php:348
+#, fuzzy
+msgid "NewAccount recover humanName"
+msgstr "Sucesso"
+
+#: /plugins/page_sections/config/sections.php:349
+msgid "NewAccount recover pageTitle"
+msgstr "Recuperar conta"
+
+#: /plugins/page_sections/config/sections.php:353
+msgid "NewAccount validate linkCaption"
+msgstr "Validação de usuário"
+
+#: /plugins/page_sections/config/sections.php:354
+msgid "NewAccount validate humanName"
+msgstr "Validação de usuário"
+
+#: /plugins/page_sections/config/sections.php:355
+msgid "NewAccount validate pageTitle"
+msgstr "Validação de usuário"
+
+#: /plugins/page_sections/config/sections.php:359
+msgid "NewAccount message linkCaption"
+msgstr "Mensagem"
+
+#: /plugins/page_sections/config/sections.php:360
+msgid "NewAccount message humanName"
+msgstr "Mensagem"
+
+#: /plugins/page_sections/config/sections.php:361
+msgid "NewAccount message pageTitle"
+msgstr "Mensagem"
+
+#: /plugins/page_sections/config/sections.php:386
+msgid "SUI link"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:387
+msgid "SUI pageTitle"
+msgstr "Página do usuário"
+
+#: /plugins/page_sections/config/sections.php:388
+msgid "SUI headerCaption"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:389
+msgid "SUI humanName"
+msgstr ""
+
+#: /plugins/page_sections/config/sections.php:392
+msgid "Main SUI linkCaption"
+msgstr "Minhas inscrições"
+
+#: /plugins/page_sections/config/sections.php:393
+msgid "Main SUI humanName"
+msgstr " "
+
+#: /plugins/page_sections/config/sections.php:398
+msgid "Application SUI linkCaption"
+msgstr "Inscrição"
+
+#: /plugins/page_sections/config/sections.php:399
+msgid "Application SUI humanName"
+msgstr "Inscrição"
+
+#: /plugins/page_sections/config/sections.php:403
+msgid "Payment SUI linkCaption"
+msgstr " Cobrança"
+
+#: /plugins/page_sections/config/sections.php:404
+msgid "Payment SUI humanName"
+msgstr " Cobrança"
+
+#: /plugins/page_sections/config/sections.php:407
+msgid "Account SUI linkCaption"
+msgstr "Cadastro"
+
+#: /plugins/page_sections/config/sections.php:408
+msgid "Account SUI humanName"
+msgstr "Cadastro"
+
+#: /plugins/page_sections/config/sections.php:412
+msgid "Logout SUI linkCaption"
+msgstr "Sair"
+
+#: /plugins/page_sections/config/sections.php:413
+msgid "Logout SUI humanName"
+msgstr "Sair"
+
+#: /plugins/page_sections/config/sections.php:419
+msgid "Search linkCaption"
+msgstr "Busca"
+
+#: /plugins/page_sections/config/sections.php:420
+msgid "Search pageTitle"
+msgstr "Busca"
+
+#~ msgid "Subscriptions SUI linkCaption"
+#~ msgstr "Inscrições"
+
+#~ msgid "Subscriptions SUI humanName"
+#~ msgstr "Inscrições"

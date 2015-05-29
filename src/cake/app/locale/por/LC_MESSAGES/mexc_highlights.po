@@ -1,0 +1,63 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-10-05 14:36-0300\n"
+"PO-Revision-Date: 2011-11-11 20:10-0400\n"
+"Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:33
+msgid "form - title label"
+msgstr "Título"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:34
+msgid "form - title instructions"
+msgstr " "
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:43
+msgid "form - title_link label"
+msgstr "Link do título"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:44
+msgid "form - title_link instructions"
+msgstr "Caso queira, é possível por um link no título deste destaque. O endereço deve começar com http://"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:53
+msgid "form - image label"
+msgstr "Imagem"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:54
+msgid "form - image instructions"
+msgstr " "
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:65
+msgid "form - text (textile) label"
+msgstr "Conteúdo"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:66
+msgid "form - text (textile) instructions"
+msgstr "Um texto opcional de até 300 caracteres "
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:86
+msgid "form - best_before label"
+msgstr "Data de validade"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:87
+msgid "form - best_before instructions"
+msgstr "O destaque será exibido somente até esta data"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:96
+msgid "form - weight label"
+msgstr "Força do destaque"
+
+#: \plugins\mexc_highlights\views\elements\mexc_highlighted_content_form.ctp:97
+msgid "form - weight instructions"
+msgstr "Os destaques com maior força aparecerão primeiro"
+
