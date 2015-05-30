@@ -59,8 +59,8 @@ Configure::write('Media.filter_plus.textile', array(
 	'image' => array(
 		'filter' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size(array('M' => 6), false),
-				$mexicoTools['vg']->size(array('M' => 6), false)
+				$redeTools['hg']->size(array('M' => 6), false),
+				$redeTools['vg']->size(array('M' => 6), false)
 			),
 			'convert' => 'image/jpeg'
 		)
@@ -81,8 +81,8 @@ Configure::write('Media.filter_plus.content_stream', array(
 		// Image for MexcNew and MexcDocument
 		'image_6M' => array( 
 			'fitInside' => array(
-				$mexicoTools['hg']->size('6M-g-2m', false),
-				$mexicoTools['vg']->size('6M-g-2m', false)
+				$redeTools['hg']->size('6M-g-2m', false),
+				$redeTools['vg']->size('6M-g-2m', false)
 			),
 			'convert' => 'image/jpeg'
 		),
@@ -90,8 +90,8 @@ Configure::write('Media.filter_plus.content_stream', array(
 		// Image for MexcEvent
 		'image_5M' => array(
 			'fitInside' => array(
-				$mexicoTools['hg']->size('5M-g-2m', false),
-				$mexicoTools['vg']->size('5M-g-2m', false)
+				$redeTools['hg']->size('5M-g-2m', false),
+				$redeTools['vg']->size('5M-g-2m', false)
 			),
 			'convert' => 'image/jpeg'
 		),
@@ -99,8 +99,8 @@ Configure::write('Media.filter_plus.content_stream', array(
 		// Image for FactSite
 		'image_fact' => array(
 			'fitInside' => array(
-				$mexicoTools['hg']->size('4M-g-2m', false),
-				$mexicoTools['vg']->size('3M-g-2m', false)
+				$redeTools['hg']->size('4M-g-2m', false),
+				$redeTools['vg']->size('3M-g-2m', false)
 			),
 			'convert' => 'image/jpeg'
 		),
@@ -108,8 +108,8 @@ Configure::write('Media.filter_plus.content_stream', array(
 		// Image for MexcAbout
 		'image_9M' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('9M-g-m', false),
-				$mexicoTools['vg']->size('3M-g-2m', false)
+				$redeTools['hg']->size('9M-g-m', false),
+				$redeTools['vg']->size('3M-g-2m', false)
 			),
 			'convert' => 'image/jpeg'
 		),
@@ -121,8 +121,8 @@ Configure::write('Media.filter_plus.member', array(
 	'image' => array(
 		'backstage_preview' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('3M-g-2m', false),
-				$mexicoTools['vg']->size('2M-g-2m', false)
+				$redeTools['hg']->size('3M-g-2m', false),
+				$redeTools['vg']->size('2M-g-2m', false)
 			),
 			'convert' => 'image/jpeg'
 		),
@@ -130,8 +130,8 @@ Configure::write('Media.filter_plus.member', array(
 		// Image for PieMember
 		'image_3M' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('3M-g-2m', false),
-				$mexicoTools['vg']->size('2M-g-2m', false)
+				$redeTools['hg']->size('3M-g-2m', false),
+				$redeTools['vg']->size('2M-g-2m', false)
 			),
 			'convert' => 'image/jpeg'
 		),
@@ -144,8 +144,8 @@ Configure::write('Media.filter_plus.logo', array(
 	'image' => array(
 		'thumb' => array(
 			'fitInside' => array(
-				$mexicoTools['hg']->size('M', false),
-				$mexicoTools['hg']->size('M', false)
+				$redeTools['hg']->size('M', false),
+				$redeTools['hg']->size('M', false)
 			),
 			'convert' => 'image/jpeg'
 		),
@@ -158,8 +158,8 @@ Configure::write('Media.filter_plus.highlights', array(
 	'image' => array(
 		'version' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('4M-g-2m', false),
-				$mexicoTools['vg']->size('2M', false)
+				$redeTools['hg']->size('4M-g-2m', false),
+				$redeTools['vg']->size('2M', false)
 			),
 			'convert' => 'image/jpeg'
 		)
@@ -177,20 +177,20 @@ Configure::write('Media.filter_plus.new', array(
 		),
 		'preview_column' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('3M-g-2m', false),
-				$mexicoTools['vg']->size('2M', false)
+				$redeTools['hg']->size('3M-g-2m', false),
+				$redeTools['vg']->size('2M', false)
 			)
 		),
 		'preview_column_fact' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('4M-g-2m', false),
-				$mexicoTools['vg']->size('3M', false)
+				$redeTools['hg']->size('4M-g-2m', false),
+				$redeTools['vg']->size('3M', false)
 			)
 		),
 		'view' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('6M-g-2m', false),
-				$mexicoTools['vg']->size('5M', false)
+				$redeTools['hg']->size('6M-g-2m', false),
+				$redeTools['vg']->size('5M', false)
 			)
 		)
 	)
@@ -207,20 +207,20 @@ Configure::write('Media.filter_plus.event', array(
 		),
 		'preview_column' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('3M-g-2m', false),
-				$mexicoTools['vg']->size('2M', false)
+				$redeTools['hg']->size('3M-g-2m', false),
+				$redeTools['vg']->size('2M', false)
 			)
 		),
 		'preview_column_fact' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('4M-g-2m', false),
-				$mexicoTools['vg']->size('3M', false)
+				$redeTools['hg']->size('4M-g-2m', false),
+				$redeTools['vg']->size('3M', false)
 			)
 		),
 		'view' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('5M-g-2m', false),
-				$mexicoTools['vg']->size('4M', false)
+				$redeTools['hg']->size('5M-g-2m', false),
+				$redeTools['vg']->size('4M', false)
 			)
 		)
 	)
@@ -243,14 +243,14 @@ Configure::write('Media.filter_plus.digital_collection', array(
 		),
 		'preview' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('4M-g-2m', false),
-				$mexicoTools['vg']->size('6M-g', false)
+				$redeTools['hg']->size('4M-g-2m', false),
+				$redeTools['vg']->size('6M-g', false)
 			)
 		),
 		'full' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('8M-g', false),
-				$mexicoTools['vg']->size('45g', false)
+				$redeTools['hg']->size('8M-g', false),
+				$redeTools['vg']->size('45g', false)
 			)
 		),
 	)
@@ -273,50 +273,50 @@ Configure::write('Media.filter_plus.gallery', array(
 		),
 		'preview' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('3M-g', false),
-				$mexicoTools['vg']->size('3M-g', false)
+				$redeTools['hg']->size('3M-g', false),
+				$redeTools['vg']->size('3M-g', false)
 			)
 		),
 		'preview_column' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('5M-g-2m', false),
-				$mexicoTools['vg']->size('4M', false)
+				$redeTools['hg']->size('5M-g-2m', false),
+				$redeTools['vg']->size('4M', false)
 			)
 		),
 		'preview_column_fact_site' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('6M-g-2m', false),
-				$mexicoTools['vg']->size('4M', false)
+				$redeTools['hg']->size('6M-g-2m', false),
+				$redeTools['vg']->size('4M', false)
 			)
 		),
 		'preview_mini_column' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('3M-g-2m', false),
-				$mexicoTools['vg']->size('2M', false)
+				$redeTools['hg']->size('3M-g-2m', false),
+				$redeTools['vg']->size('2M', false)
 			)
 		),
 		'mini_preview' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('2M-0.75g-m', false),
-				$mexicoTools['vg']->size('Mm', false)
+				$redeTools['hg']->size('2M-0.75g-m', false),
+				$redeTools['vg']->size('Mm', false)
 			)
 		),
 		'gallery_thumb' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('9M-g-2m', false),
-				$mexicoTools['vg']->size('Mmg-2u', false) // M 108,333333333 (to fit 4 in 9M-g-2m)
+				$redeTools['hg']->size('9M-g-2m', false),
+				$redeTools['vg']->size('Mmg-2u', false) // M 108,333333333 (to fit 4 in 9M-g-2m)
 			)
 		),
 		'gallery_full' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('9M-g', false),
-				$mexicoTools['vg']->size('5Mg', false)
+				$redeTools['hg']->size('9M-g', false),
+				$redeTools['vg']->size('5Mg', false)
 			)
 		),
 		'gd' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('7M-m-g', false),
-				$mexicoTools['vg']->size('5Mm-g', false)
+				$redeTools['hg']->size('7M-m-g', false),
+				$redeTools['vg']->size('5Mm-g', false)
 			)
 		)
 	)
@@ -327,14 +327,14 @@ Configure::write('Media.filter_plus.fact_footer', array(
 	'image' => array(
 		'preview' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('6M-0.5g-u', false),
-				$mexicoTools['vg']->size('M', false)
+				$redeTools['hg']->size('6M-0.5g-u', false),
+				$redeTools['vg']->size('M', false)
 			)
 		),
 		'cropped' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('12M-g-2u', false), // 2u from border!
-				$mexicoTools['vg']->size('2M', false)
+				$redeTools['hg']->size('12M-g-2u', false), // 2u from border!
+				$redeTools['vg']->size('2M', false)
 			)
 		)
 	)
@@ -345,8 +345,8 @@ Configure::write('Media.filter_plus.fact_bg', array(
 	'image' => array(
 		'preview' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('4M', false),
-				$mexicoTools['vg']->size('4M', false)
+				$redeTools['hg']->size('4M', false),
+				$redeTools['vg']->size('4M', false)
 			)
 		)
 	)
@@ -357,14 +357,14 @@ Configure::write('Media.filter_plus.fact_header', array(
 	'image' => array(
 		'preview' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('6M-0.5g-u', false),
-				$mexicoTools['vg']->size('M-g', false)
+				$redeTools['hg']->size('6M-0.5g-u', false),
+				$redeTools['vg']->size('M-g', false)
 			)
 		),
 		'cropped' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('12M-g-2u', false),
-				$mexicoTools['vg']->size('2M-2g', false)
+				$redeTools['hg']->size('12M-g-2u', false),
+				$redeTools['vg']->size('2M-2g', false)
 			)
 		)
 	)
@@ -375,14 +375,14 @@ Configure::write('Media.filter_plus.fact_picture', array(
 	'image' => array(
 		'preview' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('5M-g-2m', false),
-				$mexicoTools['vg']->size('2M-m', false)
+				$redeTools['hg']->size('5M-g-2m', false),
+				$redeTools['vg']->size('2M-m', false)
 			)
 		),
 		'cropped' => array(
 			'fitCrop' => array(
-				$mexicoTools['hg']->size('3M-g-2m', false),
-				$mexicoTools['vg']->size('2M-g-m', false)
+				$redeTools['hg']->size('3M-g-2m', false),
+				$redeTools['vg']->size('2M-g-m', false)
 			)
 		)
 	)
@@ -393,8 +393,8 @@ Configure::write('Media.filter_plus.fact_logo_1', array(
 	'image' => array(
 		'preview' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('4M-g-2m', false),
-				$mexicoTools['vg']->size('4g-5u', false)
+				$redeTools['hg']->size('4M-g-2m', false),
+				$redeTools['vg']->size('4g-5u', false)
 			)
 		)
 	)
@@ -405,8 +405,8 @@ Configure::write('Media.filter_plus.fact_logo_2', array(
 	'image' => array(
 		'preview' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('4M-g', false),
-				$mexicoTools['vg']->size('M-m', false)
+				$redeTools['hg']->size('4M-g', false),
+				$redeTools['vg']->size('M-m', false)
 			)
 		)
 	)
@@ -417,14 +417,14 @@ Configure::write('Media.filter_plus.mexc_speaker', array(
 	'image' => array(
 		'filter' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('3M-g-2m', false),
-				$mexicoTools['vg']->size('2M-g', false)
+				$redeTools['hg']->size('3M-g-2m', false),
+				$redeTools['vg']->size('2M-g', false)
 			)
 		),
 		'about_text' => array(
 			'fit' => array(
-				$mexicoTools['hg']->size('4M-g-2m', false),
-				$mexicoTools['vg']->size('3M-g', false)
+				$redeTools['hg']->size('4M-g-2m', false),
+				$redeTools['vg']->size('3M-g', false)
 			)
 		)
 	)

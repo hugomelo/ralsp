@@ -12,4 +12,4 @@
  * @link          https://github.com/prefacedesign/jodeljodel Jodel Jodel public repository 
  */
 
-	Configure::write('Typographer.layout_schemes', array('teste', 'mexico', 'backstage'));
+	Configure::write('Typographer.layout_schemes', array('teste', 'rede', 'backstage'));

@@ -8,7 +8,7 @@ class MexcMailComponent extends Object
 		'timeout'=>'30',
 		'host' => 'mail.preface.com.br',
 		'username'=> 'inscricoes_olimpiada@preface.com.br',
-		'password'=>'9o8j08qeq'
+		'password'=>'bleh'
 	);
 	
 	var $Controller;
@@ -36,7 +36,7 @@ class MexcMailComponent extends Object
 		$this->Email->delivery = 'smtp';
 		
 		if (isset($this->Controller->TypeLayoutSchemePicker))
-			$this->Controller->TypeLayoutSchemePicker->pick('mexico');
+			$this->Controller->TypeLayoutSchemePicker->pick('rede');
 		
 		if (!$this->Email->send())
 			return $this->Email->smtpError;
