@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-03-14 17:44+0000\n"
-"PO-Revision-Date: 2012-03-14 14:57-0300\n"
+"PO-Revision-Date: 2015-06-25 14:44-0300\n"
 "Last-Translator: Rodrigo  <rodrigo@preface.com.br>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Título"
 
 #: \plugins\content_stream\config\config.php:36
 msgid "Title for PieMember content"
-msgstr "Membro do Museu"
+msgstr "Membro da Rede"
 
 #: \plugins\content_stream\config\config.php:40
 msgid "Title for PieLogo content"
@@ -215,7 +215,7 @@ msgstr "Membros"
 
 #: \views\translate_strings\translate_strings.ctp:46
 msgid "Corktile input instructions for about_members"
-msgstr "Adicione os membros do Museu"
+msgstr "Adicione os membros da Rede"
 
 #: \views\translate_strings\translate_strings.ctp:47
 msgid "Corktile input label for about_texts"

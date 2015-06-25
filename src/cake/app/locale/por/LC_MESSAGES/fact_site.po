@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-03-12 02:43+0000\n"
-"PO-Revision-Date: 2012-03-11 23:45-0300\n"
+"PO-Revision-Date: 2015-06-25 14:46-0300\n"
 "Last-Translator: Lucas Vignoli Reis <lucas@preface.com.br>\n"
 "Language-Team: Preface Design <preface@preface.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Resumo"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:49
 msgid "form - description instructions"
-msgstr "Esta descrição aparece na listagem geral de programas em \"Programas do Museu\". Deve ser um texto de até 400 caracteres."
+msgstr "Esta descrição aparece na listagem geral de programas em \"Programas da Rede\". Deve ser um texto de até 400 caracteres."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:58
 msgid "form - mini_description label"
@@ -86,7 +86,7 @@ msgstr "Mini resumo"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:59
 msgid "form - mini_description instructions"
-msgstr "Esta descrição deve dizer o absolutamente essencial e aparece na página inicial do museu. Não deve ter mais de 170 caracteres."
+msgstr "Esta descrição deve dizer o absolutamente essencial e aparece na página inicial da Rede. Não deve ter mais de 170 caracteres."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:70
 msgid "form - about_content_stream_id label"
@@ -146,7 +146,7 @@ msgstr "Aqui se definem as opções de layout para o site do programa. Prefira s
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:136
 msgid "form - preset sites"
-msgstr "Estão disponibilizados aqui 4 modelos de layout para sites da fabriquinha que seguem o programa de identidade visual do Museu Exploratório de Ciências. Apenas mexa manualmente nas imagens e cores se souber o que está fazendo."
+msgstr "Estão disponibilizados aqui 4 modelos de layout para sites da fabriquinha que seguem o programa de identidade visual da Rede. Apenas mexa manualmente nas imagens e cores se souber o que está fazendo."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:180
 msgid "form - color_background label"
@@ -182,7 +182,7 @@ msgstr "Marca do programa"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:242
 msgid "form - img_id instructions"
-msgstr "Esta imagem aparece na listagem de programas em \"Programas do Museu\""
+msgstr "Esta imagem aparece na listagem de programas em \"Programas da Rede\""
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:253
 msgid "form - img_bg_id label"
@@ -221,4 +221,4 @@ msgstr "Esta é a imagem que será disposta no rodapé do site. Ela deve ter 940
 
 #~ msgid "form - img_id2 instructions"
 #~ msgstr ""
-#~ "Esta imagem aparece na listagem de programas em \"Programas do Museu\""
+#~ "Esta imagem aparece na listagem de programas em \"Programas da Rede\""
