@@ -500,4 +500,134 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 
 		return "$month $year";
 	}
+
+/**
+ * Creates a menu, given the menuLevel desired, and some options. It uses menuItem(), for each menuItem.
+ * 
+ * @access public
+ * @param array $htmlAttr
+ * @param array $options
+ * @return string
+ */
+	function menuBt($htmlAttr = array(), $options = array())
+	{
+		$options += array(
+			'menuLevel' => 0,
+			'writeCaptions' => true,
+			'specificClasses' => true,
+			'hiddenCaptions' => false,
+			'wrapTag' => 'nav'
+		);
+		
+		extract($options);
+		$htmlAttr += array('class' => array('navbar'));
+		
+		$View = ClassRegistry::getObject('view');
+		$ourLocation = $View->getVar('ourLocation');
+		
+		$sections = $View->getVar('pageSections');
+		
+		if (empty($ourLocation))
+		{
+			trigger_error('TypeBricklayerHelper::menu() - Unknown location. Check if you properly filled the $sectionMap on page_section plugin.config.');
+			return false;
+		}
+		
+		for ($i = 0; $i < $menuLevel; $i++)
+		{
+			if (isset($sections[$ourLocation[$i]]['subSections']))
+				$sections = $sections[$ourLocation[$i]]['subSections'];
+			else
+				return false;
+		}
+		
+		$fixedItems = array();
+		$collapsedItems = array();
+		foreach($sections as $sectionName => $sectionSettings)
+		{
+			if ($sectionSettings['active'] && $sectionSettings['display'])
+				if (!empty($sectionSettings['collapse']) && $sectionSettings['collapse']) {
+					$collapsedItems[] = $this->menuItem(array(), compact('sectionName','sectionSettings','writeCaptions','specificClasses','menuLevel','hiddenCaptions'));
+				} else {
+					$fixedItems[] = $this->menuItem(array(), compact('sectionName','sectionSettings','writeCaptions','specificClasses','menuLevel','hiddenCaptions'));
+				}
+		}
+		$space = ClassRegistry::init('SiteFactory.FactSite');
+		$projects = $space->listSites(); 
+		$p =  '<ul class="dropdown-menu">';
+		foreach($projects as $project) {
+			$p .= '<li>'.$this->anchor(array(), array('url' => array(
+				'plugin' => 'site_factory', 'controller' => 'fact_sites',
+				'action' => 'index', 'space' => $project['FactSite']['mexc_space_id'])), $project['FactSite']['name']).'</li>';
+		}
+		$p .= '</ul>';
+
+		$content = $this->sdiv(array('class' => 'navbar'), array());
+			$content .= '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+							<span class="sr-only">abrir/fechar menu</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span> </button>';
+			$content .= $this->sul(array('class' => 'nav left-block'), array());
+				foreach($fixedItems as $item) {
+					if (strpos($item,'Projetos')>0) {
+						$content .= '<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projetos<span class="caret"></span></a>'.$p.'</li>';
+					} else
+						$content .= $item;
+				}
+			$content .= $this->eul();
+		$content .= $this->ediv(); // closes navbar-header
+
+		$content .= $this->sdiv(array('class'=>"collapse navbar-collapse", 'id'=> "mainNavBar"));
+			$content .= $this->sul(array('class' => 'nav navbar-nav'), array());
+				foreach($collapsedItems as $item) {
+					$content .= $item;
+				}
+			$content .= $this->eul();
+		$content .= $this->ediv();
+		return $this->tag($wrapTag, $htmlAttr, array('close_me' => false), $content);
+	}
+/**
+ * Creates a menuItem, given the menuLevel desired, and some options. Used by menu().,
+ * 
+ * @access public
+ * @param array $htmlAttr
+ * @param array $options
+ * @return string
+ */
+	function menuItem($htmlAttr = array(), $options = array())
+	{
+
+		$View = ClassRegistry::getObject('view');
+		$ourLocation = $View->getVar('ourLocation');
+	
+		$options += array(
+			'menuLevel' => 0,
+			'writeCaptions' => true,
+			'specificClasses' => true,
+			'hiddenCaptions' => false
+		);
+		extract($options);
+		
+		$defaultHtmlAttr = array();
+		if ($specificClasses)
+			$defaultHtmlAttr['class'][] = $sectionName;
+		
+		if ($ourLocation[$menuLevel] == $sectionName)
+			$defaultHtmlAttr['class'][] = 'active';
+		
+		$htmlAttr += $defaultHtmlAttr;
+		if (!isset($anchorOptions))
+			$anchorOptions = array();
+		
+		$anchorOptions['url'] = $sectionSettings['url'];
+		$content = $writeCaptions ? $sectionSettings['linkCaption'] : ' ';
+		
+		if ($hiddenCaptions)
+			$content = $this->hiddenSpanDry($content);
+		
+		return $this->li($htmlAttr, array(), $this->anchor(array(), $anchorOptions, $content));
+	}
+
 }
