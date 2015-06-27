@@ -12,8 +12,8 @@
  * @link          https://github.com/prefacedesign/jodeljodel Jodel Jodel public repository 
  */
 
-			echo $javascript->link('prototype');
-			echo $javascript->link('scriptaculous');
+			//echo $javascript->link('prototype');
+			//echo $javascript->link('scriptaculous');
 		?>
 		
 	</head>
