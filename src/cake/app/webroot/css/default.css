@@ -566,13 +566,14 @@ body {
   color: #225e8c;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 16px;
-  font-size: 2rem;
-  /*** FONT-FACE ***/
   line-height: 24px;
-  line-height: 3rem;
-  /*** BREAKPOINTS ***/
   font-weight: 400;
   min-height: 100%;
+}
+a {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: white;
+  text-decoration: none;
 }
 nav.navbar {
   background-color: #ff5d47;
@@ -580,18 +581,139 @@ nav.navbar {
   left: 0;
   position: fixed;
   /*** FONT-SIZE ***/
-  width: 10%;
+  width: 100%;
   height: 100vh;
   border-radius: 0;
+  border: 0;
   overflow-x: hidden;
   overflow-y: hidden;
   padding: 20px 0 2px;
+  /*** ANIMATIONS - KEYFRAMES ***/
 }
-nav.navbar .navbar-brand {
+nav.navbar .navbar {
+  border: 0;
+}
+@media (min-width: 50em) {
+  nav.navbar {
+    width: 10%;
+  }
+}
+nav.navbar .container-fluid {
+  /*** ANIMATIONS - KEYFRAMES ***/
+}
+@media (min-width: 50em) {
+  nav.navbar .container-fluid {
+    display: none;
+  }
+}
+nav.navbar ul {
+  /*** ANIMATIONS - KEYFRAMES ***/
+}
+nav.navbar ul.left-block {
+  border-top: 1px solid rgba(237, 237, 199, 0.09);
+}
+@media (min-width: 50em) {
+  nav.navbar ul {
+    float: none;
+  }
+}
+nav.navbar ul li {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(237, 237, 199, 0.11);
+  font-style: italic;
+  text-align: left;
+}
+nav.navbar ul li a {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  padding: 0;
+  outline: 0;
+}
+nav.navbar ul li a:focus, nav.navbar ul li a:hover, nav.navbar ul li a.active {
+  outline: 0;
+  background-color: transparent;
+}
+nav.navbar ul li.home {
   background-image: url("/img/layout/logo.svg");
-  background-size: auto 100%;
+  background-size: 50px;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 80px;
+  position: relative;
+}
+nav.navbar ul li.home a {
+  display: block;
+  /*** ANIMATIONS - KEYFRAMES ***/
+}
+@media (min-width: 50em) {
+  nav.navbar ul li.home a {
+    display: none;
+  }
+}
+nav.navbar ul li:hover, nav.navbar ul li:focus, nav.navbar ul li.active {
+  background-color: #036d70;
+}
+nav.navbar ul li:hover.news, nav.navbar ul li:focus.news, nav.navbar ul li.active.news {
+  background-color: #8278b3;
+}
+nav.navbar ul li:hover.events, nav.navbar ul li:focus.events, nav.navbar ul li.active.events {
+  background-color: #4eaacf;
+}
+nav.navbar ul li:hover.galleries, nav.navbar ul li:focus.galleries, nav.navbar ul li.active.galleries {
+  background-color: #e389e8;
 }
 nav.navbar a {
   color: rgba(255, 255, 255, 0.85);
+}
+.search {
+  top: 20;
+  right: 5;
+  bottom: auto;
+  left: auto;
+  position: absolute;
+  /*** FIXED POSITIONING ***/
+  width: 100%;
+  padding-right: 20px;
+}
+.input-search {
+  width: 40%;
+  height: 30px;
+  float: right;
+  border: 0px solid black;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.49);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 0px;
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -ms-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
+  /*** ***/
+  /*** ***/
+  /*** ***/
+  /*** ***/
+}
+.input-search:hover, .input-search:focus {
+  background-color: white;
+}
+.bot-o-submit-search {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  width: 17px;
+  height: 20px;
+  margin-right: 20px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url(/img/layout/search.svg);
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  line-height: 19px;
+  text-align: center;
 }

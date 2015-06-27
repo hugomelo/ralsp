@@ -58,10 +58,10 @@ echo $this->Bl->shtml(array(
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 ';
 	} else {
-		echo '<link href="css/bootstrap.min.css" rel="stylesheet">';
-		echo '<link href="css/bootstrap-theme.css" rel="stylesheet">';
-		echo'<script src="js/jquery.min.js"></script>';
-		echo '<script src="js/bootstrap.min.js"></script>';
+		echo '<link href="/css/bootstrap.min.css" rel="stylesheet">';
+		//echo '<link href="/css/bootstrap-theme.css" rel="stylesheet">';
+		echo'<script src="/js/jquery.min.js"></script>';
+		echo '<script src="/js/bootstrap.min.js"></script>';
 	}
 
 		echo $this->Decorator->css('/css/default.css');
