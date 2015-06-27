@@ -65,7 +65,7 @@ Configure::write('Config.language', 'por');
 			'viewUrl' => array('action' => 'read'),
 			'humanName' => __('MODULE MexcNew human name', true),
 			'plugged' => array('dashboard','backstage','factory'),
-			'fact_name' => __d('fact_site', 'Blog', true),
+			'fact_name' => __d('fact_site', 'Notícias', true),
 			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
 			'permissions' => array(
 				'delete' => array('backstage_delete_item', 'new'), 
@@ -76,26 +76,12 @@ Configure::write('Config.language', 'por');
 				'view' => array('backstage_view_item', 'new'),
 			),
 		),
-		'scientific_news' => array(
-			'model' => 'MexcScientificNews.MexcScientificNew',
-			'viewUrl' => false,
-			'humanName' => __('MODULE MexcScientificNew human name', true),
-			'plugged' => array('dashboard','backstage'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'scientific_new'), 
-				'edit_draft' => array('backstage_edit_draft', 'scientific_new'),
-				'edit_published' => array('backstage_edit_published', 'scientific_new'),
-				'create' => array('backstage_edit_draft', 'scientific_new'),
-				'edit_publishing_status' => array('backstage_edit_publishing_status', 'scientific_new'),
-				'view' => array('backstage_view_item', 'scientific_new'),
-			),
-		),
 		'event' => array(
 			'model' => 'MexcEvents.MexcEvent',
 			'viewUrl' => array('controller' => 'mexc_events', 'action' => 'read'),
 			'humanName' => __('MODULE MexcEvent human name', true),
 			'plugged' => array('dashboard','backstage','factory'),
-			'fact_name' => __d('fact_site', 'Agenda de eventos', true),
+			'fact_name' => __d('fact_site', 'Eventos', true),
 			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
 			'permissions' => array(
 				'delete' => array('backstage_delete_item', 'event'), 
@@ -139,70 +125,10 @@ Configure::write('Config.language', 'por');
 			),
 		),
 		
-	//Subscriptions admin
-		'sui_user' => array(
-			'model' => 'Sui.SuiUser',
-			'humanName' => __('MODULE SuiUser human name', true),
-			'plugged' => array('backstage', 'backstage_custom'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'sui_edit_user'), 
-				'edit' => array('backstage_edit_published', 'sui_edit_user'),
-				'create' => array('backstage_edit_draft', 'sui_edit_user'),
-				'view' => array('backstage_view_item', 'sui_user'),
-			),
-		),
-		'sui_institution' => array(
-			'model' => 'Sui.SuiInstitution',
-			'humanName' => __('MODULE SuiInstitution human name', true),
-			'plugged' => array('backstage', 'backstage_custom'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'sui_edit_institution'), 
-				'edit' => array('backstage_edit_published', 'sui_edit_institution'),
-				'create' => array('backstage_edit_draft', 'sui_edit_institution'),
-				'view' => array('backstage_view_item', 'sui_institution'),
-			),
-		),
-		'sui_subscription' => array(
-			'model' => 'Sui.SuiSubscription',
-			'humanName' => __('MODULE SuiSubscription human name', true),
-			'fact_name' => __d('fact_site', 'Inscrição', true),
-			'plugged' => array('backstage', 'backstage_custom', 'factory'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'sui_edit_subscription'), 
-				'edit' => array('backstage_edit_published', 'sui_edit_subscription'),
-				'create' => array('backstage_edit_draft', 'sui_edit_subscription'),
-				'view' => array('backstage_view_item', 'sui_subscription'),
-			),
-		),
-		'sui_application' => array(
-			'model' => 'Sui.SuiApplication',
-			'humanName' => __('MODULE SuiApplication human name', true),
-			'plugged' => array('backstage', 'backstage_custom'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'sui_edit_application'), 
-				'edit' => array('backstage_edit_published', 'sui_edit_application'),
-				'create' => array('backstage_edit_draft', 'sui_edit_application'),
-				'view' => array('backstage_view_item', 'sui_application'),
-			),
-		),
-		
-	// Mojo queues
-		'mojo_queue' => array(
-			'model' => 'Mojo.MojoQueue',
-			'humanName' => __('MODULE MojoQueue human name', true),
-			'plugged' => array('backstage', 'backstage_custom'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'mojo_queues'), 
-				'edit' => array('backstage_edit_published', 'mojo_queues'),
-				'create' => array('backstage_edit_draft', 'mojo_queues'),
-				'view' => array('backstage_view_item', 'mojo_queues'),
-			),
-		),
-		
 	// Structure modules
 		'factory' => array(
 			'model' => 'SiteFactory.FactSite',
-			'humanName' => __('MODULE FactSite human name', true),
+			'humanName' => __('Projeto', true),
 			'plugged' => array('dashboard','backstage'),
 			'permissions' => array(
 				'delete' => array('backstage_delete_item', 'factory'), 
@@ -233,37 +159,6 @@ Configure::write('Config.language', 'por');
 		),
 	
 	
-	// Factory only modules
-		'lecture' => array(
-			'model' => 'MexcLectures.MexcLecture',
-			'humanName' => __('MODULE MexcLecture human name', true),
-			'plugged' => array('dashboard','backstage','factory'),
-			'fact_name' => __d('fact_site', 'Palestras', true),
-			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'lecture'), 
-				'edit_draft' => array('backstage_edit_draft', 'lecture'),
-				'edit_published' => array('backstage_edit_published', 'lecture'),
-				'create' => array('backstage_edit_draft', 'lecture'),
-				'edit_publishing_status' => array('backstage_edit_publishing_status', 'lecture'),
-				'view' => array('backstage_view_item', 'lecture'),
-			),
-		),
-		'speaker' => array(
-			'model' => 'MexcLectures.MexcSpeaker',
-			'humanName' => __('MODULE MexcSpeaker human name', true),
-			'plugged' => array('dashboard','backstage','factory'),
-			'fact_name' => __d('fact_site', 'Palestrantes', true),
-			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'speaker'), 
-				'edit_draft' => array('backstage_edit_draft', 'speaker'),
-				'edit_published' => array('backstage_edit_published', 'speaker'),
-				'create' => array('backstage_edit_draft', 'speaker'),
-				'edit_publishing_status' => array('backstage_edit_publishing_status', 'speaker'),
-				'view' => array('backstage_view_item', 'speaker'),
-			),
-		),
 		'contact' => array(
 			'model' => 'MexcContacts.MexcContact',
 			'humanName' => __('MODULE MexcContact human name', true),
@@ -294,28 +189,6 @@ Configure::write('Config.language', 'por');
 				'view' => array('backstage_view_item', 'static_page'),
 			),
 		),
-		'digital_collection' => array(
-			'model' => 'MexcDigitalCollections.MexcDigitalCollection',
-			'viewUrl' => array('action' => 'read'),
-			'humanName' => __('MODULE MexcDigitalCollection human name', true),
-			'plugged' => array('dashboard','backstage','factory'),
-			'fact_name' => __d('fact_site', 'Digital Collection', true),
-			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
-			'permissions' => array(
-				'delete' => array('backstage_delete_item', 'digital_collection'), 
-				'edit_draft' => array('backstage_edit_draft', 'digital_collection'),
-				'edit_published' => array('backstage_edit_published', 'digital_collection'),
-				'create' => array('backstage_edit_draft', 'digital_collection'),
-				'edit_publishing_status' => array('backstage_edit_publishing_status', 'digital_collection'),
-				'view' => array('backstage_view_item', 'digital_collection'),
-			),
-		),
-		'mojo' => array(
-			'model' => 'Mojo.Mojo',
-			'humanName' => __('MODULE Mojo human name', true),
-			'plugged' => array('backstage','factory'),
-			'fact_name' => __d('fact_site', 'Mojo', true),
-		),
 		
 	// Corktile modules
 	
@@ -337,16 +210,6 @@ Configure::write('Config.language', 'por');
 				'edit' => array('backstage_edit_published', 'corktile'),
 				'view' => array('backstage_view_item', 'corktile'),
 			),
-		),
-		'la_poste' => array(
-			'model' => 'LaPoste.LpLetter',
-			'humanName' => __d('la_poste', 'LaPoste human name', true),
-			'plugged' => array('backstage_custom')
-		),
-		'lp_copy' => array(
-			'model' => 'LaPoste.LpCopy',
-			'humanName' => __d('la_poste', 'LpCopy human name', true),
-			'plugged' => array('backstage_custom')
 		),
 	
 	//admin user sections
