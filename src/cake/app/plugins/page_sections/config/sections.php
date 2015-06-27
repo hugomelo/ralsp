@@ -103,7 +103,7 @@ $sections = array(
 		),
 		'display' => false,
 		'subSections' => array(
-			'museum' => array(
+			'rede' => array(
 				'linkCaption' => __('Sections: museum linkCaption', true),
 				'pageTitle'   => array(__('Sections: museum pageTitle', true)),
 				'url' => array(
@@ -113,18 +113,18 @@ $sections = array(
 				),
 				'subSections' => array(
 					'home' => array(
-						'linkCaption' => __('Sections: home linkCaption', true),
-						'humanName'   => __('Sections: home humanName', true),
-						'pageTitle'   => array(null, __('Sections: home pageTitle', true)),
+						'linkCaption' => __('home', true),
+						'humanName'   => __('home', true),
+						'pageTitle'   => array(null, __('home', true)),
 						'url' => array(
 							'plugin' => false,
 							'controller' => 'main',
 							'action' => 'index'
 						),
 					),
-					'mexc_news' => array(
-						'linkCaption' => __('Sections: mexc_news linkCaption', true),
-						'pageTitle'   => array(null, __('Sections: mexc_news pageTitle', true)),
+					'news' => array(
+						'linkCaption' => __('Novidades', true),
+						'pageTitle'   => array(null, __('Novidades', true)),
 						'url' => array(
 							'plugin' => 'mexc_news',
 							'controller' => 'mexc_news',
@@ -152,9 +152,9 @@ $sections = array(
 							),
 						),
 					),
-					'mexc_events' => array(
-						'linkCaption' => __('Sections: mexc_events linkCaption', true),
-						'pageTitle'   => array(null, __('Sections: mexc_events pageTitle', true)),
+					'events' => array(
+						'linkCaption' => __('Agenda', true),
+						'pageTitle'   => array(null, __('Agenda', true)),
 						'url' => array(
 							'plugin' => 'mexc_events',
 							'controller' => 'mexc_events',
@@ -162,8 +162,8 @@ $sections = array(
 						),
 						'subSections' => array(
 							'index' => array(
-								'linkCaption' => __('Sections: mexc_events index linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_events index pageTitle', true)),
+								'linkCaption' => __('Agenda', true),
+								'pageTitle'   => array(null, null, __('Agenda', true)),
 								'url' => array(
 									'plugin' => 'mexc_events',
 									'controller' => 'mexc_events',
@@ -171,8 +171,8 @@ $sections = array(
 								),
 							),
 							'item' => array(
-								'linkCaption' => __('Sections: mexc_events item linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_events item pageTitle', true)),
+								'linkCaption' => __('Agenda', true),
+								'pageTitle'   => array(null, null, __('Agenda', true)),
 								'jj_module'   => 'event',
 								'url' => array(
 									'plugin' => 'mexc_events',
@@ -182,9 +182,9 @@ $sections = array(
 							),
 						),
 					),
-					'mexc_galleries' => array(
-						'linkCaption' => __('Sections: mexc_galleries linkCaption', true),
-						'pageTitle'   => array(null, __('Sections: mexc_galleries pageTitle', true)),
+					'galleries' => array(
+						'linkCaption' => __('Galeria', true),
+						'pageTitle'   => array(null, __('Galeria', true)),
 						'url' => array(
 							'plugin' => 'mexc_galleries',
 							'controller' => 'mexc_galleries',
@@ -192,8 +192,8 @@ $sections = array(
 						),
 						'subSections' => array(
 							'index' => array(
-								'linkCaption' => __('Sections: mexc_galleries index linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_galleries index pageTitle', true)),
+								'linkCaption' => __('Galeria', true),
+								'pageTitle'   => array(null, null, __('Galeria', true)),
 								'url' => array(
 									'plugin' => 'mexc_galleries',
 									'controller' => 'mexc_galleries',
@@ -201,8 +201,8 @@ $sections = array(
 								),
 							),
 							'item' => array(
-								'linkCaption' => __('Sections: mexc_galleries item linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_galleries item pageTitle', true)),
+								'linkCaption' => __('Galeria', true),
+								'pageTitle'   => array(null, null, __('Galeria', true)),
 								'jj_module'   => 'gallery',
 								'url' => array(
 									'plugin' => 'mexc_galleries',
@@ -212,9 +212,10 @@ $sections = array(
 							),
 						),
 					),
-					'mexc_documents' => array(
-						'linkCaption' => __('Sections: mexc_documents linkCaption', true),
-						'pageTitle'   => array(null, __('Sections: mexc_documents pageTitle', true)),
+					'documents' => array(
+						'linkCaption' => __('Biblioteca', true),
+						'pageTitle'   => array(null, __('Biblioteca', true)),
+						'collapse' => true,
 						'url' => array(
 							'plugin' => 'mexc_documents',
 							'controller' => 'mexc_documents',
@@ -222,8 +223,8 @@ $sections = array(
 						),
 						'subSections' => array(
 							'index' => array(
-								'linkCaption' => __('Sections: mexc_documents index linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_documents index pageTitle', true)),
+								'linkCaption' => __('Biblioteca', true),
+								'pageTitle'   => array(null, null, __('Biblioteca', true)),
 								'url' => array(
 									'plugin' => 'mexc_documents',
 									'controller' => 'mexc_documents',
@@ -231,8 +232,8 @@ $sections = array(
 								),
 							),
 							'item' => array(
-								'linkCaption' => __('Sections: mexc_documents item linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_documents item pageTitle', true)),
+								'linkCaption' => __('Biblioteca', true),
+								'pageTitle'   => array(null, null, __('Biblioteca', true)),
 								'jj_module'   => 'document',
 								'url' => array(
 									'plugin' => 'mexc_documents',
@@ -242,114 +243,65 @@ $sections = array(
 							),
 						),
 					),
-					'mexc_about' => array(
-						'linkCaption' => __('Sections: mexc_about linkCaption', true),
-						'pageTitle'   => array(null, __('Sections: mexc_about pageTitle', true)),
+					'fact_sites' => array(
+						'linkCaption' => __('Projetos', true),
+						'pageTitle' => array(null,__('Projetos', true)),
+						'url' => array(
+							'plugin' => 'site_factory',
+							'controller' => 'fact_sites',
+							'action' => 'all_sites'
+						),
+					),
+					'about' => array(
+						'linkCaption' => __('Sobre', true),
+						'pageTitle'   => array(null, __('Sobre', true)),
+						'collapse' => true,
 						'url' => array(
 							'plugin' => 'mexc_about',
 							'controller' => 'mexc_about',
-							'action' => 'museum'
+							'action' => 'rede'
 						),
 						'subSections' => array(
-							'museum' => array(
-								'linkCaption' => __('Sections: mexc_about museu linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_about museu pageTitle', true)),
+							'rede' => array(
+								'linkCaption' => __('Sobre', true),
+								'pageTitle'   => array(null, null, __('Sobre', true)),
 								'url' => array(
 									'plugin' => 'mexc_about',
 									'controller' => 'mexc_about',
-									'action' => 'museum'
+									'action' => 'rede'
 								),
 							),
-							'staff' => array(
-								'linkCaption' => __('Sections: mexc_about staff linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_about staff pageTitle', true)),
-								'url' => array(
-									'plugin' => 'mexc_about',
-									'controller' => 'mexc_about',
-									'action' => 'staff'
-								),
-							),
-							'history' => array(
-								'linkCaption' => __('Sections: mexc_about history linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_about history pageTitle', true)),
-								'url' => array(
-									'plugin' => 'mexc_about',
-									'controller' => 'mexc_about',
-									'action' => 'history'
-								),
-							),
-							'site_map' => array(
-								'linkCaption' => __('Sections: mexc_about site_map linkCaption', true),
-								'pageTitle'   => array(null, null, __('Sections: mexc_about site_map pageTitle', true)),
-								'display' => false,
-								'url' => array(
-									'plugin' => 'mexc_about',
-									'controller' => 'mexc_about',
-									'action' => 'site_map'
-								),
-							),
+							//'staff' => array(
+								//'linkCaption' => __('Sections: mexc_about staff linkCaption', true),
+								//'pageTitle'   => array(null, null, __('Sections: mexc_about staff pageTitle', true)),
+								//'url' => array(
+									//'plugin' => 'mexc_about',
+									//'controller' => 'mexc_about',
+									//'action' => 'staff'
+								//),
+							//),
+							//'history' => array(
+								//'linkCaption' => __('Sections: mexc_about history linkCaption', true),
+								//'pageTitle'   => array(null, null, __('Sections: mexc_about history pageTitle', true)),
+								//'url' => array(
+									//'plugin' => 'mexc_about',
+									//'controller' => 'mexc_about',
+									//'action' => 'history'
+								//),
+							//),
+							//'site_map' => array(
+								//'linkCaption' => __('Sections: mexc_about site_map linkCaption', true),
+								//'pageTitle'   => array(null, null, __('Sections: mexc_about site_map pageTitle', true)),
+								//'display' => false,
+								//'url' => array(
+									//'plugin' => 'mexc_about',
+									//'controller' => 'mexc_about',
+									//'action' => 'site_map'
+								//),
+							//),
 						)
 					)
 				),
-			),
-			'fact_sites' => array(
-				'linkCaption' => __('Sections: fact_sites linkCaption', true),
-				'pageTitle' => array(null,__('Sections: fact_sites pageTitle',true)),
-				'url' => array(
-					'plugin' => 'site_factory',
-					'controller' => 'fact_sites',
-					'action' => 'all_sites'
-				),
-				'subSections' => array(
-					'gd' => array(
-						'linkCaption' => 'Grande Desafio',
-						'url' => array('plugin' => 'grandedesafio', 'controller' => 'grandedesafio', 'action' => 'index'),
-						'display' => false,
-						'subSections' => array(
-							'sobre' => array(
-								'linkCaption' => 'Sobre o Grande Desafio',
-							),
-							'edicoes' => array(
-								'linkCaption' => 'Todas as edições'
-							),
-							'gd_3' => array(
-								'linkCaption' => '3ª Edição'
-							),
-							'gd_4' => array(
-								'linkCaption' => '4ª Edição'
-							),
-							'gd_5' => array(
-								'linkCaption' => '5ª Edição'
-							),
-							'gd_6' => array(
-								'linkCaption' => '6ª Edição'
-							),
-						)
-					),
-					'olimpiada' => array(
-						'linkCaption' => 'Olimpíada',
-						'url' => array('plugin' => 'olimpiada', 'controller' => 'inicio', 'action' => 'index'),
-						'display' => false,
-						'subSections' => array(
-							'olimpiada_2' => array(
-								'linkCaption' => '2ª Edição'
-							),
-							'olimpiada_4' => array(
-								'linkCaption' => '4ª Edição'
-							),
-						)
-					),
-					'olimpiada_velha' => array(
-						'linkCaption' => 'Olimpíada',
-						'url' => array('plugin' => 'olimpiada_velha', 'controller' => 'inicio', 'action' => 'index'),
-						'display' => false,
-						'subSections' => array(
-							'olimpiada_1' => array(
-								'linkCaption' => '1ª Edição'
-							),
-						)
-					)
-				)
 			),
 			'public_sui_stuff' => array(
 				'linkCaption' => ' ',
@@ -483,7 +435,7 @@ $sections = array(
 			'login' => array(
 				'linkCaption' => __('Sections: login linkCaption', true),
 				'url' => array(
-					'plugin' => 'JjUsers',
+					'plugin' => 'jj_users',
 					'controller' => 'user_users',
 					'action' => 'login'
 				),
@@ -504,23 +456,13 @@ $sections = array(
 				'headerCaption' => __('Sections: dashboard headerCaption', true),
 				'humanName' => __('Sections: dashboard humanName',true),
 			),
-			'la_poste' => array(
-				'linkCaption' => __('Sections: la_poste linkCaption', true),
-				'pageTitle' => array(null, __('Sections: la_poste pageTitle',true)),
-				'headerCaption' => __('Sections: la_poste headerCaption', true),
-				'humanName' => __('Sections: la_poste humanName',true),
-				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index', 'la_poste'),
-				'permissions' => array('backstage', 'la_poste'),
-				'subSections' => array(
-					'la_poste_edit' => array(
-						'linkCaption' => __('Sections: la_poste_edit linkCaption', true),
-						'pageTitle' => array(null, __('Sections: la_poste_edit pageTitle',true)),
-						'headerCaption' => __('Sections: la_poste_edit headerCaption', true),
-						'humanName' => __('Sections: la_poste_edit humanName',true),
-						'url' => array('plugin' => 'la_poste', 'controller' => 'back_contents', 'action' => 'edit', 'la_poste'),
-						'permissions' => array('backstage', 'la_poste'),
-					)
-				)
+			'projects' => array(
+				'linkCaption' => __('Projetos', true),
+				'pageTitle' => array(null, __('Projetos',true)),
+				'headerCaption' => __('Projetos', true),
+				'humanName' => __('Projetos',true),
+				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index'),
+				'permissions' => array('backstage', 'user_list'),
 			),
 			'preferences' => array(
 				'linkCaption' => __('Sections: preferences linkCaption', true),
@@ -1011,11 +953,11 @@ $sectionMap = array(
 	// Main site
 	array(
 		'rule' => array('controller' => 'main', 'action' => 'index'),
-		'location' => array('public_page', 'museum', 'home'),
+		'location' => array('public_page', 'rede', 'home'),
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_news', 'controller' => 'mexc_news'),
-		'location' => array('public_page', 'museum', 'mexc_news'),
+		'location' => array('public_page', 'rede', 'news'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
@@ -1025,7 +967,7 @@ $sectionMap = array(
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_documents', 'controller' => 'mexc_documents'),
-		'location' => array('public_page', 'museum', 'mexc_documents'),
+		'location' => array('public_page', 'rede', 'documents'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
@@ -1035,7 +977,7 @@ $sectionMap = array(
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_events', 'controller' => 'mexc_events'),
-		'location' => array('public_page', 'museum', 'mexc_events'),
+		'location' => array('public_page', 'rede', 'events'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
@@ -1045,7 +987,7 @@ $sectionMap = array(
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries'),
-		'location' => array('public_page', 'museum', 'mexc_galleries'),
+		'location' => array('public_page', 'rede', 'galleries'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
@@ -1055,7 +997,7 @@ $sectionMap = array(
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_digital_collections', 'controller' => 'mexc_digital_collections'),
-		'location' => array('public_page', 'museum', 'mexc_digital_collections'),
+		'location' => array('public_page', 'rede', 'digital_collections'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
@@ -1067,11 +1009,11 @@ $sectionMap = array(
 	// About
 	array(
 		'rule' => array('plugin' => 'mexc_about'),
-		'location' => array('public_page', 'museum', 'mexc_about'),
+		'location' => array('public_page', 'rede', 'about'),
 		'subRules' => array(
 			array(
-				'rule' => array('action' => 'museum'),
-				'location' => array(null,null,null,'museum')
+				'rule' => array('action' => 'rede'),
+				'location' => array(null,null,null,'rede')
 			),
 			array(
 				'rule' => array('action' => 'staff'),
