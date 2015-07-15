@@ -98,14 +98,17 @@
 
 /*** BREAKPOINTS ***/
 @mixin breakpoint($point) {
+  $screen-lg-min: 1200px;
+  $screen-md-min: 992px;
+  $screen-sm-min: 768px;
   @if $point == large {
-    @media (min-width: 64.375em) { @content; }
+    @media (min-width: $screen-lg-min) { @content; }
   }
   @else if $point == medium {
-    @media (min-width: 50em) { @content; }
+    @media (min-width: $screen-md-min) { @content; }
   }
   @else if $point == small {
-    @media (min-width: 37.5em)  { @content; }
+    @media (min-width: $screen-sm-min)  { @content; }
   }
 }
 

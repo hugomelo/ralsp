@@ -501,6 +501,54 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 		return "$month $year";
 	}
 
+	function menuBt($htmlAttr = array(), $options = array())
+	{
+		$p = $this->projectsMenu();
+		$content = '
+			<div class="sidebar-nav">
+				  <nav class="navbar">
+					<div class="navbar">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>';
+					  $content .= '<ul class="nav">
+						<li class="home active"><a href="/">home</a></li>
+						<li class="news"><a href="/novidades">Novidades</a></li>
+						<li class="events"><a href="/eventos">Agenda</a></li>
+						<li class="galleries"><a href="/fotos">Galeria</a></li>
+						<li class="projects"><a href="/projects">Projetos</a>'.$p.'</li>
+					  </ul>';
+
+		$content .= '</div>
+					<div class="navbar-collapse collapse sidebar-navbar-collapse">
+					  <ul class="nav navbar-nav">
+						<li class=""><a href="/biblioteca">Biblioteca</a></li>
+						<li><a href="/files">Arquivos</a></li>
+						<li><a href="/produtores">Produtores</a></li>
+						<li><a href="/about">Sobre</a></li>
+						<li><a href="http://facebook.com">Facebook</a></li>
+					  </ul>
+					</div><!--/.nav-collapse -->
+				  </div>
+				</div>
+			';
+		return $content;
+	}
+	function projectsMenu() {
+		$space = ClassRegistry::init('SiteFactory.FactSite');
+		$projects = $space->listSites(); 
+		$p =  '<ul class="nav navbar-nav project-list" >';
+		foreach($projects as $project) {
+			$p .= '<li>'.$this->anchor(array(), array('url' => array(
+				'plugin' => 'site_factory', 'controller' => 'fact_sites',
+				'action' => 'index', 'space' => $project['FactSite']['mexc_space_id'])), $project['FactSite']['name']).'</li>';
+		}
+		$p .= '</ul>';
+		return $p;
+	}
 /**
  * Creates a menu, given the menuLevel desired, and some options. It uses menuItem(), for each menuItem.
  * 
@@ -509,7 +557,7 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
  * @param array $options
  * @return string
  */
-	function menuBt($htmlAttr = array(), $options = array())
+	function menuBtOld($htmlAttr = array(), $options = array())
 	{
 		$options += array(
 			'menuLevel' => 0,
@@ -552,15 +600,6 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 					$fixedItems[] = $this->menuItem(array(), compact('sectionName','sectionSettings','writeCaptions','specificClasses','menuLevel','hiddenCaptions'));
 				}
 		}
-		$space = ClassRegistry::init('SiteFactory.FactSite');
-		$projects = $space->listSites(); 
-		$p =  '<ul class="dropdown-menu">';
-		foreach($projects as $project) {
-			$p .= '<li>'.$this->anchor(array(), array('url' => array(
-				'plugin' => 'site_factory', 'controller' => 'fact_sites',
-				'action' => 'index', 'space' => $project['FactSite']['mexc_space_id'])), $project['FactSite']['name']).'</li>';
-		}
-		$p .= '</ul>';
 
 		$content = $this->sdiv(array('class' => 'navbar'), array());
 			$content .= '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
@@ -572,7 +611,7 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 				foreach($fixedItems as $item) {
 					if (strpos($item,'Projetos')>0) {
 						$content .= '<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projetos<span class="caret"></span></a>'.$p.'</li>';
+						<a href="#" class="project-dropdown">Projetos</a>'.$p.'</li>';
 					} else
 						$content .= $item;
 				}

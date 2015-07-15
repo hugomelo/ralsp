@@ -168,8 +168,9 @@ class TypeBricklayerHelper extends AppHelper
 				$can = $this->JjAuth->can($sectionSettings['permissions']);
 			}
 			
-			if ($can && $sectionSettings['active'] && $sectionSettings['display'])
+			if ($can && $sectionSettings['active'] && $sectionSettings['display']) {
 				$items[] = $this->menuItem(array(), compact('sectionName','sectionSettings','writeCaptions','specificClasses','menuLevel','hiddenCaptions'));
+			}
 		}
 		return $this->tag($wrapTag, $htmlAttr, array('close_me' => false), implode("\n", $items));
 	}
