@@ -44,37 +44,9 @@
 /**
  * Connects /olimpiada to the old (but intregrate) schema of olimpiada 
  */
-	Router::connect('/olimpiada/:action/*', array('controller' => 'olimpiada', 'plugin' => 'olimpiada'));
+	Router::connect('/novidades',	array('plugin' => 'mexc_news', 'controller' => 'mexc_news'));
 	
 	
-/**
- * Connects /grandedesafio to the old (but intregrate) schema of grandedesafio 
- */
-	Router::connect('/grandedesafio/:action/*', array('controller' => 'grandedesafio', 'plugin' => 'grandedesafio'));
-
-// hack temporaria pra desviar a primeira olimpiada das alterações feitas no plugin
-	Router::connect('/1-olimpiada/:controller/:action/*', array('plugin' => 'olimpiada_velha', 'edicao' => 1));
-	Router::connect('/1-olimpiada/*', array('plugin' => 'olimpiada_velha', 'edicao' => 1, 'controller' => 'inicio'));
-	Router::connect('/admin/1-olimpiada/:controller/:action/*', array('plugin' => 'olimpiada_velha', 'edicao' => 1, 'admin' => true));
-
-	Router::connect('/4-olimpiada/:controller/:action/*', array('plugin' => 'olimpiada_quatro', 'edicao' => 4));
-	Router::connect('/4-olimpiada/*', array('plugin' => 'olimpiada_quatro', 'edicao' => 4, 'controller' => 'inicio'));
-
-/**
- * Connects /5-grandedesafio or 2-olimpiada passing the edicao param
- */
-
-	Router::connect(
-		"/:edicao-:plugin/:controller/:action/*",
-		array('controller' => 'inicio'),
-		array('plugin' => 'grandedesafio|olimpiada', 'edicao' => '[0-9]+')
-	);
-	
-	Router::connect(
-		"/:edicao-:plugin/*",
-		array('controller' => 'inicio'),
-		array('plugin' => 'grandedesafio|olimpiada', 'edicao' => '[0-9]+')
-	);
 
 /**
  * Connects to /paineladmin (old schema admin of museu, workin for gd and olimpiada)

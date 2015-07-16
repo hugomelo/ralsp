@@ -503,44 +503,72 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 
 	function menuBt($htmlAttr = array(), $options = array())
 	{
-		$p = $this->projectsMenu();
-		$content = '
-			<div class="sidebar-nav">
-				  <nav class="navbar">
-					<div class="navbar">
-					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					  </button>';
-					  $content .= '<ul class="nav">
-						<li class="home active"><a href="/">home</a></li>
-						<li class="news"><a href="/novidades">Novidades</a></li>
-						<li class="events"><a href="/eventos">Agenda</a></li>
-						<li class="galleries"><a href="/fotos">Galeria</a></li>
-						<li class="projects"><a href="/projects">Projetos</a>'.$p.'</li>
-					  </ul>';
+		$menuLevel = 2;
+		$htmlAttr += array('class' => array('navbar'));
+		
+		$View = ClassRegistry::getObject('view');
+		$ourLocation = $View->getVar('ourLocation');
+		
+		$sections = $View->getVar('pageSections');
+		
+		if (empty($ourLocation))
+		{
+			trigger_error('TypeBricklayerHelper::menu() - Unknown location. Check if you properly filled the $sectionMap on page_section plugin.config.');
+			return false;
+		}
+		
+		for ($i = 0; $i < $menuLevel; $i++)
+		{
+			if (isset($sections[$ourLocation[$i]]['subSections']))
+				$sections = $sections[$ourLocation[$i]]['subSections'];
+			else
+				return false;
+		}
+		
+		$fixedItems = array();
+		$collapsedItems = array();
+		foreach($sections as $sectionName => $sectionSettings)
+		{
+			if ($sectionSettings['active'] && $sectionSettings['display'])
+				if (!empty($sectionSettings['collapse']) && $sectionSettings['collapse']) {
+					$collapsedItems[] = $this->menuItem(array(),
+						compact('sectionName','sectionSettings','writeCaptions','specificClasses','menuLevel','hiddenCaptions'));
+				} else {
+					$append = '';
+					if ($sectionName == 'fact_sites')
+						$append = $this->projectsMenu();
+					elseif ($sectionName == 'home')
+						$sectionSettings['linkCaption'] = $this->spanDry($sectionSettings['linkCaption']);
 
-		$content .= '</div>
-					<div class="navbar-collapse collapse sidebar-navbar-collapse">
-					  <ul class="nav navbar-nav">
-						<li class=""><a href="/biblioteca">Biblioteca</a></li>
-						<li><a href="/files">Arquivos</a></li>
-						<li><a href="/produtores">Produtores</a></li>
-						<li><a href="/about">Sobre</a></li>
-						<li><a href="http://facebook.com">Facebook</a></li>
-					  </ul>
-					</div><!--/.nav-collapse -->
-				  </div>
-				</div>
-			';
-		return $content;
+					$fixedItems[] = $this->menuItem(array(),
+						compact('sectionName','sectionSettings','writeCaptions','specificClasses','menuLevel','hiddenCaptions'), $append);
+				}
+		}
+
+		$content = $this->sdiv(array('class' => 'navbar'), array());
+			$content .= '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+							<span class="sr-only">abrir/fechar menu</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span> </button>';
+
+			$content .= $this->sul(array('class' => 'nav'), array());
+				$content .= implode("\n", $fixedItems);
+			$content .= $this->eul();
+		$content .= $this->ediv(); // closes div.navbar
+
+		$content .= $this->sdiv(array('class'=>"collapse navbar-collapse sidebar-navbar-collapse", 'id'=> "mainNavBar"));
+			$content .= $this->sul(array('class' => 'nav navbar-nav'), array());
+				$content .= implode("\n", $collapsedItems);
+			$content .= $this->eul();
+		$content .= $this->ediv(); //<!-- /.nav-collapse -->
+		return $this->tag('nav', $htmlAttr, array('close_me' => false), $content);
 	}
+
 	function projectsMenu() {
 		$space = ClassRegistry::init('SiteFactory.FactSite');
 		$projects = $space->listSites(); 
-		$p =  '<ul class="nav navbar-nav project-list" >';
+		$p =  '<ul class="nav project-list" >';
 		foreach($projects as $project) {
 			$p .= '<li>'.$this->anchor(array(), array('url' => array(
 				'plugin' => 'site_factory', 'controller' => 'fact_sites',
@@ -635,7 +663,7 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
  * @param array $options
  * @return string
  */
-	function menuItem($htmlAttr = array(), $options = array())
+	function menuItem($htmlAttr = array(), $options = array(), $append='')
 	{
 
 		$View = ClassRegistry::getObject('view');
@@ -666,7 +694,7 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 		if ($hiddenCaptions)
 			$content = $this->hiddenSpanDry($content);
 		
-		return $this->li($htmlAttr, array(), $this->anchor(array(), $anchorOptions, $content));
+		return $this->li($htmlAttr, array(), $this->anchor(array(), $anchorOptions, $content).$append);
 	}
 
 }

@@ -126,29 +126,20 @@ $sections = array(
 						'linkCaption' => __('Novidades', true),
 						'pageTitle'   => array(null, __('Novidades', true)),
 						'url' => array(
-							'plugin' => 'mexc_news',
-							'controller' => 'mexc_news',
-							'action' => 'index'
-						),
+							'plugin' => 'mexc_news', 'controller' => 'mexc_news', 'action' => 'index'),
 						'subSections' => array(
 							'index' => array(
 								'linkCaption' => __('Sections: mexc_news index linkCaption', true),
 								'pageTitle'   => array(null, null, __('Sections: mexc_news index pageTitle', true)),
 								'url' => array(
-									'plugin' => 'mexc_news',
-									'controller' => 'mexc_news',
-									'action' => 'index'
-								),
+									'plugin' => 'mexc_news', 'controller' => 'mexc_news', 'action' => 'index'),
 							),
 							'item' => array(
 								'linkCaption' => __('Sections: mexc_news item linkCaption', true),
 								'pageTitle'   => array(null, null, __('Sections: mexc_news item pageTitle', true)),
 								'jj_module'   => 'new',
 								'url' => array(
-									'plugin' => 'mexc_news',
-									'controller' => 'mexc_news',
-									'action' => 'read'
-								),
+									'plugin' => 'mexc_news', 'controller' => 'mexc_news', 'action' => 'read'),
 							),
 						),
 					),
@@ -156,29 +147,20 @@ $sections = array(
 						'linkCaption' => __('Agenda', true),
 						'pageTitle'   => array(null, __('Agenda', true)),
 						'url' => array(
-							'plugin' => 'mexc_events',
-							'controller' => 'mexc_events',
-							'action' => 'index'
-						),
+							'plugin' => 'mexc_events', 'controller' => 'mexc_events', 'action' => 'index'),
 						'subSections' => array(
 							'index' => array(
 								'linkCaption' => __('Agenda', true),
 								'pageTitle'   => array(null, null, __('Agenda', true)),
 								'url' => array(
-									'plugin' => 'mexc_events',
-									'controller' => 'mexc_events',
-									'action' => 'index'
-								),
+									'plugin' => 'mexc_events', 'controller' => 'mexc_events', 'action' => 'index'),
 							),
 							'item' => array(
 								'linkCaption' => __('Agenda', true),
 								'pageTitle'   => array(null, null, __('Agenda', true)),
 								'jj_module'   => 'event',
 								'url' => array(
-									'plugin' => 'mexc_events',
-									'controller' => 'mexc_events',
-									'action' => 'read'
-								),
+									'plugin' => 'mexc_events', 'controller' => 'mexc_events', 'action' => 'read'),
 							),
 						),
 					),
@@ -186,60 +168,20 @@ $sections = array(
 						'linkCaption' => __('Galeria', true),
 						'pageTitle'   => array(null, __('Galeria', true)),
 						'url' => array(
-							'plugin' => 'mexc_galleries',
-							'controller' => 'mexc_galleries',
-							'action' => 'index'
-						),
+							'plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries', 'action' => 'index'),
 						'subSections' => array(
 							'index' => array(
 								'linkCaption' => __('Galeria', true),
 								'pageTitle'   => array(null, null, __('Galeria', true)),
 								'url' => array(
-									'plugin' => 'mexc_galleries',
-									'controller' => 'mexc_galleries',
-									'action' => 'index'
-								),
+									'plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries', 'action' => 'index'),
 							),
 							'item' => array(
 								'linkCaption' => __('Galeria', true),
 								'pageTitle'   => array(null, null, __('Galeria', true)),
 								'jj_module'   => 'gallery',
 								'url' => array(
-									'plugin' => 'mexc_galleries',
-									'controller' => 'mexc_galleries',
-									'action' => 'read'
-								),
-							),
-						),
-					),
-					'documents' => array(
-						'linkCaption' => __('Biblioteca', true),
-						'pageTitle'   => array(null, __('Biblioteca', true)),
-						'collapse' => true,
-						'url' => array(
-							'plugin' => 'mexc_documents',
-							'controller' => 'mexc_documents',
-							'action' => 'index'
-						),
-						'subSections' => array(
-							'index' => array(
-								'linkCaption' => __('Biblioteca', true),
-								'pageTitle'   => array(null, null, __('Biblioteca', true)),
-								'url' => array(
-									'plugin' => 'mexc_documents',
-									'controller' => 'mexc_documents',
-									'action' => 'index'
-								),
-							),
-							'item' => array(
-								'linkCaption' => __('Biblioteca', true),
-								'pageTitle'   => array(null, null, __('Biblioteca', true)),
-								'jj_module'   => 'document',
-								'url' => array(
-									'plugin' => 'mexc_documents',
-									'controller' => 'mexc_documents',
-									'action' => 'read'
-								),
+									'plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries', 'action' => 'read'),
 							),
 						),
 					),
@@ -247,9 +189,37 @@ $sections = array(
 						'linkCaption' => __('Projetos', true),
 						'pageTitle' => array(null,__('Projetos', true)),
 						'url' => array(
-							'plugin' => 'site_factory',
-							'controller' => 'fact_sites',
-							'action' => 'all_sites'
+							'plugin' => 'site_factory', 'controller' => 'fact_sites', 'action' => 'all_sites'
+						),
+					),
+					'documents' => array(
+						'linkCaption' => __('Biblioteca', true),
+						'pageTitle' => array(null,__('Biblioteca', true)),
+						'collapse' => true,
+						'url' => array(
+							'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'),
+						'subSections' => array(
+							'index' => array(
+								'linkCaption' => __('Biblioteca', true),
+								'pageTitle'   => array(null, null, __('Biblioteca', true)),
+								'url' => array(
+									'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'),
+							),
+							'item' => array(
+								'linkCaption' => __('Biblioteca', true),
+								'pageTitle'   => array(null, null, __('Biblioteca', true)),
+								'jj_module'   => 'document',
+								'url' => array(
+									'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'read'),
+							),
+						),
+					),
+					'files' => array(
+						'linkCaption' => __('Arquivos', true),
+						'pageTitle' => array(null,__('Arquivos', true)),
+						'collapse' => true,
+						'url' => array(
+							'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'
 						),
 					),
 					'about' => array(
@@ -257,19 +227,14 @@ $sections = array(
 						'pageTitle'   => array(null, __('Sobre', true)),
 						'collapse' => true,
 						'url' => array(
-							'plugin' => 'mexc_about',
-							'controller' => 'mexc_about',
-							'action' => 'rede'
+							'plugin' => 'mexc_about', 'controller' => 'mexc_about', 'action' => 'rede'
 						),
 						'subSections' => array(
 							'rede' => array(
 								'linkCaption' => __('Sobre', true),
 								'pageTitle'   => array(null, null, __('Sobre', true)),
 								'url' => array(
-									'plugin' => 'mexc_about',
-									'controller' => 'mexc_about',
-									'action' => 'rede'
-								),
+									'plugin' => 'mexc_about', 'controller' => 'mexc_about', 'action' => 'rede'),
 							),
 							//'staff' => array(
 								//'linkCaption' => __('Sections: mexc_about staff linkCaption', true),
@@ -300,6 +265,11 @@ $sections = array(
 								//),
 							//),
 						)
+					),
+					'facebook' => array(
+						'linkCaption' => 'Facebook',
+						'collapse' => true,
+						'url' => 'http://facebook.com'
 					)
 				),
 			),
@@ -981,6 +951,16 @@ $sectionMap = array(
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
+				'location' => array(null, null, null, 'item'),
+			),
+		)
+	),
+	array(
+		'rule' => array('plugin' => 'mexc_documents', 'controller' => 'mexc_files'),
+		'location' => array('public_page', 'rede', 'files'),
+		'subRules' => array(
+			array(
+				'rule' => array ('action' => 'view'),
 				'location' => array(null, null, null, 'item'),
 			),
 		)
