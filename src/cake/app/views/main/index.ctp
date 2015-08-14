@@ -1,5 +1,41 @@
 <?php
 
+echo $this->Bl->srow(array('class' => 'home'));
+	echo $this->Bl->sboxContainer(array('class' => "header col-xs-12"), array());
+		echo $this->Bl->sdiv(array('class' => 'header-data'), array());
+			echo $this->Bl->h1(array(), array(), "Rede de Agroecologia<br>do Leste Paulista e Alta Mogiana");
+			echo $this->Bl->p(array('class' => 'about'), array(), "A Rede Regional de Agroecologia Mantiqueira-Mogiana é formada por agricultores, técnicos e pesquisadores que têm como objetivo comum a busca pelo desenvolvimento e aprimoramento da agricultura de base ecológica.");
+		echo $this->Bl->ediv();
+	echo $this->Bl->eboxContainer();
+
+	echo $this->Bl->sdiv(array('class' => 'projects col-xs-12'));
+		echo $this->Bl->h4Dry("Nossos projetos");
+		$projects = '';
+		echo $this->Bl->sdiv(array('class' => 'project-desc')); {
+			$first = true;
+			foreach ($fact_sites as $site) {
+				$klass = $first ? 'active' : "";
+				$first = false;
+				$site['KLASS'] = $klass;
+				echo $this->Jodel->insertModule('SiteFactory.FactSite', array('mini_preview'), $site);
+				$projects .= $this->Bl->anchor(array('class' => $klass), array(
+						'url' => array('plugin' => 'site_factory', 'controller' => 'fact_sites', 'action' => 'index'),
+						'space' => $site['FactSite']['mexc_space_id']
+					), $site['FactSite']['name']);
+			}
+		} echo $this->Bl->ediv();
+		echo $this->Bl->div(array('class' => 'project-select'), array(), $projects);
+	echo $this->Bl->ediv();
+
+
+
+
+
+
+
+
+echo $this->Bl->erow();
+
 if (!empty($highlighted))
 {
 	echo $this->Bl->h2Dry('destaques');
@@ -17,7 +53,7 @@ if (!empty($three_news))
 	
 		echo $this->Bl->h2Dry('novidades');
 		
-		echo $this->Jodel->insertModule('MexcNews.MexcNew', array('columns', 9), $three_news);
+		//echo $this->Jodel->insertModule('MexcNews.MexcNew', array('columns', 9), $three_news);
 		echo $this->Bl->floatBreak();
 		
 		echo $this->Bl->br();
@@ -26,7 +62,7 @@ if (!empty($three_news))
 		if (!empty($seven_news))
 		{
 			foreach ($seven_news as $new)
-				echo $this->Jodel->insertModule('MexcNews.MexcNew', array('line', 9), $new);
+				//echo $this->Jodel->insertModule('MexcNews.MexcNew', array('line', 9), $new);
 			echo $this->Bl->hr();
 		}
 		echo $this->Bl->anchor(
@@ -48,8 +84,8 @@ if (!empty($fact_sites))
 	echo $this->Bl->sbox(array('id' => 'fact_sites'), array('size' => array('M' => 3, 'g' => -1), 'type' => 'cloud'));
 		echo $this->Bl->h2Dry('programas');
 		
-		foreach ($fact_sites as $site)
-			echo $this->Jodel->insertModule('SiteFactory.FactSite', array('mini_preview'), $site);
+		//foreach ($fact_sites as $site)
+			//echo $this->Jodel->insertModule('SiteFactory.FactSite', array('mini_preview'), $site);
 		
 		echo $this->Bl->sdiv(array('class' => 'links'));
 			echo $this->Bl->anchor(
@@ -143,3 +179,4 @@ if (!empty($gallery))
 		
 	echo $this->Bl->ebox();
 }
+echo "</div>";

@@ -697,4 +697,10 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 		return $this->li($htmlAttr, array(), $this->anchor(array(), $anchorOptions, $content).$append);
 	}
 
+	function srow($htmlAttr = array(), $options = array()) {
+		if (empty($htmlAttr['class']))
+			$htmlAttr['class'] = "";
+		$htmlAttr['class'] .= ' row';
+		return $this->sdiv($htmlAttr, $options);
+	}
 }

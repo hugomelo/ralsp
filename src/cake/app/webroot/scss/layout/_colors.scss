@@ -1,7 +1,7 @@
 $menu-bg: #FF5D47;
 $menu-fg: rgba(255,255,255,0.85);
 
-$fg: #225e8c; 
+$fg: #340a0b; 
 $bg: transparent;
 
 $border-top: rgba(237, 237, 199);
@@ -9,6 +9,8 @@ $border-top-nav: rgba($border-top, 0.09);
 $border-top-li: rgba($border-top, 0.11);
 
 $menu-a: rgba(255, 255, 255, 0.85);
+
+$a-fg: #340a0b;
 
 $active-default: #036d70;
 $news: #8278b3;
@@ -26,4 +28,23 @@ $input-search-bg: rgba(255, 255, 255, 0.49);
 $main-border: #ff5d47;
 
 $h1: #238723;
+$menu-h1: #68ad68;
 $subtitle: #878782;
+
+/* *** PROJECTS BOX *** */
+$projects-box: #ffe587;
+$projects-shadow: rgba(0, 0, 0, 0.09);
+$view-project-border: rgba(0, 0, 0, 0.23); 
+$view-project-bg: #f7d142;
+$view-project-fg: #340a0b;
+$select-project-border: rgba(52, 10, 11, 0.36);
+$select-project-bg: rgba(255, 255, 255, 0.2);
+$select-project-link-bg: rgba(255, 255, 255, 0.29);
+$select-project-link-fg: #340a0b;
+$select-project-link-hover: rgba(247, 247, 237, 0.76);
+$select-project-link-selected-bg: rgba(52, 10, 11, 0.52);
+$select-project-link-selected-fg: #f7f7ed;
+
+$agenda-h1: #0a8d91;
+$news-h1: $news;
+$galleries-h1: $galleries;

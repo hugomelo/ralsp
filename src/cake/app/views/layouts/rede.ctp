@@ -64,6 +64,7 @@ echo $this->Bl->shtml(array(
 		echo '<script src="/js/bootstrap.min.js"></script>';
 	}
 
+		echo $this->Html->script('ralsp');
 		echo $this->Decorator->css('/css/default.css');
 		echo $this->Decorator->css(
 			'instant.css',
@@ -92,5 +93,5 @@ echo $this->Bl->shtml(array(
 		endif;
 	echo $this->Bl->ebody();
 echo $this->Bl->ehtml();
-if (Configure::read('debug') > 0)
-	echo $this->element('sql_dump');
+//if (Configure::read('debug') > 0)
+	//echo $this->element('sql_dump');

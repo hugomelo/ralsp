@@ -84,10 +84,10 @@
 /**
  * Connects the main content
  */
-	Router::connect('/novidades/:action/*', array('plugin' => 'mexc_news', 'controller' => 'mexc_news'));
-	Router::connect('/eventos/:action/*', array('plugin' => 'mexc_events', 'controller' => 'mexc_events'));
-	Router::connect('/documentos/:action/*', array('plugin' => 'mexc_documents', 'controller' => 'mexc_documents'));
-	Router::connect('/fotos/:action/*', array('plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries'));
+	Router::connect('/novidades/*', array('plugin' => 'mexc_news', 'controller' => 'mexc_news', 'action' => 'read'));
+	Router::connect('/eventos/*', array('plugin' => 'mexc_events', 'controller' => 'mexc_events', 'action' => 'read'));
+	Router::connect('/documentos/*', array('plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'read'));
+	Router::connect('/galeria/*', array('plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries', 'action' => 'read'));
 	
 /**
  * Connecting the two responsible plugins for admin actions
@@ -221,6 +221,6 @@ if (isset($_SERVER['REQUEST_URI']))
  */
 if (!defined('FULL_BASE_URL'))
 {
-	define('FULL_BASE_URL', 'http://www.mc.unicamp.br');
+	define('FULL_BASE_URL', 'http://ralsp.org');
 }
 
