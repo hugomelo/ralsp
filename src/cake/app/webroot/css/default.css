@@ -755,7 +755,7 @@ h1 {
   float: left;
   clear: both;
   font-family: Merienda, sans-serif;
-  color: #238723;
+  color: white;
   font-size: 40px;
   line-height: 46px;
   font-weight: 700;
@@ -1138,6 +1138,7 @@ nav.navbar a {
   margin-right: 0;
   margin-left: 0;
   padding-left: 0;
+  color: white;
 }
 .header .header-data {
   position: static;
@@ -1154,8 +1155,8 @@ nav.navbar a {
   background-image: url(/img/layout/logo.svg);
   background-size: 110px;
   background-repeat: no-repeat;
-  color: #68ad68;
-  text-shadow: white -1px -1px 0px, white 1px -1px 0px;
+  /*text-shadow: white -1px -1px 0px, white 1px -1px 0px;*/
+  color: white;
   font-size: 27px;
   line-height: 36px;
 }
@@ -1166,13 +1167,15 @@ nav.navbar a {
   font-size: 37px;
   font-weight: 400;
 }
-.header .header-data p.about {
-  float: left;
-  color: #878782;
-  font-style: italic;
-  font-weight: 400;
-  max-width: 640px;
-  margin-bottom: 5px;
+div.about_project {
+  background-color: rgba(158, 88, 55, 0.21);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div.about_project .about {
+  color: white;
+  padding-left: 2%;
 }
 .pages .header .header-data h1 {
   position: relative;

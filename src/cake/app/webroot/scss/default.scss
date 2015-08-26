@@ -392,6 +392,7 @@ nav.navbar {
   margin-right: 0;
   margin-left: 0;
   padding-left: 0;
+  color: white;
 
   .header-data {
     position: static;
@@ -409,8 +410,8 @@ nav.navbar {
       background-image: url(/img/layout/logo.svg);
       background-size: 110px;
       background-repeat: no-repeat;
-      color: $menu-h1;
-      text-shadow: white -1px -1px 0px, white 1px -1px 0px;
+      color: $header-h1;
+      /*text-shadow: white -1px -1px 0px, white 1px -1px 0px;*/
       font-size: 27px;
       line-height: 36px;
 
@@ -423,16 +424,21 @@ nav.navbar {
       }
     }
 
-    p.about {
-      float: left;
-      color: $subtitle;
-      font-style: italic;
-      font-weight: 400;
-      max-width: 640px;
-      margin-bottom: 5px;
-    }
+  }
+
+}
+div.about_project {
+  background-color: rgba(158, 88, 55, 0.21);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .about {
+    color: white;
+    padding-left: 2%;
   }
 }
+
 .pages .header .header-data h1 {
   position: relative;
   padding-top: 0px;
