@@ -703,4 +703,8 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 		$htmlAttr['class'] .= ' row';
 		return $this->sdiv($htmlAttr, $options);
 	}
+
+	function erow($htmlAttr = array(), $options = array()) {
+		return $this->ediv($htmlAttr, $options)."<!-- close row -->";
+	}
 }
