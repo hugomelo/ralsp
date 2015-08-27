@@ -207,6 +207,9 @@ class SearcheableBehavior extends ModelBehavior
 		if (isset($data[$Model->alias]['post'])) {
 			$searchInfo['SblSearchItem']['content'] = html_entity_decode(strip_tags($data[$Model->alias]['post']),  ENT_COMPAT, 'UTF-8');
 		}
+		if (isset($data[$Model->alias]['mexc_space_id'])) {
+			$searchInfo['SblSearchItem']['spaces'] = $data[$Model->alias]['mexc_space_id'];
+		}
 		if (isset($data[$Model->alias]['modified'])) {
 			$searchInfo['SblSearchItem']['modified'] = $data[$Model->alias]['modified'];
 		}
@@ -268,7 +271,7 @@ class SearcheableBehavior extends ModelBehavior
 				'summary'			=> isset($searchInfo['SblSearchItem']['summary']			 ) ? $searchInfo['SblSearchItem']['summary'] : '',
 				'tags'				=> isset($searchInfo['SblSearchItem']['tags']				 ) ? $searchInfo['SblSearchItem']['tags'] : '',
 				'tags_text'			=> isset($searchInfo['SblSearchItem']['tags']				 ) ? $searchInfo['SblSearchItem']['tags_text'] : '',
-				'spaces'	    		=> isset($searchInfo['SblSearchItem']['spaces']				 ) ? $searchInfo['SblSearchItem']['spaces'] : '',
+				'spaces'	    	=> isset($searchInfo['SblSearchItem']['spaces']				 ) ? $searchInfo['SblSearchItem']['spaces'] : '',
 				'modified'			=> isset($searchInfo['SblSearchItem']['modified']			 ) ? $searchInfo['SblSearchItem']['modified'] : '',
 			),
 			'MexcSpace' => isset($searchInfo['MexcSpace'])? array('MexcSpace' => Set::extract($searchInfo,'/MexcSpace/id')) : array(),
