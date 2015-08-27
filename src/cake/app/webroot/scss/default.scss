@@ -29,9 +29,9 @@ h1 {
   float: left;
   clear: both;
   font-family: Merienda, sans-serif;
-  color: $h1;
-  font-size: 40px;
-  line-height: 46px;
+  color: white;
+  font-size: 22px;
+  line-height: 33px;
   font-weight: 700;
 }
 
@@ -439,14 +439,25 @@ div.about_project {
   }
 }
 
-.pages .header .header-data h1 {
-  position: relative;
+.pages .header {
+  margin-top: 30px;
+
+  .header-data h1 {
+    padding-top: 0px;
+    background-image: none;
+    background-position: 0% 0%;
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
+
+.pages .header .header-data h1.title {
   padding-top: 0px;
   background-image: none;
   background-position: 0% 0%;
-  background-size: auto;
-  background-repeat: repeat;
-  background-attachment: scroll;
+  color: #4a1234;
+  font-size: 37px;
+  font-weight: 500;
 }
 
 .agenda .header .header-data h1.title {
