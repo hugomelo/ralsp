@@ -60,12 +60,12 @@ Configure::write('Config.language', 'por');
  Configure::write('jj.modules', array(
 	
 	// Content modules
-		'new' => array(
+		'news' => array(
 			'model' => 'MexcNews.MexcNew',
 			'viewUrl' => array('action' => 'read'),
-			'humanName' => __('MODULE MexcNew human name', true),
-			'plugged' => array('dashboard','backstage','factory'),
-			'fact_name' => __d('fact_site', 'Notícias', true),
+			'humanName' => __('Novidades', true),
+			'plugged' => array('dashboard','backstage','factory','backstage_custom'),
+			'fact_name' => __d('fact_site', 'Novidades', true),
 			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
 			'permissions' => array(
 				'delete' => array('backstage_delete_item', 'new'), 
@@ -76,11 +76,11 @@ Configure::write('Config.language', 'por');
 				'view' => array('backstage_view_item', 'new'),
 			),
 		),
-		'event' => array(
+		'events' => array(
 			'model' => 'MexcEvents.MexcEvent',
 			'viewUrl' => array('controller' => 'mexc_events', 'action' => 'read'),
 			'humanName' => __('MODULE MexcEvent human name', true),
-			'plugged' => array('dashboard','backstage','factory'),
+			'plugged' => array('dashboard','backstage','factory','backstage_custom'),
 			'fact_name' => __d('fact_site', 'Eventos', true),
 			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
 			'permissions' => array(
@@ -92,11 +92,11 @@ Configure::write('Config.language', 'por');
 				'view' => array('backstage_view_item', 'event'),
 			),
 		),
-		'document' => array(
+		'documents' => array(
 			'model' => 'MexcDocuments.MexcDocument',
 			'viewUrl' => array('action' => 'read'),
 			'humanName' => __('MODULE MexcDocument human name', true),
-			'plugged' => array('dashboard','backstage','factory'),
+			'plugged' => array('dashboard','backstage','factory','backstage_custom'),
 			'fact_name' => __d('fact_site', 'Documentos', true),
 			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
 			'permissions' => array(
@@ -108,11 +108,11 @@ Configure::write('Config.language', 'por');
 				'view' => array('backstage_view_item', 'document'),
 			),
 		), 
-		'gallery' => array(
+		'galleries' => array(
 			'model' => 'MexcGalleries.MexcGallery',
 			'viewUrl' => array('action' => 'read'),
 			'humanName' => __('MODULE MexcGallery human name', true),
-			'plugged' => array('dashboard','backstage','factory'),
+			'plugged' => array('dashboard','backstage','factory','backstage_custom'),
 			'fact_name' => __d('fact_site', 'Galeria de fotos', true),
 			'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
 			'permissions' => array(
@@ -126,10 +126,10 @@ Configure::write('Config.language', 'por');
 		),
 		
 	// Structure modules
-		'factory' => array(
+		'projects' => array(
 			'model' => 'SiteFactory.FactSite',
 			'humanName' => __('Projeto', true),
-			'plugged' => array('dashboard','backstage'),
+			'plugged' => array('dashboard','backstage','backstage_custom'),
 			'permissions' => array(
 				'delete' => array('backstage_delete_item', 'factory'), 
 				'edit_draft' => array('backstage_edit_draft', 'factory'),
@@ -157,7 +157,6 @@ Configure::write('Config.language', 'por');
 				'view' => array('backstage_view_item', 'highlight'),
 			),
 		),
-	
 	
 		'contact' => array(
 			'model' => 'MexcContacts.MexcContact',

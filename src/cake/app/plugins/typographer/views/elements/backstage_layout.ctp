@@ -63,4 +63,6 @@ else
 		echo $bl->ediv(); 
 	echo $bl->ediv();
 }
+
+echo $this->element('sql_dump');
 ?>

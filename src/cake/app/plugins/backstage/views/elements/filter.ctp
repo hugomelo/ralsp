@@ -91,7 +91,6 @@
 		));
 	}
 			echo $this->Bl->smartTableHeaderDry($smartTableColumns);
-			
 			foreach ($this->data as $k => $item)
 			{
 				if (!empty($backstageSettings['customRow']))

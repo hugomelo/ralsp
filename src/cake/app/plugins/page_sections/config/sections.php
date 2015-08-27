@@ -165,7 +165,7 @@ $sections = array(
 						),
 					),
 					'galleries' => array(
-						'linkCaption' => __('Galeria', true),
+						'linkCaption' => __('Galerias', true),
 						'pageTitle'   => array(null, __('Galeria', true)),
 						'url' => array(
 							'plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries', 'action' => 'index'),
@@ -431,7 +431,39 @@ $sections = array(
 				'pageTitle' => array(null, __('Projetos',true)),
 				'headerCaption' => __('Projetos', true),
 				'humanName' => __('Projetos',true),
-				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index'),
+				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index','projects'),
+				'permissions' => array('backstage', 'user_list'),
+			),
+			'news' => array(
+				'linkCaption' => __('Novidades', true),
+				'pageTitle' => array(null, __('Novidades',true)),
+				'headerCaption' => __('Novidades', true),
+				'humanName' => __('Novidades',true),
+				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index','news'),
+				'permissions' => array('backstage', 'user_list'),
+			),
+			'events' => array(
+				'linkCaption' => __('Eventos', true),
+				'pageTitle' => array(null, __('Eventos',true)),
+				'headerCaption' => __('Eventos', true),
+				'humanName' => __('Eventos',true),
+				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index','events'),
+				'permissions' => array('backstage', 'user_list'),
+			),
+			'galleries' => array(
+				'linkCaption' => __('Galerias', true),
+				'pageTitle' => array(null, __('Galerias',true)),
+				'headerCaption' => __('Galerias', true),
+				'humanName' => __('Galerias',true),
+				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index','galleries'),
+				'permissions' => array('backstage', 'user_list'),
+			),
+			'documents' => array(
+				'linkCaption' => __('Documentos', true),
+				'pageTitle' => array(null, __('Documentos',true)),
+				'headerCaption' => __('Documentos', true),
+				'humanName' => __('Documentos',true),
+				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index','documents'),
 				'permissions' => array('backstage', 'user_list'),
 			),
 			'preferences' => array(
@@ -655,35 +687,6 @@ $sections = array(
 					)
 				)
 			),
-			'mojo_queue' => array(
-				'linkCaption' => __d('sui', 'Sections: mojo_queue linkCaption', true),
-				'url' => array('plugin' => 'backstage','controller' => 'back_contents','action' => 'index', 'mojo_queue'),
-				'permissions' => array('backstage', 'mojo_queues'),
-				'pageTitle' => array(null, __d('sui', 'Sections: mojo_queue pageTitle',true)),
-				'headerCaption' => __d('sui', 'Sections: mojo_queue headerCaption', true),
-				'humanName' => __d('sui', 'Sections: mojo_queue humanName',true),
-			),
-			'grandedesafio' => array(
-				'linkCaption' => __d('sui', 'Sections: grandedesafio linkCaption', true),
-				'url' => array('plugin' => 'grandedesafio'),
-				'permissions' => array('backstage', 'sui_application'),
-				'pageTitle' => array(null, __d('sui', 'Sections: grandedesafio pageTitle',true)),
-				'headerCaption' => __d('sui', 'Sections: grandedesafio headerCaption', true),
-				'humanName' => __d('sui', 'Sections: grandedesafio humanName',true),
-				'display' => false,
-				'subSections' => array(
-					'planilha_gd_videos' => array(
-						'url' => array(
-							'plugin' => 'grandedesafio',
-							'controller' => 'equipes',
-							'action' => 'planilha_gd_videos',
-						),
-						'linkCaption' => __d('sui', 'Sections: sui_application planilha_gd_videos linkCaption', true),
-						'permissions' => array('sui_application_sheet'),
-						'display' => false,
-					)
-				)
-			),
 			'sui_admin' => array(
 				'url' => array('plugin' => 'sui','controller' => 'sui_admin'),
 				'linkCaption' => __d('sui', 'Sections: sui_admin linkCaption', true),
@@ -875,48 +878,6 @@ $sectionMap = array(
 				'rule' => array('edicao' => 2),
 				'location' => array(null, null, null, 'olimpiada_2')
 			),
-		)
-	),
-	array(
-		'rule' => array('plugin' => 'olimpiada_quatro'),
-		'location' => array('public_page', 'fact_sites', 'olimpiada', 'olimpiada_4'),
-	),
-	array(
-		'rule' => array('plugin' => 'olimpiada_velha'),
-		'location' => array('public_page', 'fact_sites', 'olimpiada_velha', 'olimpiada_1'),
-	),
-	array(
-		'rule' => array('plugin' => 'grandedesafio'),
-		'location' => array('public_page', 'fact_sites', 'gd'),
-		'subRules' => array(
-			array(
-				'rule' => array('controller' => 'equipes', 'action' => 'planilha_gd_videos'),
-				'location' => array('backstage', 'grandedesafio', 'planilha_gd_videos')
-			),
-			array(
-				'rule' => array('action' => 'sobre'),
-				'location' => array(null, null, null, 'sobre')
-			),
-			array(
-				'rule' => array('action' => 'edicoes'),
-				'location' => array(null, null, null, 'edicoes')
-			),
-			array(
-				'rule' => array('edicao' => 3),
-				'location' => array(null, null, null, 'gd_3')
-			),
-			array(
-				'rule' => array('edicao' => 4),
-				'location' => array(null, null, null, 'gd_4')
-			),
-			array(
-				'rule' => array('edicao' => 5),
-				'location' => array(null, null, null, 'gd_5')
-			),
-			array(
-				'rule' => array('edicao' => 6),
-				'location' => array(null, null, null, 'gd_6')
-			)
 		)
 	),
 	
@@ -1180,6 +1141,26 @@ $sectionMap = array(
 				'location' => array(null,'dashboard'),
 				'subRules' => array(
 					array(
+						'rule' => array('pass' => array(0 => 'news')),
+						'location' => array(null, 'news'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'events')),
+						'location' => array(null, 'events'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'galleries')),
+						'location' => array(null, 'galleries'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'documents')),
+						'location' => array(null, 'documents'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'projects')),
+						'location' => array(null, 'projects'),
+					),
+					array(
 						'rule' => array('pass' => array(0 => 'sui_user')),
 						'location' => array(null, 'sui_user'),
 					),
@@ -1221,6 +1202,26 @@ $sectionMap = array(
 				'rule' => array('controller' => 'back_contents', 'action' => 'index'),
 				'location' => array(null, 'backstage'),
 				'subRules' => array(	
+					array(
+						'rule' => array('pass' => array(0 => 'news')),
+						'location' => array(null, 'news'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'events')),
+						'location' => array(null, 'events'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'galleries')),
+						'location' => array(null, 'galleries'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'documents')),
+						'location' => array(null, 'documents'),
+					),
+					array(
+						'rule' => array('pass' => array(0 => 'projects')),
+						'location' => array(null, 'projects'),
+					),
 					array(
 						'rule' => array('pass' => array(0 => 'user_users')),
 						'location' => array(null, 'user_administration', 'user_users'),
