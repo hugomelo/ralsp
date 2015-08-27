@@ -45,13 +45,6 @@ define('VALID_CEP', '/^[0-9]{8}$/');
 define('VALID_PHONE', '/\(?\d{2,2}[\) ]?[\d\.\- ]{8,10}/');
 
 
-Configure::write('Mojo.token', '761a3d7509505abbf4a6e6754f9f3ac7195f4833');
-Configure::write('MojoFactSite.token', '63f21ff9084581076d63d4a9ce4f7ef185246e1c');
-
-Configure::write('Mexc.SocialMedias', array(
-	'facebook' => array('label' => 'Facebook', 'url' => 'http://www.facebook.com/pages/Museu-Explorat%C3%B3rio-de-Ci%C3%AAncias/231240706915803'),
-	'twitter' => array('label' => 'Twitter', 'url' => 'http://twitter.com/MC_Unicamp'),
-));
 Configure::write('Config.language', 'por');
 
  /** Tells JodelJodel about wich modules are installed in the current installation.
