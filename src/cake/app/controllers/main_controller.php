@@ -7,12 +7,12 @@ class MainController extends RedeAppController
 	
 	function index()
 	{
-		// GET GALLERY
+		// GET posts
 		$this->loadModel('UnifiedSearch.SblSearchItem');
 		$paging = array();
 		$items = $this->SblSearchItem->getSearchResults("", array(), $paging);
 		
-		// GET PROGRAMS
+		// GET projects
 		$this->loadModel('SiteFactory.FactSite');
 		$fact_sites = $this->FactSite->find('all', array('contain' => false));
 		

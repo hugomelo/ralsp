@@ -21,7 +21,6 @@ ORDER BY relevance DESC;
  * Class SblSearchItem
  *
  * @property MexcSpaces              $MexcSpace
- * * @property MexcSpaceSblSearchItem $MexcSpacesSblSearchItem
  */
 class SblSearchItem extends UnifiedSearchAppModel {
 
@@ -29,19 +28,21 @@ class SblSearchItem extends UnifiedSearchAppModel {
 	var $actsAs     = array('Tags.Taggable', 'Containable');
 	var $itemModels = array();
 
-	var $hasAndBelongsToMany = array('MexcSpaces.MexcSpace');
-	var $hasOne              = array('UnifiedSearch.MexcSpacesSblSearchItem');
+	var $belongsTo = array('MexcSpaces.MexcSpace');
 
 	function saveSearchItem ($data) {
 		return $this->save($data);
 	}
 
-	function getSearchResults ($searchString, $filterOptions = array(), &$paging) {
-		$contain = array();
+	function getSearchResults ($searchString, $filterOptions = array(), &$paging=false) {
+		$contain = array('MexcSpace' => 'FactSite');
 		$order = array('SblSearchItem.date DESC');
 		$conditions = array(
 			array("{$this->alias}.publishing_status" => 'published'),
-			array("{$this->alias}.date <" => date('Y-m-d H:i:s'))
+			'OR' => array(
+				"{$this->alias}.date <=" => date('Y-m-d'),
+				"{$this->alias}.date" => NULL,
+			)
 		);
 
 		if (!empty($searchString)) {

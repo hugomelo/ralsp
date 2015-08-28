@@ -137,12 +137,14 @@ class SearcheableBehavior extends ModelBehavior
 	`type` varchar(120) DEFAULT NULL,
 	`publishing_status` enum('published','draft') DEFAULT NULL,
 	`date` datetime DEFAULT NULL,
+	`start` datetime DEFAULT NULL,
+	`end` datetime DEFAULT NULL,
 	`title` varchar(300) DEFAULT NULL,
 	`subtitle` text,
 	`summary` text,
 	`content` mediumtext,
 	`tags_text` text,
-  	`spaces` VARCHAR(300) NULL ,
+  	`mexc_space_id` VARCHAR(30) NULL ,
 	`model` varchar(100) DEFAULT NULL,
 	`foreign_id` int(11) DEFAULT NULL,
 	`created` datetime DEFAULT NULL,
@@ -152,20 +154,12 @@ class SearcheableBehavior extends ModelBehavior
 	KEY `index4` (`model`),
 	KEY `index5` (`foreign_id`),
 	KEY `index6` (`type`),
-	FULLTEXT KEY `index3` (`title`,`tags_text`,`subtitle`,`summary`,`content`,`themes`)
+	KEY `index7` (`start`),
+	KEY `index8` (`end`),
+	FULLTEXT KEY `index3` (`title`,`tags_text`,`subtitle`,`summary`,`content`,`mexc_space_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8
 	 */
 	 
-	/*
-	CREATE TABLE `mexc_spaces_sbl_search_items` (
-		`sbl_search_item_id` varchar(255) NOT NULL,
-		`mexc_space_id` int(11) NOT NULL,
-		PRIMARY KEY (`sbl_search_item_id`,`mexc_space_id`),
-		KEY `fk_cn_search_items_has_mexc_spaces_mexc_spaces1` (`mexc_space_id`),
-		KEY `fk_cn_search_items_has_mexc_spaces_cn_search_items1` (`sbl_search_item_id`)
-	) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-	*/
-
 	public function getSearchInfo(&$Model, $item_id) {
 		$data = $Model->find('first', array(
 			'contain' => array('MexcSpace','Tag'),
@@ -182,8 +176,17 @@ class SearcheableBehavior extends ModelBehavior
 		if (isset($data[$Model->alias]['date'])) {
 			$searchInfo['SblSearchItem']['date'] = $data[$Model->alias]['date'];
 		}
+		if (isset($data[$Model->alias]['start'])) {
+			$searchInfo['SblSearchItem']['start'] = $data[$Model->alias]['start'];
+		}
+		if (isset($data[$Model->alias]['end'])) {
+			$searchInfo['SblSearchItem']['end'] = $data[$Model->alias]['end'];
+		}
 		if (isset($data[$Model->alias]['title'])) {
 			$searchInfo['SblSearchItem']['title'] = $data[$Model->alias]['title'];
+		}
+		if (isset($data[$Model->alias]['name'])) {
+			$searchInfo['SblSearchItem']['title'] = $data[$Model->alias]['name'];
 		}
 		if (isset($data[$Model->alias]['headline'])) {
 			$searchInfo['SblSearchItem']['title'] = $data[$Model->alias]['headline'];
@@ -204,11 +207,14 @@ class SearcheableBehavior extends ModelBehavior
 		if (isset($data[$Model->alias]['summary'])) {
 			$searchInfo['SblSearchItem']['summary'] = $data[$Model->alias]['summary'];
 		}
+		if (isset($data[$Model->alias]['description'])) {
+			$searchInfo['SblSearchItem']['summary'] = $data[$Model->alias]['description'];
+		}
 		if (isset($data[$Model->alias]['post'])) {
 			$searchInfo['SblSearchItem']['content'] = html_entity_decode(strip_tags($data[$Model->alias]['post']),  ENT_COMPAT, 'UTF-8');
 		}
 		if (isset($data[$Model->alias]['mexc_space_id'])) {
-			$searchInfo['SblSearchItem']['spaces'] = $data[$Model->alias]['mexc_space_id'];
+			$searchInfo['SblSearchItem']['mexc_space_id'] = $data[$Model->alias]['mexc_space_id'];
 		}
 		if (isset($data[$Model->alias]['modified'])) {
 			$searchInfo['SblSearchItem']['modified'] = $data[$Model->alias]['modified'];
@@ -264,6 +270,8 @@ class SearcheableBehavior extends ModelBehavior
 				'foreign_id'        => $item_id,
 				'type'				=> $searchInfo['SblSearchItem']['type'],
 				'date'				=> isset($searchInfo['SblSearchItem']['date']				 ) ? $searchInfo['SblSearchItem']['date'] : null,
+				'start'				=> isset($searchInfo['SblSearchItem']['start']				 ) ? $searchInfo['SblSearchItem']['start'] : null,
+				'end'				=> isset($searchInfo['SblSearchItem']['end']				 ) ? $searchInfo['SblSearchItem']['end'] : null,
 				'publishing_status' => isset($searchInfo['SblSearchItem']['publishing_status']	 ) ? $searchInfo['SblSearchItem']['publishing_status'] : 'published',
 				'title'				=> isset($searchInfo['SblSearchItem']['title']				 ) ? $searchInfo['SblSearchItem']['title'] : '',
 				'content'			=> isset($searchInfo['SblSearchItem']['content']			 ) ? $searchInfo['SblSearchItem']['content'] : '',
@@ -271,10 +279,9 @@ class SearcheableBehavior extends ModelBehavior
 				'summary'			=> isset($searchInfo['SblSearchItem']['summary']			 ) ? $searchInfo['SblSearchItem']['summary'] : '',
 				'tags'				=> isset($searchInfo['SblSearchItem']['tags']				 ) ? $searchInfo['SblSearchItem']['tags'] : '',
 				'tags_text'			=> isset($searchInfo['SblSearchItem']['tags']				 ) ? $searchInfo['SblSearchItem']['tags_text'] : '',
-				'spaces'	    	=> isset($searchInfo['SblSearchItem']['spaces']				 ) ? $searchInfo['SblSearchItem']['spaces'] : '',
+				'mexc_space_id'	    	=> isset($searchInfo['SblSearchItem']['mexc_space_id']				 ) ? $searchInfo['SblSearchItem']['mexc_space_id'] : '',
 				'modified'			=> isset($searchInfo['SblSearchItem']['modified']			 ) ? $searchInfo['SblSearchItem']['modified'] : '',
 			),
-			'MexcSpace' => isset($searchInfo['MexcSpace'])? array('MexcSpace' => Set::extract($searchInfo,'/MexcSpace/id')) : array(),
 		);
 		
 		//saves the summary into the dashboard

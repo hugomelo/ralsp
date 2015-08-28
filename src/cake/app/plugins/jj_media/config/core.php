@@ -291,8 +291,8 @@ Configure::write('Media.filter_plus.gallery', array(
 		),
 		'preview_mini_column' => array(
 			'fitCrop' => array(
-				$redeTools['hg']->size('3M-g-2m', false),
-				$redeTools['vg']->size('2M', false)
+				$redeTools['hg']->size('3Mg6u', false),
+				$redeTools['vg']->size('2Mm', false)
 			)
 		),
 		'mini_preview' => array(
@@ -313,12 +313,6 @@ Configure::write('Media.filter_plus.gallery', array(
 				$redeTools['vg']->size('5Mg', false)
 			)
 		),
-		'gd' => array(
-			'fit' => array(
-				$redeTools['hg']->size('7M-m-g', false),
-				$redeTools['vg']->size('5Mm-g', false)
-			)
-		)
 	)
 ));
 

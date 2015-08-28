@@ -1,4 +1,5 @@
 /* *** PROJECTS BOX *** */
+/**** POST LISTING ****/
 /*** BORDER RADIUS ***/
 /****** PLACEHOLDERS - like mixins but don't repeat in the code ******/
 /*** CLEARFIX ***/
@@ -779,6 +780,13 @@ h4 {
   font-weight: 700;
   text-transform: lowercase;
 }
+h5 {
+  margin-top: -1px;
+  margin-bottom: 6px;
+  color: #9e5837;
+  font-size: 16px;
+  font-weight: 700;
+}
 p {
   max-width: 640px;
   margin-bottom: 5px;
@@ -1203,6 +1211,98 @@ div.about_project .about {
 }
 .galeria .header .header-data h1.title {
   color: #e389e8;
+  /********* POST LISTING ***********/
+}
+.posts-list {
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.posts-list .col-lg-1, .posts-list .col-lg-10, .posts-list .col-lg-11, .posts-list .col-lg-12, .posts-list .col-lg-2, .posts-list .col-lg-3, .posts-list .col-lg-4, .posts-list .col-lg-5, .posts-list .col-lg-6, .posts-list .col-lg-7, .posts-list .col-lg-8, .posts-list .col-lg-9, .posts-list .col-md-1, .posts-list .col-md-10, .posts-list .col-md-11, .posts-list .col-md-12, .posts-list .col-md-2, .posts-list .col-md-3, .posts-list .col-md-4, .posts-list .col-md-5, .posts-list .col-md-6, .posts-list .col-md-7, .posts-list .col-md-8, .posts-list .col-md-9, .posts-list .col-sm-1, .posts-list .col-sm-10, .posts-list .col-sm-11, .posts-list .col-sm-12, .posts-list .col-sm-2, .posts-list .col-sm-3, .posts-list .col-sm-4, .posts-list .col-sm-5, .posts-list .col-sm-6, .posts-list .col-sm-7, .posts-list .col-sm-8, .posts-list .col-sm-9, .posts-list .col-xs-1, .posts-list .col-xs-10, .posts-list .col-xs-11, .posts-list .col-xs-12, .posts-list .col-xs-2, .posts-list .col-xs-3, .posts-list .col-xs-4, .posts-list .col-xs-5, .posts-list .col-xs-6, .posts-list .col-xs-7, .posts-list .col-xs-8, .posts-list .col-xs-9 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.posts-list .post {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 240px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-style: solid;
+  border-width: 0px 0px 3px 3px;
+  border-color: black;
+  border-radius: 0px;
+  background-color: #f7f7ed;
+  box-shadow: none;
+}
+.posts-list .post.new {
+  border-color: rgba(130, 120, 179, 0.29);
+}
+.posts-list .post.new h6 {
+  background-color: rgba(130, 120, 179, 0.29);
+  color: #8278b3;
+}
+.posts-list .post.event {
+  border-color: rgba(78, 170, 207, 0.29);
+}
+.posts-list .post.event h6 {
+  background-color: rgba(78, 170, 207, 0.29);
+  color: #4eaacf;
+}
+.posts-list .post.gallery {
+  border-color: rgba(227, 137, 232, 0.29);
+}
+.posts-list .post.gallery h6 {
+  background-color: rgba(227, 137, 232, 0.29);
+  color: #e389e8;
+}
+.posts-list .post .project {
+  position: absolute;
+  left: 0px;
+  bottom: 6px;
+  z-index: 2;
+  height: 20px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-width: 0px;
+  background-color: #ffe587;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+}
+.posts-list .post .post-type {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  margin-top: -5px;
+  padding: 2px 6px 5px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+}
+.posts-list .post .post-date {
+  margin-bottom: 5px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+.posts-list .post .post-footer-hidder {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  height: 40px;
+  background-image: -webkit-linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
+  background-image: linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
 }
 .clearfix:after, .clearfix:before {
   content: " ";

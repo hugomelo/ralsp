@@ -14,7 +14,7 @@
 
 Configure::write('Backstage.itemSettings',array(
 	'projects' => array(
-		'actions' => array('create', 'edit', 'see_on_page', 'delete'),
+		'actions' => array('create', 'edit', 'see_on_page', 'delete', 'publish_draft'),
 		'limitSize' => 30,
 		'statusOptions' => array('published', 'draft'),
 		'columns' => array(
@@ -32,7 +32,7 @@ Configure::write('Backstage.itemSettings',array(
 		'contain' => false,
 	),
 	'news' => array(
-		'actions' => array('create', 'edit', 'see_on_page', 'delete'),
+		'actions' => array('create', 'edit', 'see_on_page', 'delete', 'publish_draft'),
 		'limitSize' => 30,
 		'statusOptions' => array('published', 'draft'),
 		'columns' => array(
@@ -50,7 +50,7 @@ Configure::write('Backstage.itemSettings',array(
 		'contain' => false,
 	),
 	'events' => array(
-		'actions' => array('create', 'edit', 'see_on_page', 'delete'),
+		'actions' => array('create', 'edit', 'see_on_page', 'delete', 'publish_draft'),
 		'limitSize' => 30,
 		'statusOptions' => array('published', 'draft'),
 		'columns' => array(
@@ -69,7 +69,7 @@ Configure::write('Backstage.itemSettings',array(
 		'contain' => false,
 	),
 	'galleries' => array(
-		'actions' => array('create', 'edit', 'see_on_page', 'delete'),
+		'actions' => array('create', 'edit', 'see_on_page', 'delete', 'publish_draft'),
 		'limitSize' => 30,
 		'statusOptions' => array('published', 'draft'),
 		'columns' => array(
@@ -87,7 +87,7 @@ Configure::write('Backstage.itemSettings',array(
 		'contain' => false,
 	),
 	'documents' => array(
-		'actions' => array('create', 'edit', 'see_on_page', 'delete'),
+		'actions' => array('create', 'edit', 'see_on_page', 'delete', 'publish_draft'),
 		'limitSize' => 30,
 		'statusOptions' => array('published', 'draft'),
 		'columns' => array(

@@ -55,6 +55,15 @@ h4 {
   font-weight: 700;
   text-transform: lowercase;
 }
+
+h5 {
+  margin-top: -1px;
+  margin-bottom: 6px;
+  color: #9e5837;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 p {
   max-width: 640px;
   margin-bottom: 5px;
@@ -470,6 +479,110 @@ div.about_project {
   color: $galleries-h1;
 }
 
+
+/********* POST LISTING ***********/
+
+.posts-list {
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .post {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 240px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: solid;
+    border-width: 0px 0px 3px 3px;
+    border-color: black;
+    border-radius: 0px;
+    background-color: #f7f7ed;
+    box-shadow: none;
+
+    &.new {
+      border-color: $news-border;
+      h6 {
+        background-color: rgba(130, 120, 179, 0.29);
+        color: #8278b3;
+      }
+    }
+    &.event {
+      border-color: $agenda-border;
+      h6 {
+        background-color: rgba(78, 170, 207, 0.29);
+        color: #4eaacf;
+      }
+    }
+    &.gallery {
+      border-color: $galeria-border;
+      h6 {
+        background-color: rgba(227, 137, 232, 0.29);
+        color: #e389e8;
+      }
+    }
+
+    .project {
+      position: absolute;
+      left: 0px;
+      bottom: 6px;
+      z-index: 2;
+      height: 20px;
+      padding-right: 6px;
+      padding-left: 6px;
+      border-width: 0px;
+      background-color: #ffe587;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.4px;
+      text-transform: lowercase;
+    }
+
+    .post-type {
+      position: absolute;
+      top: 5px;
+      right: 0px;
+      margin-top: -5px;
+      padding: 2px 6px 5px;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 11px;
+      line-height: 13px;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+      text-transform: lowercase;
+    }
+
+    .post-date {
+      margin-bottom: 5px;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.4px;
+    }
+    
+    .post-footer-hidder {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: 1;
+      height: 40px;
+      background-image: -webkit-linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
+      background-image: linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
+    }
+  }
+}
+
+
+
+//UTILS
 .clearfix:after, .clearfix:before {
   content: " ";
   display: table;
