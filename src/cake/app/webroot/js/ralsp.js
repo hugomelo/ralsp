@@ -15,11 +15,17 @@ var ralsp = {
 		var desc  = jQuery(this).parent().siblings('.project-desc').children();
 		desc.removeClass('active');
 		desc.eq(index).addClass('active');
+	},
+
+	countLetters: function(event) {
+		console.log($(this).value.length);
+		$('chars-counter').update($(this).value.length + " caracteres");
 	}
 };
 
 (function($) {
 	$(function() {
 		$('.row.home .projects .project-select a').on('click',ralsp.activateProjectEntry);
+		$('.summary').bind('input propertychange', ralsp.countLetters);
 	});
 })(jQuery);

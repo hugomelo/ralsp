@@ -2174,3 +2174,9 @@
 .cpk-h > div {height: 1px;}
 .cpk-hdrag {border:1px solid black; height:5px; width: 26px; margin-left: -3px; float: left;}
 .cpk-picker {background: black; height: 3px; width: 3px; position: absolute;}
+
+.buro_form #chars-counter {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
