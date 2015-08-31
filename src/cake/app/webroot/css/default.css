@@ -1294,6 +1294,9 @@ div.about_project .about {
   font-size: 12px;
   letter-spacing: 0.4px;
 }
+.posts-list .post a {
+  color: #340a0b;
+}
 .posts-list .post .post-footer-hidder {
   position: absolute;
   left: 0px;
