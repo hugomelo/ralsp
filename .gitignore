@@ -3,6 +3,7 @@
 *.picasa.ini
 *.mwb.bak
 *.swp
+*.swo
 *.dia~
 *.pot
 docs/museu
