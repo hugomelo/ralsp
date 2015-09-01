@@ -79,37 +79,37 @@ Configure::write('Media.filter_plus.content_stream', array(
 		),
 		
 		// Image for MexcNew and MexcDocument
-		'image_6M' => array( 
-			'fitInside' => array(
-				$redeTools['hg']->size('6M-g-2m', false),
-				$redeTools['vg']->size('6M-g-2m', false)
+		'xs' => array( 
+			'fit' => array(
+				$redeTools['hg']->size('6M', false),
+				$redeTools['hg']->size('6M', false),
 			),
 			'convert' => 'image/jpeg'
 		),
 		
 		// Image for MexcEvent
-		'image_5M' => array(
-			'fitInside' => array(
-				$redeTools['hg']->size('5M-g-2m', false),
-				$redeTools['vg']->size('5M-g-2m', false)
+		'sm' => array(
+			'fit' => array(
+				$redeTools['hg']->size('9M2gm', false),
+				$redeTools['hg']->size('9M2gm', false)
 			),
 			'convert' => 'image/jpeg'
 		),
 		
 		// Image for FactSite
-		'image_fact' => array(
-			'fitInside' => array(
-				$redeTools['hg']->size('4M-g-2m', false),
-				$redeTools['vg']->size('3M-g-2m', false)
+		'md' => array(
+			'fit' => array(
+				$redeTools['hg']->size('12M2g', false),
+				$redeTools['hg']->size('12M2g', false),
 			),
 			'convert' => 'image/jpeg'
 		),
 		
 		// Image for MexcAbout
-		'image_9M' => array(
-			'fitCrop' => array(
-				$redeTools['hg']->size('9M-g-m', false),
-				$redeTools['vg']->size('3M-g-2m', false)
+		'lg' => array(
+			'fit' => array(
+				$redeTools['hg']->size('15M', false),
+				$redeTools['hg']->size('15M', false),
 			),
 			'convert' => 'image/jpeg'
 		),

@@ -63,7 +63,7 @@ Configure::write('ContentStream.streams', array(
 Configure::write('ContentStream.types', array(
 	'document' => array('pie_text', 'pie_image', 'pie_file', 'pie_divider', 'pie_title'),
 	'event' => array('pie_text', 'pie_image', 'pie_file', 'pie_divider', 'pie_title'),
-	'new' => array('pie_text', 'pie_image', 'pie_divider', 'pie_title'),
+	'new' => array('pie_text', 'pie_image', 'pie_divider', 'pie_title', 'pie_file'),
 	'about_fact_site' => array('pie_text', 'pie_image', 'pie_title'),
 	'about_history' => array('pie_text', 'pie_image', 'pie_title'),
 	'about_section_title' => array('pie_title'),

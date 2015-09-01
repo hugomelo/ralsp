@@ -58,7 +58,7 @@
 			$type[] = 'content_stream';
 		
 		echo $this->Bl->div(
-			array('class' => $content_type), null,
+			array('class' => $content_type.' col-xs-12 '), null,
 			$this->Jodel->insertModule($streams[$content_type]['model'], $type, $module_data)
 		);
 		

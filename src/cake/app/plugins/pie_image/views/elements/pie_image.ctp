@@ -21,7 +21,7 @@ switch ($type[0])
 			case 'mexc_document':
 			case 'mexc_new':
 			case 'mexc_lecture':
-				echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'image_6M'));
+				echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'all_versions'));
 				echo $this->Bl->p(array('class' => 'subtitle'), array(), 
 					$this->Bl->spanDry($data['PieImage']['title']) . ' ' . $data['PieImage']['subtitle']
 				);

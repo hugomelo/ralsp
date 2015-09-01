@@ -69,6 +69,11 @@ p {
   margin-bottom: 5px;
 }
 
+img {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 nav.navbar {
   background-color: $menu-bg;
   @include fix-pos(0,0, top,left);
@@ -658,5 +663,84 @@ div.about_project {
   }
 }
 
+/************ HEADER *********/
+.bread-crumb {
+  margin-right: 10px;
+  float: left;
+  color: #ededc7;
+  font-size: 11px;
+}
+
+a.link-vsky {
+  color: white;
+  text-decoration: underline;
+}
+
+hr.full {
+  border-top: 1px solid #ededc7;
+}
+.meta {
+  color: white;
+  padding-right: 30px;
+
+  & > div {
+    margin-bottom: 12px;
+  }
+  hr.meta {
+    height: 2px;
+    margin-right: 30px;
+    margin-bottom: 12px;
+    border-top: 1px solid #ededc7;
+    border-bottom: 1px none #878782;
+  }
+
+}
 /**************** NEWS ********************/
+
+.pie_text p {
+  max-width: 100%;
+  margin-bottom: 26px;
+  float: left;
+  clear: both;
+  font-family: Alegreya, sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.pie_title h4 {
+  font-family: 'Alegreya Sans', sans-serif;
+  width: 100%;
+  margin-top: 26px;
+  margin-bottom: 13px;
+  color: #ededc7;
+  font-size: 24px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 500;
+}
+.pie_image {
+  .subtitle {
+    width: 75%;
+    margin-bottom: 26px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 26px;
+  }
+}
+
+h5.related_content {
+  margin-top: 20px;
+  color: #ededc7;
+  float: left;
+}
+div.related_content {
+  margin-top: -20px;
+}
 

@@ -290,7 +290,28 @@ class TypeBricklayerHelper extends AppHelper
 		
 		if (!empty($options['id']))
 		{
-			$htmlAttributes['src'] = $this->imageURL($options['id'], $options['version']);
+			if ($options['version'] == 'all_versions') {
+				$content = '';
+				$attr = $htmlAttributes;
+				$sizes = array('xs', 'sm', 'md', 'lg');
+				foreach($sizes as $size) {
+					$htmlAttributes['src'] = $this->imageURL($options['id'], $size);
+					if (!isset($attr['class']))
+						$attr['class'] = array();
+					else if (is_string($attr['class']))
+						$attr['class'] = array($attr['class']);
+					else if (!is_array($attr['class']))
+						$attr['class'] = array();
+
+					foreach($sizes as $s) if ($size != $s) $attr['class'][] = 'hidden-'.$s; 
+
+					$content .= $this->tag('img', $attr, $options);
+					$attr = $htmlAttributes;
+				}
+				return $content;
+
+			} else
+				$htmlAttributes['src'] = $this->imageURL($options['id'], $options['version']);
 			unset($options['version']);
 			unset($options['id']);
 		}
