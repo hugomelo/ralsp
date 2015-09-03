@@ -332,8 +332,25 @@ nav.navbar {
 }
 
 //HOME
-.row.home {
-  margin-top: 30px;
+.row {
+  &.home {
+    margin-top: 30px;
+  }
+  &.agenda {
+    .projects {
+      margin-top: 0;
+      height: 20px;
+      min-height: 20px;
+      padding-top: 0;
+      padding-bottom: 30px;
+      .project-select {
+        background-color: transparent;
+        a.active {
+          background-color: #e389e8;
+        }
+      }
+    }
+  }
   .projects {
     position: relative;
     margin-top: 40px;
@@ -343,6 +360,16 @@ nav.navbar {
     box-shadow: $projects-shadow 0px 0px 0px 1px inset;
     min-height: 260px;
 
+    h4 {
+      margin-bottom: 24px;
+      margin-left: -1px;
+      font-family: Merienda, sans-serif;
+      color: #ff5d47;
+      font-size: 21px;
+      line-height: 24px;
+      font-weight: 700;
+      text-transform: lowercase;
+    }
     .visit-proj {
       display: block;
       width: 100%;
@@ -550,31 +577,6 @@ div.about_project {
       letter-spacing: 0.4px;
       text-transform: lowercase;
     }
-
-    .post-type {
-      position: absolute;
-      top: 5px;
-      right: 0px;
-      margin-top: -5px;
-      padding: 2px 6px 5px;
-      font-family: 'Alegreya Sans SC', sans-serif;
-      font-size: 11px;
-      line-height: 13px;
-      font-weight: 400;
-      letter-spacing: 0.4px;
-      text-transform: lowercase;
-    }
-
-    .post-date {
-      margin-bottom: 5px;
-      font-family: 'Alegreya Sans SC', sans-serif;
-      font-size: 12px;
-      letter-spacing: 0.4px;
-    }
-    
-    a {
-      color: $fg;
-    }
     .post-footer-hidder {
       position: absolute;
       left: 0px;
@@ -586,6 +588,32 @@ div.about_project {
       background-image: linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
     }
   }
+
+  .post-type {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    margin-top: -5px;
+    padding: 2px 6px 5px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+  }
+
+  .post-date {
+    margin-bottom: 5px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+  }
+  
+  a {
+    color: $fg;
+  }
+  
 }
 
 
@@ -744,3 +772,58 @@ div.related_content {
   margin-top: -20px;
 }
 
+/**************** AGENDA ********************/
+
+.agenda {
+  .incoming,.occurred {
+    display: none;
+    &.active {
+      display: block;
+    }
+
+    margin-top: 80px;
+    .year {
+      font-size: 18px;
+    }
+    .month {   
+      margin-top: 5px;
+      font-family: Merienda, sans-serif;
+      color: #ededc7;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+
+  .event-list {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+    padding-top: 0px;
+    border-left: 3px solid #f7d142;
+    .posts-list {
+      margin-top: 0;
+
+      .event {
+        border-bottom-width: 3px;
+        border-left-width: 3px;
+        box-shadow: none;
+        width: 643px;
+        height: 97px;
+        margin-bottom: 10px;
+        border-bottom: 3px solid rgba(78, 170, 207, 0.29);
+        border-left: 3px solid rgba(78, 170, 207, 0.29);
+        background-color: #f7f7ed;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-top: 5px;
+
+        .post-place {
+          margin-top: 10px;
+          font-family: 'Alegreya Sans SC', sans-serif;
+          font-size: 12px;
+          letter-spacing: 0.4px;
+        }
+      }
+    }
+  }
+}

@@ -1078,11 +1078,26 @@ nav.navbar a {
   line-height: 19px;
   text-align: center;
 }
-.row.home {
-  margin-top: 30px;
+.row {
   /************** HEADER **************/
 }
-.row.home .projects {
+.row.home {
+  margin-top: 30px;
+}
+.row.agenda .projects {
+  margin-top: 0;
+  height: 20px;
+  min-height: 20px;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.row.agenda .projects .project-select {
+  background-color: transparent;
+}
+.row.agenda .projects .project-select a.active {
+  background-color: #e389e8;
+}
+.row .projects {
   position: relative;
   margin-top: 40px;
   margin-bottom: -26px;
@@ -1091,7 +1106,17 @@ nav.navbar a {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 0px 1px inset;
   min-height: 260px;
 }
-.row.home .projects .visit-proj {
+.row .projects h4 {
+  margin-bottom: 24px;
+  margin-left: -1px;
+  font-family: Merienda, sans-serif;
+  color: #ff5d47;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.row .projects .visit-proj {
   display: block;
   width: 100%;
   padding: 4px 8px;
@@ -1105,7 +1130,7 @@ nav.navbar a {
   letter-spacing: 0.4px;
   text-transform: lowercase;
 }
-.row.home .projects .project-select {
+.row .projects .project-select {
   top: auto;
   right: 0;
   bottom: 0;
@@ -1119,7 +1144,7 @@ nav.navbar a {
   border-top: 1px none rgba(52, 10, 11, 0.36);
   background-color: rgba(255, 255, 255, 0.2);
 }
-.row.home .projects .project-select a {
+.row .projects .project-select a {
   display: block;
   height: 100%;
   margin-right: 2px;
@@ -1132,18 +1157,18 @@ nav.navbar a {
   letter-spacing: 0.4px;
   text-transform: lowercase;
 }
-.row.home .projects .project-select a:hover {
+.row .projects .project-select a:hover {
   background-color: rgba(247, 247, 237, 0.76);
 }
-.row.home .projects .project-select a.active {
+.row .projects .project-select a.active {
   background-color: rgba(52, 10, 11, 0.52);
   color: #f7f7ed;
   text-decoration: none;
 }
-.row.home .projects .fact_site_minipreview.active {
+.row .projects .fact_site_minipreview.active {
   display: block;
 }
-.row.home .projects .fact_site_minipreview {
+.row .projects .fact_site_minipreview {
   display: none;
 }
 .header {
@@ -1279,7 +1304,17 @@ div.about_project .about {
   letter-spacing: 0.4px;
   text-transform: lowercase;
 }
-.posts-list .post .post-type {
+.posts-list .post .post-footer-hidder {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  height: 40px;
+  background-image: -webkit-linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
+  background-image: linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
+}
+.posts-list .post-type {
   position: absolute;
   top: 5px;
   right: 0px;
@@ -1292,24 +1327,14 @@ div.about_project .about {
   letter-spacing: 0.4px;
   text-transform: lowercase;
 }
-.posts-list .post .post-date {
+.posts-list .post-date {
   margin-bottom: 5px;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 12px;
   letter-spacing: 0.4px;
 }
-.posts-list .post a {
+.posts-list a {
   color: #340a0b;
-}
-.posts-list .post .post-footer-hidder {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  z-index: 1;
-  height: 40px;
-  background-image: -webkit-linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
-  background-image: linear-gradient(rgba(247, 247, 237, 0), #f7f7ed);
 }
 .clearfix:after, .clearfix:before {
   content: " ";
@@ -1445,4 +1470,52 @@ h5.related_content {
 }
 div.related_content {
   margin-top: -20px;
+  /**************** AGENDA ********************/
+}
+.agenda .incoming, .agenda .occurred {
+  display: none;
+  margin-top: 80px;
+}
+.agenda .incoming.active, .agenda .occurred.active {
+  display: block;
+}
+.agenda .incoming .year, .agenda .occurred .year {
+  font-size: 18px;
+}
+.agenda .incoming .month, .agenda .occurred .month {
+  margin-top: 5px;
+  font-family: Merienda, sans-serif;
+  color: #ededc7;
+  font-size: 18px;
+  font-weight: 400;
+}
+.agenda .event-list {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+  padding-top: 0px;
+  border-left: 3px solid #f7d142;
+}
+.agenda .event-list .posts-list {
+  margin-top: 0;
+}
+.agenda .event-list .posts-list .event {
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  box-shadow: none;
+  width: 643px;
+  height: 97px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid rgba(78, 170, 207, 0.29);
+  border-left: 3px solid rgba(78, 170, 207, 0.29);
+  background-color: #f7f7ed;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.agenda .event-list .posts-list .event .post-place {
+  margin-top: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.4px;
 }
