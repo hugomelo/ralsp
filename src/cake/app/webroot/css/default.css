@@ -1472,6 +1472,9 @@ div.related_content {
   margin-top: -20px;
   /**************** AGENDA ********************/
 }
+.agenda {
+  /******* ABOUT ******/
+}
 .agenda .incoming, .agenda .occurred {
   display: none;
   margin-top: 80px;
@@ -1518,4 +1521,19 @@ div.related_content {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 12px;
   letter-spacing: 0.4px;
+}
+#about {
+  margin-top: 50px;
+}
+#about .title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Merienda, sans-serif;
+  color: white;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+}
+#about .pie_text p {
+  font-size: 20px;
 }
