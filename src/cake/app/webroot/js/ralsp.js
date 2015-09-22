@@ -1,4 +1,4 @@
-jQuery.noConflict();
+//jQuery.noConflict();
 
 var ralsp = {
 	activateProjectEntry: function(event) {

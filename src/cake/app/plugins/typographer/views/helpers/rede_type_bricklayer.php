@@ -7,7 +7,7 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 
 	public function __construct($options = array())
 	{
-		$this->helpers += array('Ajax', 'Html', 'Js' => 'prototype', 'Form', 'Burocrata.BuroOfficeBoy');
+		$this->helpers += array('Ajax', 'Html', 'Js' => 'prototype', 'Form'/*, 'Burocrata.BuroOfficeBoy' */);
 		return parent::__construct($options);
 	}
 
@@ -21,17 +21,6 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 	{
 		// Kludge! Needed this to wrap the radio on a div (and than, fixing an CSS issue).
 		$this->Html->tags['radio'] = $this->divDry($this->Html->tags['radio']);
-	}
-/**
- * Adding mexc.js to layout
- * 
- * @access public
- * @return void
- */
-	public function afterRender()
-	{
-		if (ClassRegistry::getObject('view'))
-			$this->Html->script('mexc', array('inline' => false));
 	}
 
 /**
