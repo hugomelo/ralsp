@@ -24,7 +24,7 @@ class RedeAppController extends AppController
 			'name' => 'Bl',
 			'receive_tools' => true,
 		),
-		'Corktile.Cork', 'JjUtils.Jodel', 'Text', 'Burocrata.BuroOfficeBoy'
+		'Corktile.Cork', 'JjUtils.Jodel'
 	);
 
 	function beforeFilter()

@@ -827,3 +827,22 @@ div.related_content {
     }
   }
 }
+
+
+/******* ABOUT ******/
+#about {
+  margin-top: 50px;
+
+  .title {
+  	margin-top: 20px;
+  	margin-bottom: 10px;
+  	font-family: Merienda, sans-serif;
+  	color: white;
+  	font-size: 22px;
+  	line-height: 33px;
+  	font-weight: 700;
+  }
+  .pie_text p{
+  	font-size: 20px;
+  }
+}

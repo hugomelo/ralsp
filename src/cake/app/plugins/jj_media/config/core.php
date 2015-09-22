@@ -271,46 +271,34 @@ Configure::write('Media.filter_plus.gallery', array(
 				$backstageTools['vg']->size('7M-g', false)
 			)
 		),
-		'preview' => array(
-			'fitCrop' => array(
-				$redeTools['hg']->size('3M-g', false),
-				$redeTools['vg']->size('3M-g', false)
+		'xlarge' => array(
+			'fit' => array(
+				$redeTools['hg']->size('10M-g', false),
+				$redeTools['vg']->size('12M', false)
 			)
 		),
-		'preview_column' => array(
-			'fitCrop' => array(
-				$redeTools['hg']->size('5M-g-2m', false),
+		'large' => array(
+			'fit' => array(
+				$redeTools['hg']->size('6M-g', false),
+				$redeTools['vg']->size('6M', false)
+			)
+		),
+		'medium' => array(
+			'fit' => array(
+				$redeTools['hg']->size('5M-2g', false),
 				$redeTools['vg']->size('4M', false)
 			)
 		),
-		'preview_column_fact_site' => array(
-			'fitCrop' => array(
-				$redeTools['hg']->size('6M-g-2m', false),
-				$redeTools['vg']->size('4M', false)
-			)
-		),
-		'preview_mini_column' => array(
-			'fitCrop' => array(
-				$redeTools['hg']->size('3Mg6u', false),
-				$redeTools['vg']->size('2Mm', false)
-			)
-		),
-		'mini_preview' => array(
-			'fitCrop' => array(
-				$redeTools['hg']->size('2M-0.75g-m', false),
-				$redeTools['vg']->size('Mm', false)
-			)
-		),
-		'gallery_thumb' => array(
+		'small' => array(
 			'fit' => array(
-				$redeTools['hg']->size('9M-g-2m', false),
-				$redeTools['vg']->size('Mmg-2u', false) // M 108,333333333 (to fit 4 in 9M-g-2m)
+				$redeTools['hg']->size('4M-g', false),
+				$redeTools['vg']->size('3M', false)
 			)
 		),
-		'gallery_full' => array(
+		'xsmall' => array(
 			'fit' => array(
-				$redeTools['hg']->size('9M-g', false),
-				$redeTools['vg']->size('5Mg', false)
+				$redeTools['hg']->size('2M', false),
+				$redeTools['vg']->size('2M', false)
 			)
 		),
 	)

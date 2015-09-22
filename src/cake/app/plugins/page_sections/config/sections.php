@@ -224,36 +224,18 @@ $sections = array(
 					),
 					'about' => array(
 						'linkCaption' => __('Sobre', true),
-						'pageTitle'   => array(null, __('Sobre', true)),
+						'pageTitle'   => array(null, __('A Rede', true)),
 						'collapse' => true,
-						'url' => array(
-							'plugin' => 'mexc_about', 'controller' => 'mexc_about', 'action' => 'rede'
+						'url' => array('plugin' => null, 
+							'controller' => 'about', 'action' => 'rede'
 						),
 						'subSections' => array(
 							'rede' => array(
-								'linkCaption' => __('Sobre', true),
+								'linkCaption' => __('A Rede', true),
 								'pageTitle'   => array(null, null, __('Sobre', true)),
 								'url' => array(
-									'plugin' => 'mexc_about', 'controller' => 'mexc_about', 'action' => 'rede'),
+									'plugin' => null, 'controller' => 'about', 'action' => 'rede'),
 							),
-							//'staff' => array(
-								//'linkCaption' => __('Sections: mexc_about staff linkCaption', true),
-								//'pageTitle'   => array(null, null, __('Sections: mexc_about staff pageTitle', true)),
-								//'url' => array(
-									//'plugin' => 'mexc_about',
-									//'controller' => 'mexc_about',
-									//'action' => 'staff'
-								//),
-							//),
-							//'history' => array(
-								//'linkCaption' => __('Sections: mexc_about history linkCaption', true),
-								//'pageTitle'   => array(null, null, __('Sections: mexc_about history pageTitle', true)),
-								//'url' => array(
-									//'plugin' => 'mexc_about',
-									//'controller' => 'mexc_about',
-									//'action' => 'history'
-								//),
-							//),
 							//'site_map' => array(
 								//'linkCaption' => __('Sections: mexc_about site_map linkCaption', true),
 								//'pageTitle'   => array(null, null, __('Sections: mexc_about site_map pageTitle', true)),
@@ -271,6 +253,30 @@ $sections = array(
 						'collapse' => true,
 						'url' => 'http://facebook.com'
 					)
+				),
+			),
+			'fact_sites' => array(
+				'linkCaption' => __('Projetos', true),
+				'pageTitle' => array(null,__('Projetos', true)),
+				'url' => array(
+					'plugin' => 'site_factory', 'controller' => 'fact_sites', 'action' => 'all_sites'
+				),
+				'subSections' => array(
+					'ecoforte' => array(
+						'linkCaption' => 'Projeto Ecoforte',
+						'url' => array('plugin' => 'site_factory', 'controller' => 'fact_sites', 'action' => 'index', 'ecoforte'),
+						'subSections' => array(
+							'sobre' => array(
+								'linkCaption' => 'Sobre o projeto',
+							),   
+							'equipe' => array(
+								'linkCaption' => 'Equipe'
+							),   
+							'urs' => array(
+								'linkCaption' => 'Unidades de referência'
+							),   
+						)    
+					),   
 				),
 			),
 			'public_sui_stuff' => array(
@@ -793,70 +799,6 @@ $sections = array(
 );
 
 $sectionMap = array(
-	// paineladmin rules
-	array(
-		'rule' => array('plugin' => 'grandedesafio', 'controller' => 'equipes'),
-		'location' => array(),
-		'subRules' => array(
-			array(
-				'rule' => array('action' => 'admin_premiacoes'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_alterar_categoria_premio'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_mover'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_excluir_premio'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_oferecer_premio'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_desoferecer_premio'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_publicar_categoria_premio'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_excluir_categoria_premio'),
-				'location' => array('paineladmin', 'gd')
-			),
-			array(
-				'rule' => array('action' => 'admin_publicar_todas_categorias'),
-				'location' => array('paineladmin', 'gd')
-			),
-		),
-	),
-	array(
-		'rule' => array('plugin' => 'olimpiada_quatro', 'prefix' => 'paineladmin', 'paineladmin' => true),
-		'location' => array(),
-		'subRules' => array(
-			array(
-				'rule' => array('controller' => 'fases', 'action' => 'paineladmin_index'),
-				'location' => array('paineladmin', 'olimpiada')
-			),
-		),
-	),
-	array(
-		'rule' => array('plugin' => 'olimpiada', 'prefix' => 'paineladmin', 'paineladmin' => true),
-		'location' => array(),
-		'subRules' => array(
-			array(
-				'rule' => array('controller' => 'fases', 'action' => 'paineladmin_index'),
-				'location' => array('paineladmin', 'olimpiada')
-			),
-		),
-	),
-	
 	// Factory rules (subrules are completed by MexcAppController)
 	array(
 		'rule' => array('plugin' => 'site_factory', 'controller' => 'fact_sites'),
@@ -949,25 +891,17 @@ $sectionMap = array(
 	
 	// About
 	array(
-		'rule' => array('plugin' => 'mexc_about'),
+		'rule' => array('controller' => 'about'),
 		'location' => array('public_page', 'rede', 'about'),
 		'subRules' => array(
 			array(
 				'rule' => array('action' => 'rede'),
 				'location' => array(null,null,null,'rede')
 			),
-			array(
-				'rule' => array('action' => 'staff'),
-				'location' => array(null,null,null,'staff')
-			),
-			array(
-				'rule' => array('action' => 'history'),
-				'location' => array(null,null,null,'history')
-			),
-			array(
-				'rule' => array('action' => 'site_map'),
-				'location' => array(null,null,null,'site_map')
-			)
+			//array(
+				//'rule' => array('action' => 'site_map'),
+				//'location' => array(null,null,null,'site_map')
+			//)
 		)
 	),
 	

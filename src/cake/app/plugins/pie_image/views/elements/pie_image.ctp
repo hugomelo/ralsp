@@ -28,7 +28,7 @@ switch ($type[0])
 			break;
 			
 			case 'mexc_event':
-				echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'image_5M'));
+				echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'md'));
 				echo $this->Bl->p(array('class' => 'subtitle'), array(),
 					$this->Bl->spanDry($data['PieImage']['title']) . ' ' . $data['PieImage']['subtitle']
 				);
@@ -46,24 +46,15 @@ switch ($type[0])
 						echo $this->Jodel->insertModule('PieImage.PieImage', array('full','mexc_new'), $data);
 					break;
 					
-					case 'about_history':
-						echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'image_5M'));
+					case 'about_rede':
+						echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'md'));
 						echo $this->Bl->p(array('class' => 'subtitle'), array(),
 							$this->Bl->spanDry($data['PieImage']['title']) . ' ' . $data['PieImage']['subtitle']
 						);
 					break;
 					
 					case 'about_ilustration_image':
-						echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'image_9M'));
-					break;
-					
-					case 'gd_regulamento':
-					case 'gd_inicio':
-					case 'gd_about':
-						echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'image_5M'));
-						echo $this->Bl->p(array('class' => 'subtitle'), array(),
-							$this->Bl->spanDry($data['PieImage']['title']) . ' ' . $data['PieImage']['subtitle']
-						);
+						echo $this->Bl->img(array(), array('id' => $data['PieImage']['file_id'], 'version' => 'md'));
 					break;
 					
 					default:

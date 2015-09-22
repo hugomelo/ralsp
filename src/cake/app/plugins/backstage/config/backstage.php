@@ -122,98 +122,6 @@ Configure::write('Backstage.itemSettings',array(
 		//'paramsFoward' => array(0 => 'id'),
 		'contain' => false,
 	),
-	'lp_copy' => array(
-		'actions' => array('create'),
-		'limitSize' => 40,
-		'statusOptions' => null, //array('published', 'draft'),
-		'columns' => array(
-			'to' => array('label' => __d('la_poste', 'LpCopy header: to', true), 'size' => '5.5'),
-			'state' => array('label' => __d('la_poste', 'LpCopy header: state', true), 'size' => '1.5'),
-			'first_try' => array('label' => __d('la_poste', 'LpCopy header: first_try', true), 'size' => '2'),
-			'last_try' => array('label' => __d('la_poste', 'LpCopy header: last_try', true), 'size' => '2'),
-			'tries' => array('label' => __d('la_poste', 'LpCopy header: tries', true), 'size' => '1'),
-		),
-		'customRow' => true,
-		'customHeader' => true,
-		'customSearch' => false,
-		'paramsFoward' => array(0 => 'LpCopy.lp_letter_id'),
-		'contain' => array('LpFirstTry', 'LpLastTry', 'LpLetter'),
-	),
-	'sui_user' => array(
-		'actions' => array('delete','edit'),
-		'limitSize' => 20,
-		'columns' => array(
-			'name' => array('label' => __d('sui', 'SuiUser header: name', true), 'field' => 'name', 'size' => '2'),
-			'city' => array('label' => __d('sui', 'SuiUser header: city', true), 'field' => 'city', 'size' => '2'),
-			'state' => array('label' => __d('sui', 'SuiUser header: state', true), 'field' => 'state', 'size' => '1'),
-			'sui_users_type_id' => array('label' => __d('sui', 'SuiUser header: sui_users_type_id', true), 'field' => 'sui_users_type_id', 'size' => '1'),
-			'user_status' => array('label' => __d('sui', 'SuiUser header: user_status', true), 'field' => 'user_status', 'size' => '1'),
-			'username' => array('label' => __d('sui', 'SuiUser header: username', true), 'size' => '2'),
-			'institutions' => array('label' => __d('sui', 'SuiUser header: institutions', true), 'size' => '2'),
-			'subscriptions' => array('label' => __d('sui', 'SuiUser header: subscriptions', true), 'size' => '1'),
-		),
-		'customRow' => true,
-		'customSearch'  => true,
-		'contain' => array('SuiUsersType', 'SuiInstitution', 'SuiApplicationsSuiUser', 'SuiApplication'),
-	),
-	'sui_institution' => array(
-		'actions' => array('delete','edit'),
-		'limitSize' => 20,
-		'columns' => array(
-			'name' => array('label' => __d('sui', 'SuiInstitution header: name', true), 'field' => 'name', 'size' => '4'),
-			'city' => array('label' => __d('sui', 'SuiInstitution header: city', true), 'field' => 'city', 'size' => '3'),
-			'state' => array('label' => __d('sui', 'SuiInstitution header: state', true), 'field' => 'state', 'size' => '1'),
-			'cnpj' => array('label' => __d('sui', 'SuiInstitution header: cnpj', true), 'field' => 'cnpj', 'size' => '2'),
-			'type' => array('label' => __d('sui', 'SuiInstitution header: type', true), 'size' => '1'),
-			'subscriptions' => array('label' => __d('sui', 'SuiInstitution header: subscriptions', true), 'size' => '1'),
-		),
-		'customRow' => true,
-		'customSearch'  => true,
-		'contain' => array('SuiInstitutionType', 'SuiApplicationCompleted'),
-	),
-	'sui_subscription' => array(
-		'actions' => array('create', 'edit'),
-		'limitSize' => 20,
-		'columns' => array(
-			'subscription_model' => array('label' => __d('sui', 'SuiSubscription header: name', true), 'field' => 'subscription_model', 'size' => '2'),
-			'title' => array('label' => __d('sui', 'SuiSubscription header: title', true), 'field' => 'title', 'size' => '4'),
-			'start' => array('label' => __d('sui', 'SuiSubscription header: start', true), 'size' => '2'),
-			'subscription_status' => array('label' => __d('sui', 'SuiSubscription header: subscription_status', true), 'field' => 'subscription_status', 'size' => '2'),
-			'subscriptions_completed' => array('label' => __d('sui', 'SuiSubscription header: subscriptions_completed', true), 'size' => '1'),
-			'subscriptions_waiting' => array('label' => __d('sui', 'SuiSubscription header: subscriptions_waiting', true), 'size' => '1'),
-		),
-		'customRow' => true,
-		'customSearch'  => true,
-		'paramsFoward' => array('a'),
-		'contain' => array(
-			'SuiApplicationPeriod', 'SuiCurrentApplicationPeriod'
-		)
-	),
-	'sui_application' => array(
-		'actions' => array('edit'),
-		'limitSize' => 20,
-		'columns' => array(
-			'code' => array('label' => __d('sui', 'SuiApplication header: code', true), 'field' => 'code', 'size' => '1'),
-			'team_name' => array('label' => __d('sui', 'SuiApplication header: team_name', true), 'field' => 'team_name', 'size' => '2'),
-			'mode' => array('label' => __d('sui', 'SuiApplication header: mode', true), 'size' => '2'),
-			'type_school' => array('label' => __d('sui', 'SuiApplication header: type_school', true), 'size' => '1'),
-			'school' => array('label' => __d('sui', 'SuiApplication header: school', true), 'size' => '2'),
-			'where' => array('label' => __d('sui', 'SuiApplication header: where', true), 'size' => '1'),
-			'responsible' => array('label' => __d('sui', 'SuiApplication header: responsible', true), 'size' => '2'),
-			'status' => array('label' => __d('sui', 'SuiApplication header: status', true), 'field' => 'status', 'size' => '1'),
-		),
-		'customRow' => true,
-		'customSearch' => true,
-		'customHeader' => true,
-		'paramsFoward' => array(0 => 'sui_subscription_id'),
-		'contain' => array(
-			'SuiUser',
-			'SuiInstitution',
-			'SuiFeedback' => 'UserUser',
-			'SuiApplicationPeriod'
-		),
-		'additionalFilteringConditions' => array('MexcSpace.DashboardFiltering'),
-	),
 	'user_users' => array(
 		'actions' => array('delete','edit', 'create'),
 		'limitSize' => 100,
@@ -251,17 +159,6 @@ Configure::write('Backstage.itemSettings',array(
 		),
 		'customRow' => true,
 		'customSearch' => true,
-	),
-	'mojo_queue' => array(
-		'actions' => array('delete','edit', 'create'),
-		'limitSize' => 20,
-		'columns' => array(
-			'name' => array('label' => __d('sui', 'MojoQueue header: name', true), 'field' => 'name', 'size' => '4'),
-			'slug' => array('label' => __d('sui', 'MojoQueue header: slug', true), 'field' => 'slug', 'size' => '3'),
-			'created' => array('label' => __d('sui', 'MojoQueue header: created', true), 'field' => 'created', 'size' => '2'),
-			'modified' => array('label' => __d('sui', 'MojoQueue header: modified', true), 'field' => 'modified', 'size' => '2'),
-
-		),
 	),
 )
 );
