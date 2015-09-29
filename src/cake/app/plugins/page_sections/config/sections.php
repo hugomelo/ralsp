@@ -188,6 +188,7 @@ $sections = array(
 					'fact_sites' => array(
 						'linkCaption' => __('Projetos', true),
 						'pageTitle' => array(null,__('Projetos', true)),
+						'display' => false,
 						'url' => array(
 							'plugin' => 'site_factory', 'controller' => 'fact_sites', 'action' => 'all_sites'
 						),
@@ -196,6 +197,7 @@ $sections = array(
 						'linkCaption' => __('Biblioteca', true),
 						'pageTitle' => array(null,__('Biblioteca', true)),
 						'collapse' => true,
+						'display' => false,
 						'url' => array(
 							'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'),
 						'subSections' => array(
