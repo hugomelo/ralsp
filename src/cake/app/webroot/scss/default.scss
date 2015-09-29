@@ -642,15 +642,25 @@ div.about_project {
     padding-right: 0;
   }
 
+  ul.support-list {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    border-top-color: #68ad68;
+    list-style: none;
+    padding-left: 0;
+
+	img { width: 100%; }
+  }
   ul.partners-list {
     margin-top: 10px;
     margin-right: 30px;
     margin-bottom: 50px;
-    padding: 10px;
     border-style: solid dashed dashed;
     border-width: 2px 1px 1px;
     border-top-color: #68ad68;
     list-style: none;
+    padding: 10px;
 
     li {
         height: 60px;
