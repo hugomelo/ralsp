@@ -17,11 +17,6 @@ var ralsp = {
 		desc.eq(index).addClass('active');
 	},
 
-	countLetters: function(event) {
-		console.log($(this).value.length);
-		$('chars-counter').update($(this).value.length + " caracteres");
-	},
-
 	showEventPage: function(event) {
 		if (event)
 			event.preventDefault();
@@ -46,7 +41,6 @@ var ralsp = {
 (function($) {
 	$(function() {
 		$('.row.home .projects .project-select a').on('click',ralsp.activateProjectEntry);
-		$('.summary').bind('input propertychange', ralsp.countLetters);
 		$('.agenda.menu .newer, .agenda.menu .older').on('click', ralsp.showEventPage);
 	});
 })(jQuery);
