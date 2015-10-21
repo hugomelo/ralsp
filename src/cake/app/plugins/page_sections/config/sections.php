@@ -94,16 +94,6 @@ $config = array();
  
 $sections = array(
 	'public_page' => array(
-		'linkCaption' => __('Sections: public_page linkCaption', true),
-		'pageTitle'   => array(__('Sections: public_page pageTitle', true)),
-		'url' => array(
-			'plugin' => false,
-			'controller' => 'main',
-			'action' => 'index'
-		),
-		'display' => false,
-		'subSections' => array(
-			'rede' => array(
 				'linkCaption' => __('Sections: museum linkCaption', true),
 				'pageTitle'   => array(__('Sections: museum pageTitle', true)),
 				'url' => array(
@@ -185,14 +175,14 @@ $sections = array(
 							),
 						),
 					),
-					'fact_sites' => array(
-						'linkCaption' => __('Projetos', true),
-						'pageTitle' => array(null,__('Projetos', true)),
-						'display' => false,
-						'url' => array(
-							'plugin' => 'site_factory', 'controller' => 'fact_sites', 'action' => 'all_sites'
-						),
-					),
+					//'fact_sites' => array(
+						//'linkCaption' => __('Projetos', true),
+						//'pageTitle' => array(null,__('Projetos', true)),
+						//'display' => false,
+						//'url' => array(
+							//'plugin' => 'site_factory', 'controller' => 'fact_sites', 'action' => 'all_sites'
+						//),
+					//),
 					'documents' => array(
 						'linkCaption' => __('Biblioteca', true),
 						'pageTitle' => array(null,__('Biblioteca', true)),
@@ -254,9 +244,7 @@ $sections = array(
 						'linkCaption' => 'Facebook',
 						'collapse' => true,
 						'url' => 'http://facebook.com'
-					)
-				),
-			),
+					),
 			'fact_sites' => array(
 				'linkCaption' => __('Projetos', true),
 				'pageTitle' => array(null,__('Projetos', true)),
@@ -813,80 +801,68 @@ $sectionMap = array(
 		)
 	),
 	
-	// Hardcoded factory rules
-	array(
-		'rule' => array('plugin' => 'olimpiada'),
-		'location' => array('public_page', 'fact_sites', 'olimpiada'),
-		'subRules' => array(
-			array(
-				'rule' => array('edicao' => 2),
-				'location' => array(null, null, null, 'olimpiada_2')
-			),
-		)
-	),
-	
 	// Main site
 	array(
 		'rule' => array('controller' => 'main', 'action' => 'index'),
-		'location' => array('public_page', 'rede', 'home'),
+		'location' => array('public_page', 'home'),
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_news', 'controller' => 'mexc_news'),
-		'location' => array('public_page', 'rede', 'news'),
+		'location' => array('public_page', 'news'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
-				'location' => array(null, null, null, 'item'),
+				'location' => array(null, null, 'item'),
 			),
 		)
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_documents', 'controller' => 'mexc_documents'),
-		'location' => array('public_page', 'rede', 'documents'),
+		'location' => array('public_page', 'documents'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
-				'location' => array(null, null, null, 'item'),
+				'location' => array(null, null, 'item'),
 			),
 		)
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_events', 'controller' => 'mexc_events'),
-		'location' => array('public_page', 'rede', 'events'),
+		'location' => array('public_page', 'events'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
-				'location' => array(null, null, null, 'item'),
+				'location' => array(null, null, 'item'),
 			),
 		)
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_documents', 'controller' => 'mexc_files'),
-		'location' => array('public_page', 'rede', 'files'),
+		'location' => array('public_page', 'files'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'view'),
-				'location' => array(null, null, null, 'item'),
+				'location' => array(null, null, 'item'),
 			),
 		)
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries'),
-		'location' => array('public_page', 'rede', 'galleries'),
+		'location' => array('public_page', 'galleries'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
-				'location' => array(null, null, null, 'item'),
+				'location' => array(null, null, 'item'),
 			),
 		)
 	),
 	array(
 		'rule' => array('plugin' => 'mexc_digital_collections', 'controller' => 'mexc_digital_collections'),
-		'location' => array('public_page', 'rede', 'digital_collections'),
+		'location' => array('public_page', 'digital_collections'),
 		'subRules' => array(
 			array(
 				'rule' => array ('action' => 'read'),
-				'location' => array(null, null, null, 'item'),
+				'location' => array(null, null, 'item'),
 			),
 		)
 	),

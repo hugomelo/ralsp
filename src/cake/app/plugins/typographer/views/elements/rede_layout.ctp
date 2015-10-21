@@ -5,7 +5,10 @@ echo $this->Bl->sdiv(array('class' => 'row'), array());
 	echo $this->Bl->ediv();
 	echo $this->Bl->sdiv(array('class' => 'col-md-11 col-xs-12'), array());
 		echo $this->Bl->sdiv(array('id' => 'main'), array());
-			echo $this->Bl->sdiv(array('class' => 'body'), array());
+			$klass = "";
+			if (!empty($ourLocation[1]) && $ourLocation[1] == 'fact_sites' && !empty($ourLocation[2]))
+				$klass = 'home-project projeto-'.$ourLocation[2];
+			echo $this->Bl->sdiv(array('class' => 'body '.$klass), array());
 				echo $this->Bl->sdiv(array('class' => 'container'), array()); ?>
 					<div class="w-form search">
 						<form class="" id="search-form" name="search-form" data-name="Search Form">

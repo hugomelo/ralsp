@@ -492,7 +492,7 @@ class RedeTypeBricklayerHelper extends TypeBricklayerHelper
 
 	function menuBt($htmlAttr = array(), $options = array())
 	{
-		$menuLevel = 2;
+		$menuLevel = 1;
 		$htmlAttr += array('class' => array('navbar'));
 		
 		$View = ClassRegistry::getObject('view');
