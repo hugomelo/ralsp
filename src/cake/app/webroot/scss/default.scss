@@ -860,6 +860,22 @@ div.related_content {
 	&.projeto-ecoforte {
       background-image: url(/img/layout/ecoforte_bg_texture.png);
 
+      .about_project {
+      	margin-bottom: 25px;
+      	padding-top: 20px;
+      	padding-bottom: 20px;
+      	background-color: rgba(32, 145, 81, 0.38);
+      }
+	}
+	&.projeto-ater {
+      background-image: url(/img/layout/ater_bg_texture.png);
+
+      .about_project {
+      	margin-bottom: 25px;
+      	padding-top: 20px;
+      	padding-bottom: 20px;
+      	background-color: rgba(32, 145, 81, 0.38);
+      }
 	}
 	padding-top: 40px;
     background-size: auto, auto;
@@ -888,7 +904,6 @@ div.related_content {
       margin-bottom: 25px;
       padding-top: 20px;
       padding-bottom: 20px;
-      background-color: rgba(32, 145, 81, 0.38);
     }
   }
 }
