@@ -354,7 +354,6 @@ nav.navbar {
   .projects {
     position: relative;
     margin-top: 40px;
-    margin-bottom: -26px;
     padding: 2.5% 2% 60px;
     background-color: $projects-box;
     box-shadow: $projects-shadow 0px 0px 0px 1px inset;
@@ -515,7 +514,6 @@ div.about_project {
 /********* POST LISTING ***********/
 
 .posts-list {
-  margin-top: 50px;
   margin-left: -10px;
   margin-right: -10px;
 
@@ -854,5 +852,43 @@ div.related_content {
   }
   .pie_text p{
   	font-size: 20px;
+  }
+}
+
+#main {
+  .home-project {
+	&.projeto-ecoforte {
+      background-image: url(/img/layout/ecoforte_bg_texture.png);
+
+	}
+	padding-top: 40px;
+    background-size: auto, auto;
+
+    .projeto {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 7%;
+      padding-bottom: 15px;
+      font-family: 'Alegreya Sans', sans-serif;
+      position: relative;
+      padding: 2.5% 0% 60px;
+
+      h4.project-title { color: #9e5837; }
+      h3.project-title-inside {
+      	margin-top: -15px;
+    	font-family: Merienda, sans-serif;
+    	color: #340a0b;
+    	font-size: 27px;
+    	line-height: 36px;
+    	font-style: normal;
+      }
+
+    }
+    .about_project {
+      margin-bottom: 25px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: rgba(32, 145, 81, 0.38);
+    }
   }
 }
