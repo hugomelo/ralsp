@@ -80,6 +80,10 @@ class SblSearchItem extends UnifiedSearchAppModel {
 			}
 		}
 		
+		if (!empty($filterOptions['mexc_space_id'])) {
+			$conditions['SblSearchItem.mexc_space_id'] = $filterOptions['mexc_space_id'];
+		}
+		
 		if (!empty($filterOptions['after'])) {
 			$conditions['SblSearchItem.date >='] = $filterOptions['after'];
 		}
