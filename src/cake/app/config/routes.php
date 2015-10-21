@@ -84,9 +84,13 @@
 /**
  * Connects the main content
  */
-	Router::connect('/novidades/*', array('plugin' => 'mexc_news', 'controller' => 'mexc_news', 'action' => 'read'));
-	Router::connect('/eventos/*', array('plugin' => 'mexc_events', 'controller' => 'mexc_events', 'action' => 'read'));
-	Router::connect('/documentos/*', array('plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'read'));
+	Router::connect('/novidades', array('plugin' => 'mexc_news', 'controller' => 'mexc_news', 'action' => 'index'));
+	Router::connect('/eventos', array('plugin' => 'mexc_events', 'controller' => 'mexc_events', 'action' => 'index'));
+	Router::connect('/galerias', array('plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries', 'action' => 'index'));
+	Router::connect('/documentos', array('plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'));
+	Router::connect('/novidade/*', array('plugin' => 'mexc_news', 'controller' => 'mexc_news', 'action' => 'read'));
+	Router::connect('/evento/*', array('plugin' => 'mexc_events', 'controller' => 'mexc_events', 'action' => 'read'));
+	Router::connect('/documento/*', array('plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'read'));
 	Router::connect('/galeria/*', array('plugin' => 'mexc_galleries', 'controller' => 'mexc_galleries', 'action' => 'read'));
 	
 /**
