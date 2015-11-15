@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-03-12 02:43+0000\n"
-"PO-Revision-Date: 2012-03-11 23:50-0300\n"
+"PO-Revision-Date: 2015-11-15 23:06-0200\n"
 "Last-Translator: Lucas Vignoli Reis <lucas@preface.com.br>\n"
 "Language-Team: Preface Design <preface@preface.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "Nível de publicação"
 
 #: \plugins\mexc_news\views\elements\mexc_new_form.ctp:44
 msgid "form - display level instructions"
-msgstr "Escolha se a publicação aparecerá ou não na página inicial. Se não aparecer na página inicial do Museu, continuará aparecendo na página do programa e na busca."
+msgstr "Escolha se a publicação aparecerá ou não na página inicial. Se não aparecer na página inicial do Museu, continuará aparecendo na página do projeto e na busca."
 
 #: \plugins\mexc_news\views\elements\mexc_new_form.ctp:58
 msgid "form - title label"

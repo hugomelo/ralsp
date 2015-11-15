@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-03-12 02:43+0000\n"
-"PO-Revision-Date: 2012-03-11 23:45-0300\n"
+"PO-Revision-Date: 2015-11-15 16:50-0200\n"
 "Last-Translator: Lucas Vignoli Reis <lucas@preface.com.br>\n"
 "Language-Team: Preface Design <preface@preface.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +70,7 @@ msgstr "Nome"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:39
 msgid "form - name instructions"
-msgstr "Qual é o nome do programa?"
+msgstr "Qual é o nome do projeto?"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:48
 msgid "form - description label"
@@ -78,7 +78,7 @@ msgstr "Resumo"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:49
 msgid "form - description instructions"
-msgstr "Esta descrição aparece na listagem geral de programas em \"Programas do Museu\". Deve ser um texto de até 400 caracteres."
+msgstr "Esta descrição aparece na listagem geral de projetos em \"Nossos Projetos\". Deve ser um texto de até 400 caracteres."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:58
 msgid "form - mini_description label"
@@ -86,7 +86,7 @@ msgstr "Mini resumo"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:59
 msgid "form - mini_description instructions"
-msgstr "Esta descrição deve dizer o absolutamente essencial e aparece na página inicial do museu. Não deve ter mais de 170 caracteres."
+msgstr "Esta descrição deve dizer o absolutamente essencial e aparece na página inicial da rede. Não deve ter mais de 170 caracteres."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:70
 msgid "form - about_content_stream_id label"
@@ -94,7 +94,7 @@ msgstr "Texto de apresentação"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:71
 msgid "form - about_content_stream_id instructions"
-msgstr "Um texto descrevendo o programa. Este texto aparecerá na página inicial do mesmo."
+msgstr "Um texto descrevendo o projeto. Este texto aparecerá na página inicial do mesmo."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:83
 msgid "form - sections (relational) label"
@@ -102,7 +102,7 @@ msgstr "Seções do sub-site"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:84
 msgid "form - sections (relational) instructions"
-msgstr "Quais seções deseja incluir no site do programa?"
+msgstr "Quais seções deseja incluir no site do projeto?"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:92
 msgid "form - space configuration superfield label"
@@ -110,7 +110,7 @@ msgstr "Espaço de publicação"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:92
 msgid "form - space configuration superfield instructions"
-msgstr "Cada programa novo cria um espaço de publicação, aonde suas Novidades, Eventos, Fotos etc são publicados. Estas são as configurações do espaço de publicação."
+msgstr "Cada projeto novo cria um espaço de publicação, aonde suas Novidades, Eventos, Fotos etc são publicados. Estas são as configurações do espaço de publicação."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:98
 msgid "form - mexc_space name label"
@@ -118,7 +118,7 @@ msgstr "Nome do espaço"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:99
 msgid "form - mexc_space name instructions"
-msgstr "Este é o nome que aparece nas etiquetinhas coloridas das publicações feitas neste espaço. Pode ser uma versão completa ou resumida do nome do programa."
+msgstr "Este é o nome que aparece nas etiquetinhas coloridas das publicações feitas neste espaço. Pode ser uma versão completa ou resumida do nome do projeto."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:107
 msgid "form - mexc_space id label"
@@ -126,7 +126,7 @@ msgstr "Código do espaço"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:108
 msgid "form - mexc_space id instructions"
-msgstr "Este é o nome que aparecerá no endereço da página de internet do sub-site, deve ser uma versão resumida, em minúsculas e sem espaços do nome do programa."
+msgstr "Este é o nome que aparecerá no endereço da página de internet do sub-site, deve ser uma versão resumida, em minúsculas e sem espaços do nome do projeto."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:117
 msgid "form - mexc_space fore_color label"
@@ -142,11 +142,11 @@ msgstr "Configurações de layout"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:134
 msgid "form - layout configuration instructions"
-msgstr "Aqui se definem as opções de layout para o site do programa. Prefira sempre que possível usar os modelos oferecidos."
+msgstr "Aqui se definem as opções de layout para o site do projeto. Prefira sempre que possível usar os modelos oferecidos."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:136
 msgid "form - preset sites"
-msgstr "Estão disponibilizados aqui 4 modelos de layout para sites da fabriquinha que seguem o programa de identidade visual do Museu Exploratório de Ciências. Apenas mexa manualmente nas imagens e cores se souber o que está fazendo."
+msgstr "Estão disponibilizados aqui 4 modelos de layout para sites. Apenas mexa manualmente nas imagens e cores se souber o que está fazendo."
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:180
 msgid "form - color_background label"
@@ -178,11 +178,11 @@ msgstr "Cor das linhas divisórias do site"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:241
 msgid "form - img_id label"
-msgstr "Marca do programa"
+msgstr "Marca do projeto"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:242
 msgid "form - img_id instructions"
-msgstr "Esta imagem aparece na listagem de programas em \"Programas do Museu\""
+msgstr "Esta imagem aparece na listagem de projetos em \"nossos projetos\""
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:253
 msgid "form - img_bg_id label"
@@ -194,11 +194,11 @@ msgstr "Esta imagem será usada como pano de fundo. Não é necessário usá-la,
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:266
 msgid "form - picture_id label"
-msgstr "Textura para pág. inicial e listagem de programas"
+msgstr "Textura para pág. inicial e listagem de projetos"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:267
 msgid "form - picture_id instructions"
-msgstr "Aqui deve-se colocar uma imagem filha da identidade visual do programa, mas que não seja o logo. Uma textura é adequada. Ela aparece na página inicial e na listagem de programas)"
+msgstr "Aqui deve-se colocar uma imagem filha da identidade visual do projeto, mas que não seja o logo. Uma textura é adequada. Ela aparece na página inicial e na listagem de projetos)"
 
 #: \plugins\site_factory\views\elements\fact_site_form.ctp:278
 msgid "form - img_head_id label"
@@ -217,8 +217,8 @@ msgid "form - img_foot_id instructions"
 msgstr "Esta é a imagem que será disposta no rodapé do site. Ela deve ter 940x160px, senão, ela será cortada para caber nestas dimensões."
 
 #~ msgid "form - img_id2 label"
-#~ msgstr "Marca do programa"
+#~ msgstr "Marca do projeto"
 
 #~ msgid "form - img_id2 instructions"
 #~ msgstr ""
-#~ "Esta imagem aparece na listagem de programas em \"Programas do Museu\""
+#~ "Esta imagem aparece na listagem de projetos em \"Nossos projetos\""
