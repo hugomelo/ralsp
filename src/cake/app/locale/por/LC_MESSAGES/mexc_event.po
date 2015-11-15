@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-03-12 02:43+0000\n"
-"PO-Revision-Date: 2015-06-25 14:47-0300\n"
+"PO-Revision-Date: 2012-03-11 23:56-0300\n"
 "Last-Translator: Lucas Vignoli Reis <lucas@preface.com.br>\n"
 "Language-Team: Preface Design <preface@preface.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "Nível de publicação"
 
 #: \plugins\mexc_events\views\elements\mexc_event_form.ctp:32
 msgid "form - display level instructions"
-msgstr "Escolha se a publicação aparecerá ou não na página inicial. Se não aparecer na página inicial da Rede, continuará aparecendo na página do programa e na busca."
+msgstr "Escolha se a publicação aparecerá ou não na página inicial. Se não aparecer na página inicial do Museu, continuará aparecendo na página do programa e na busca."
 
 #: \plugins\mexc_events\views\elements\mexc_event_form.ctp:46
 msgid "form - name label"

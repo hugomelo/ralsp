@@ -283,19 +283,19 @@ msgstr ""
 
 #: /plugins/page_sections/config/sections.php:97
 msgid "Sections: public_page linkCaption"
-msgstr "Rede de Agroecologia do Leste Paulista e Alta Mogiana"
+msgstr "Museu Exploratório de Ciências"
 
 #: /plugins/page_sections/config/sections.php:98
 msgid "Sections: public_page pageTitle"
-msgstr "Rede de Agroecologia do Leste Paulista e Alta Mogiana"
+msgstr "Museu Exploratório de Ciências"
 
 #: /plugins/page_sections/config/sections.php:107
 msgid "Sections: museum linkCaption"
-msgstr "Rede de Agroecologia do Leste Paulista e Alta Mogiana"
+msgstr "Museu Exploratório de Ciências"
 
 #: /plugins/page_sections/config/sections.php:108
 msgid "Sections: museum pageTitle"
-msgstr "Rede de Agroecologia do Leste Paulista e Alta Mogiana"
+msgstr "Museu Exploratório de Ciências"
 
 #: /plugins/page_sections/config/sections.php:116
 msgid "Sections: home linkCaption"
@@ -415,11 +415,11 @@ msgstr "Sobre"
 
 #: /plugins/page_sections/config/sections.php:255
 msgid "Sections: mexc_about museu linkCaption"
-msgstr "A Rede"
+msgstr "O Museu"
 
 #: /plugins/page_sections/config/sections.php:256
 msgid "Sections: mexc_about museu pageTitle"
-msgstr "Sobre a Rede"
+msgstr "Sobre o Museu"
 
 #: /plugins/page_sections/config/sections.php:264
 msgid "Sections: mexc_about staff linkCaption"
@@ -431,11 +431,11 @@ msgstr "A equipe"
 
 #: /plugins/page_sections/config/sections.php:273
 msgid "Sections: mexc_about history linkCaption"
-msgstr "História da Rede"
+msgstr "História do Museu"
 
 #: /plugins/page_sections/config/sections.php:274
 msgid "Sections: mexc_about history pageTitle"
-msgstr "História da Rede"
+msgstr "História do Museu"
 
 #: /plugins/page_sections/config/sections.php:282
 msgid "Sections: mexc_about site_map linkCaption"
@@ -447,7 +447,7 @@ msgstr "Mapa do site"
 
 #: /plugins/page_sections/config/sections.php:296
 msgid "Sections: fact_sites linkCaption"
-msgstr "Programas da Rede"
+msgstr "Programas do Museu"
 
 #: /plugins/page_sections/config/sections.php:297
 msgid "Sections: fact_sites pageTitle"
@@ -459,7 +459,7 @@ msgstr "Página administrativa"
 
 #: /plugins/page_sections/config/sections.php:479
 msgid "Sections: backstage pageTitle"
-msgstr "Página administrativa do site da Ralsp"
+msgstr "Página administrativa do site do Museu Exploratório de Ciências"
 
 #: /plugins/page_sections/config/sections.php:480
 msgid "Sections: backstage headerCaption"

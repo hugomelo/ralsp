@@ -168,3 +168,16 @@ __d('backstage','Language name: lav');
 __d('backstage','Language name: gre');
 __d('backstage','Language name: ukr');
 __d('backstage','Language name: ger');
+
+
+__d('backstage', 'Add new events');
+__d('backstage', 'Add new news');
+__d('backstage', 'Add new galleries');
+__d('backstage', 'Add new documents');
+__d('backstage', 'Add new projects');
+
+__d('backstage','Page title header - BackstageCustom module events');
+__d('backstage','Page title header - BackstageCustom module news');
+__d('backstage','Page title header - BackstageCustom module galleries');
+__d('backstage','Page title header - BackstageCustom module documents');
+__d('backstage','Page title header - BackstageCustom module projects');

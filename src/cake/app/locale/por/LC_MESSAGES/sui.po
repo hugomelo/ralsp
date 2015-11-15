@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2013-04-09 23:43-0300\n"
-"PO-Revision-Date: 2015-06-25 14:48-0300\n"
+"PO-Revision-Date: 2013-04-27 16:13-0300\n"
 "Last-Translator: Daniel Abrahão <daniel@preface.com.br>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -497,7 +497,7 @@ msgid "Essa inscrição não pode ser continuada pois o período de inscrições
 msgstr ""
 
 #: /plugins/sui/models/sui_application.php:283
-msgid "Essa inscrição não pode ser continuada pois ela foi invalidada pela equipe administrativa. Entre em contato com a Rede para maiores detalhes."
+msgid "Essa inscrição não pode ser continuada pois ela foi invalidada pela equipe administrativa. Entre em contato com o Museu para maiores detalhes."
 msgstr ""
 
 #: /plugins/sui/models/sui_application.php:310
@@ -521,7 +521,7 @@ msgid "Não foi possível continuar. Favor verificar os problemas:"
 msgstr ""
 
 #: /plugins/sui/models/sui_application.php:425
-msgid "A sua inscrição ainda está com a aprovação pendente. Aguarde resposta da Rede, em breve."
+msgid "A sua inscrição ainda está com a aprovação pendente. Aguarde resposta do Museu, em breve."
 msgstr ""
 
 #: /plugins/sui/models/sui_application.php:440
@@ -2301,7 +2301,7 @@ msgid "Ir para minha página"
 msgstr ""
 
 #: /plugins/sui/views/sui_users/validar.ctp:86
-msgid "Ir para página inicial da Rede"
+msgid "Ir para página inicial do Museu"
 msgstr ""
 
 #: /views/translate_strings/translate_strings.ctp:45
@@ -2386,7 +2386,7 @@ msgstr "Alterações solicitadas"
 
 #: /views/translate_strings/translate_strings.ctp:68
 msgid "Step:waiting_approval"
-msgstr "Aguardando aprovação da Rede"
+msgstr "Aguardando aprovação do Museu"
 
 #: /views/translate_strings/translate_strings.ctp:70
 msgid "Etapa pagamento"
