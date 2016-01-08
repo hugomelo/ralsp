@@ -12,24 +12,14 @@ echo $bl->sdiv(array('id' => 'about'));
         echo $this->Cork->tile(array(), array(
             'key' => 'about_rede',
 			'type' => 'cs_cork',
-            'title' => __d('mexc', 'Página sobre - texto inicial', true),
+            'title' => __d('mexc', 'Sobre a rede', true),
             'editorsRecommendations' => __d('mexc', 'Um pequeno texto falando sobre a rede.', true),
+			'location' => array('public_page', 'about', 'rede'),
 			'options' => array(
-				'cs_type' => 'about_section_title',
-				'type' => 'about_section_title'
+				'type' => 'about_rede'
 			)
         ));
 
-        echo $this->Cork->tile(array(),array(
-            'key' => 'about_rede_header_image',
-            'type' => 'cs_cork',
-            'title' => __d('mexc', 'Imagem ilustrativa da rede', true),
-            'editorsRecommendations' => __d('mexc', 'Uma imagem principal na página de sobre.', true),
-            'options' => array(
-                'cs_type' => 'about_images',
-                'type' => 'about_ilustration_image'
-            )
-        ));
 	echo $this->Bl->erow();
 echo $this->Bl->ediv();
 

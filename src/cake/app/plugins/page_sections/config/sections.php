@@ -870,7 +870,7 @@ $sectionMap = array(
 	// About
 	array(
 		'rule' => array('controller' => 'about'),
-		'location' => array('public_page', 'rede', 'about'),
+		'location' => array('public_page', 'about', 'rede'),
 		'subRules' => array(
 			array(
 				'rule' => array('action' => 'rede'),
