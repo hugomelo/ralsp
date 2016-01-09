@@ -243,7 +243,7 @@ $sections = array(
 					'facebook' => array(
 						'linkCaption' => 'Facebook',
 						'collapse' => true,
-						'url' => 'http://facebook.com'
+						'url' => 'http://facebook.com/rededeagroecologiadoleste'
 					),
 			'fact_sites' => array(
 				'linkCaption' => __('Projetos', true),
