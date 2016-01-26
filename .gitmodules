@@ -30,4 +30,4 @@
 	url = https://github.com/hugomelo/mexc_related.git
 [submodule "src/cake/app/plugins/mexc_static_pages"]
 	path = src/cake/app/plugins/mexc_static_pages
-	url = https://github.com/museudecienciasunicamp/mexc_static_pages.git
+	url = https://github.com/hugomelo/mexc_static_pages.git
