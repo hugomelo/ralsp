@@ -1481,9 +1481,6 @@ div.related_content {
   margin-top: -20px;
   /**************** AGENDA ********************/
 }
-.agenda {
-  /******* ABOUT ******/
-}
 .agenda .incoming, .agenda .occurred {
   display: none;
   margin-top: 80px;
@@ -1530,6 +1527,11 @@ div.related_content {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 12px;
   letter-spacing: 0.4px;
+}
+.pages.events .event-main-image {
+  width: 100%;
+  margin-bottom: 20px;
+  /******* ABOUT ******/
 }
 #about {
   margin-top: 50px;
