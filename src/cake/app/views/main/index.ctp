@@ -13,7 +13,7 @@ echo $this->Bl->ediv(); // close container || YES, it was needed for showing the
 echo $this->Bl->sdiv(array('class' => 'about_project'), array());
 	echo $this->Bl->sdiv(array('class' => 'container'), array());
 		echo $this->Bl->srow(array('class' => ''));
-			echo $this->Bl->p(array('class' => 'about'), array(), "A Rede de Agroecologia<br>do Leste Paulista é formada por agricultores, técnicos e pesquisadores que têm como objetivo comum a busca pelo desenvolvimento e aprimoramento da agricultura de base ecológica.");
+			echo $this->Bl->p(array('class' => 'about'), array(), "A Rede de Agroecologia do Leste Paulista é formada por agricultores, técnicos e pesquisadores que têm como objetivo comum a busca pelo desenvolvimento e aprimoramento da agricultura de base ecológica.");
 		echo $this->Bl->erow(); // close row
 	echo $this->Bl->ediv(); // close container
 echo $this->Bl->ediv();
