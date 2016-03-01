@@ -44,7 +44,7 @@ echo $this->Bl->sdiv(array('class' => 'row'), array());
 						echo $this->Bl->ediv();
 						echo $this->Bl->sdiv(array('class' => 'col-md-5 col-xs-12'), array());
 							echo $this->Bl->h4(array(), array(), 'a rede');
-							echo $this->Bl->pDry("A Rede Regional de Agroecologia Mantiqueira-Mogiana é formada por agricultores, técnicos e pesquisadores que têm como objetivo comum a busca pelo desenvolvimento e aprimoramento da agricultura de base ecológica");
+							echo $this->Bl->pDry("A Rede de Agroecologia do leste Paulista é formada por agricultores, técnicos e pesquisadores que têm como objetivo comum a busca pelo desenvolvimento e aprimoramento da agricultura de base ecológica");
 							echo $this->Bl->sul(array('class' => 'rede unlisted clearfix'), array());
 								echo $this->Bl->li(array(), array(), 
 									$this->Bl->anchor(array('class' => 'rede unit'), array(), 'Unidades de referência'));

@@ -5,7 +5,7 @@
 echo $bl->sdiv(array('id' => 'about'));
 
     echo $bl->sdiv(array('class' => 'title')); 
-        echo $bl->h2Dry(__d('mexc', 'A Rede de Agroecologia do Leste Paulista e Alta Mogiana', true));
+        echo $bl->h2Dry(__d('mexc', 'A Rede de Agroecologia do Leste Paulista', true));
     echo $bl->ediv();
     
 	echo $this->Bl->srow(array('class' => 'pages rede'));
