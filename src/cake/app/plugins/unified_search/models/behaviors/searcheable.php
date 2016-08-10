@@ -271,7 +271,7 @@ class SearcheableBehavior extends ModelBehavior
 			else if (isset($searchInfo['SblSearchItem']['modified']))
 				$searchInfo['SblSearchItem']['date'] = $searchInfo['SblSearchItem']['modified'];
 			else
-				$searchInfo['SblSearchItem']['date'] = date();
+				$searchInfo['SblSearchItem']['date'] = date("Y-m-d H:i:s");
 
 		}
 
