@@ -175,6 +175,8 @@ class SearcheableBehavior extends ModelBehavior
 		}
 		if (isset($data[$Model->alias]['date'])) {
 			$searchInfo['SblSearchItem']['date'] = $data[$Model->alias]['date'];
+		} elseif (isset($data[$Model->alias]['created'])) {
+			$searchInfo['SblSearchItem']['date'] = $data[$Model->alias]['created'];
 		}
 		if (isset($data[$Model->alias]['start'])) {
 			$searchInfo['SblSearchItem']['start'] = $data[$Model->alias]['start'];
