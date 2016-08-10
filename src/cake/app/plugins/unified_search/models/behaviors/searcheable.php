@@ -265,24 +265,34 @@ class SearcheableBehavior extends ModelBehavior
 		
 		$searchInfo = $Model->getSearchInfo($item_id);
 		
+		if (!isset($searchInfo['SblSearchItem']['date'])) {
+			if (isset($searchInfo['SblSearchItem']['created']))
+				$searchInfo['SblSearchItem']['date'] = $searchInfo['SblSearchItem']['created'];
+			else if (isset($searchInfo['SblSearchItem']['modified']))
+				$searchInfo['SblSearchItem']['date'] = $searchInfo['SblSearchItem']['modified'];
+			else
+				$searchInfo['SblSearchItem']['date'] = date();
+
+		}
+
 		$searchInfo = array(
 			'SblSearchItem' => array(
 				'id'                => $Model->alias.'@'.$item_id,
 				'model'             => $Model->alias,
 				'foreign_id'        => $item_id,
 				'type'				=> $searchInfo['SblSearchItem']['type'],
-				'date'				=> isset($searchInfo['SblSearchItem']['date']				 ) ? $searchInfo['SblSearchItem']['date'] : null,
-				'start'				=> isset($searchInfo['SblSearchItem']['start']				 ) ? $searchInfo['SblSearchItem']['start'] : null,
-				'end'				=> isset($searchInfo['SblSearchItem']['end']				 ) ? $searchInfo['SblSearchItem']['end'] : null,
-				'publishing_status' => isset($searchInfo['SblSearchItem']['publishing_status']	 ) ? $searchInfo['SblSearchItem']['publishing_status'] : 'published',
-				'title'				=> isset($searchInfo['SblSearchItem']['title']				 ) ? $searchInfo['SblSearchItem']['title'] : '',
-				'content'			=> isset($searchInfo['SblSearchItem']['content']			 ) ? $searchInfo['SblSearchItem']['content'] : '',
-				'subtitle'			=> isset($searchInfo['SblSearchItem']['subtitle']			 ) ? $searchInfo['SblSearchItem']['subtitle'] : '',
-				'summary'			=> isset($searchInfo['SblSearchItem']['summary']			 ) ? $searchInfo['SblSearchItem']['summary'] : '',
-				'tags'				=> isset($searchInfo['SblSearchItem']['tags']				 ) ? $searchInfo['SblSearchItem']['tags'] : '',
-				'tags_text'			=> isset($searchInfo['SblSearchItem']['tags']				 ) ? $searchInfo['SblSearchItem']['tags_text'] : '',
-				'mexc_space_id'	    	=> isset($searchInfo['SblSearchItem']['mexc_space_id']				 ) ? $searchInfo['SblSearchItem']['mexc_space_id'] : '',
-				'modified'			=> isset($searchInfo['SblSearchItem']['modified']			 ) ? $searchInfo['SblSearchItem']['modified'] : '',
+				'date'				=> isset($searchInfo['SblSearchItem']['date']				) ? $searchInfo['SblSearchItem']['date'] : null,
+				'start'				=> isset($searchInfo['SblSearchItem']['start']				) ? $searchInfo['SblSearchItem']['start'] : null,
+				'end'				=> isset($searchInfo['SblSearchItem']['end']				) ? $searchInfo['SblSearchItem']['end'] : null,
+				'publishing_status' => isset($searchInfo['SblSearchItem']['publishing_status']	) ? $searchInfo['SblSearchItem']['publishing_status'] : 'published',
+				'title'				=> isset($searchInfo['SblSearchItem']['title']				) ? $searchInfo['SblSearchItem']['title'] : '',
+				'content'			=> isset($searchInfo['SblSearchItem']['content']			) ? $searchInfo['SblSearchItem']['content'] : '',
+				'subtitle'			=> isset($searchInfo['SblSearchItem']['subtitle']			) ? $searchInfo['SblSearchItem']['subtitle'] : '',
+				'summary'			=> isset($searchInfo['SblSearchItem']['summary']			) ? $searchInfo['SblSearchItem']['summary'] : '',
+				'tags'				=> isset($searchInfo['SblSearchItem']['tags']				) ? $searchInfo['SblSearchItem']['tags'] : '',
+				'tags_text'			=> isset($searchInfo['SblSearchItem']['tags']				) ? $searchInfo['SblSearchItem']['tags_text'] : '',
+				'mexc_space_id'    	=> isset($searchInfo['SblSearchItem']['mexc_space_id']		) ? $searchInfo['SblSearchItem']['mexc_space_id'] : '',
+				'modified'			=> isset($searchInfo['SblSearchItem']['modified']			) ? $searchInfo['SblSearchItem']['modified'] : '',
 			),
 		);
 		
