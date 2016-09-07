@@ -1477,12 +1477,18 @@ hr.full {
   font-style: italic;
   font-weight: 500;
 }
+.pie_file {
+  margin-bottom: 20px;
+}
+.pie_image {
+  margin-bottom: 20px;
+}
 .pie_image .subtitle {
   width: 75%;
   margin-bottom: 26px;
   float: right;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 19px;
   font-style: italic;
 }
@@ -1616,7 +1622,13 @@ div.related_content {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.fact_site_menu .menu_3 {
+  /**************** DOCUMENTS ********************/
+}
 .fact_site_menu .menu_3 li {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 8px;
+}
+.documents .main-file {
+  margin-bottom: 20px;
 }
