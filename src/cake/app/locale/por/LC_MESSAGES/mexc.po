@@ -1,0 +1,172 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-09-07 16:05-0300\n"
+"PO-Revision-Date: 2016-09-07 16:09-0300\n"
+"Last-Translator: Hugo Melo <hugo.melo@gmail.com>\n"
+"Language-Team:  <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"Language: pt_BR\n"
+
+#: /app_controller.php:249
+msgid "Início"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:109
+msgid "Associação com evento"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:110
+msgid ""
+"Caso queira associar esta novidade a algum evento cadastrado, procure o "
+"evento desejado pelo nome e o adicione, senão simplesmente deixe em branco "
+"esta opção."
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:116
+msgid "Desfazer relação com evento"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:117
+msgid "Voltar com o último evento escolhido"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:194
+msgid "Espaço de publicação"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:195
+msgid "Escolha onde você deseja publicar"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:202
+msgid "Espaço não encontrado"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:203
+msgid "Buscar um novo espaço"
+msgstr ""
+
+#: /plugins/burocrata/views/helpers/backstage_buro_burocrata.php:204
+msgid "Usar o último espaço selecionado"
+msgstr ""
+
+#: /plugins/mexc_related/views/elements/mexc_related_content.ctp:49
+msgid "Relacionado com (%s) \"%s\""
+msgstr ""
+
+#: /plugins/mexc_related/views/elements/mexc_related_content.ctp:84
+msgid "save form"
+msgstr "salvar"
+
+#: /plugins/mexc_related/views/elements/mexc_related_content.ctp:86
+msgid "cancel form"
+msgstr "cancelar"
+
+#: /plugins/site_factory/views/elements/fact_site.ctp:39
+msgid "Entrar"
+msgstr ""
+
+#: /plugins/site_factory/views/fact_sites/index.ctp:36
+msgid ""
+"Esses dados serão listados na área de logos da área \"apoio\". É importante "
+"que seja adicionado um título como \"Apoio\" ou \"Apoiadores\" antes de cada "
+"grupo de logos."
+msgstr ""
+
+#: /plugins/typographer/views/helpers/backstage_type_bricklayer.php:207
+#: /plugins/typographer/views/helpers/rede_type_bricklayer.php:383
+msgid "Já passou"
+msgstr ""
+
+#: /plugins/typographer/views/helpers/backstage_type_bricklayer.php:211
+#: /plugins/typographer/views/helpers/rede_type_bricklayer.php:387
+msgid "Acontecendo!"
+msgstr ""
+
+#: /plugins/typographer/views/helpers/backstage_type_bricklayer.php:216
+#: /plugins/typographer/views/helpers/rede_type_bricklayer.php:392
+msgid "Será hoje!"
+msgstr ""
+
+#: /plugins/typographer/views/helpers/backstage_type_bricklayer.php:221
+#: /plugins/typographer/views/helpers/rede_type_bricklayer.php:397
+msgid "Amanhã"
+msgstr ""
+
+#: /plugins/typographer/views/helpers/backstage_type_bricklayer.php:225
+#: /plugins/typographer/views/helpers/rede_type_bricklayer.php:401
+msgid "Em breve"
+msgstr ""
+
+#: /views/about/rede.ctp:8
+msgid "A Rede de Agroecologia do Leste Paulista"
+msgstr ""
+
+#: /views/about/rede.ctp:15
+msgid "Sobre a rede"
+msgstr ""
+
+#: /views/about/rede.ctp:16
+msgid "Um pequeno texto falando sobre a rede."
+msgstr ""
+
+#: /views/elements/footer_about.ctp:12
+msgid "Sobre o site no rodapé"
+msgstr ""
+
+#: /views/elements/footer_about.ctp:13
+msgid "Um texto que aparecerá no rodapé do site todo."
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:13
+msgid "Endereço do site no rodapé"
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:14
+msgid "Breve endereço no rodapé"
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:26
+msgid "Formas de contato no rodapé"
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:27
+msgid "Breve descrição de formas de contato no rodapé"
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:40
+msgid "Logos da área \"participamos\""
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:41
+msgid ""
+"Esses dados serão listados na área de logos da área \"participamos\". É "
+"importante que seja adicionado um título como \"Participamos\" ou \"Parceiros"
+"\"."
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:54
+msgid "Logos da área \"apoio\""
+msgstr ""
+
+#: /views/elements/footer_contact.ctp:55
+msgid ""
+"Esses dados serão listados na área de logos da área \"apoio\". É importante "
+"que seja adicionado um título como \"Apoio\" ou \"Apoiadores\"."
+msgstr ""
+
+#: /views/elements/pagination.ctp:18
+msgid "mais recentes"
+msgstr ""
+
+#: /views/elements/pagination.ctp:31
+msgid "mais antigas"
+msgstr ""
