@@ -329,6 +329,16 @@ class AppController extends Controller
 		parent::beforeRender();		
 		$userData = $this->JjAuth->user();
 		$this->set('userData',$userData['UserUser']);
+
+		// compile scss
+		if (Configure::read('debug') > 0) {
+			if (!in_array($this->params['controller'], array('dash_dashboard', 'back_contents', 'buro_burocrata'))) {
+				App::Import('Vendor', 'scssc', array('file' => 'scssphp/scss.inc.php'));
+				App::Import('Vendor', 'SassCompiler', array('file' => 'php-sass' . DS . 'sass-compiler.php'));
+
+				SassCompiler::run(WWW_ROOT."scss/", WWW_ROOT."css/");
+			}
+		}
 	}
 	
 	protected function jodelError($message)
