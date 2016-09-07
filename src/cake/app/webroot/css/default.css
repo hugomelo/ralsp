@@ -948,6 +948,9 @@ nav.navbar ul li.events a:hover, nav.navbar ul li.events a:focus, nav.navbar ul 
 nav.navbar ul li.galleries a:hover, nav.navbar ul li.galleries a:focus, nav.navbar ul li.galleries a.active {
   background-color: #e389e8;
 }
+nav.navbar ul li.documents a:hover, nav.navbar ul li.documents a:focus, nav.navbar ul li.documents a.active {
+  background-color: #4a1234;
+}
 nav.navbar ul li a:hover, nav.navbar ul li a:focus, nav.navbar ul li a.active {
   background-color: #036d70;
 }
@@ -1231,14 +1234,17 @@ div.about_project .about {
   font-size: 37px;
   font-weight: 500;
 }
-.agenda .header .header-data h1.title {
+.events .header .header-data h1.title {
   color: #0a8d91;
 }
 .news .header .header-data h1.title {
   color: #8278b3;
 }
-.galeria .header .header-data h1.title {
-  color: #e389e8;
+.galleries .header .header-data h1.title {
+  color: #f2c9f4;
+}
+.documents .header .header-data h1.title {
+  color: #4a1234;
   /********* POST LISTING ***********/
 }
 .posts-list {
@@ -1548,6 +1554,9 @@ div.related_content {
 #about .pie_text p {
   font-size: 20px;
 }
+#main {
+  /**************** SUBPROJECTS ********************/
+}
 #main .home-project {
   padding-top: 40px;
   background-size: auto, auto;
@@ -1594,4 +1603,8 @@ div.related_content {
   margin-bottom: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.fact_site_menu .menu_3 li {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 8px;
 }

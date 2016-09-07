@@ -217,6 +217,11 @@ nav.navbar {
           background-color: $galleries;
         }
       }
+      &.documents {
+        a:hover, a:focus, a.active {
+          background-color: $documents;
+        }
+      }
       a:hover, a:focus, a.active {
           background-color: $active-default;
       }
@@ -500,14 +505,18 @@ div.about_project {
   font-weight: 500;
 }
 
-.agenda .header .header-data h1.title {
+.events .header .header-data h1.title {
   color: $agenda-h1;
 }
 .news .header .header-data h1.title {
   color: $news-h1;
 }
-.galeria .header .header-data h1.title {
-  color: $galleries-h1;
+.galleries .header .header-data h1.title {
+  color: lighten($galleries-h1, 0.15);
+}
+
+.documents .header .header-data h1.title {
+  color: $documents-h1;
 }
 
 
@@ -909,5 +918,14 @@ div.related_content {
       padding-top: 20px;
       padding-bottom: 20px;
     }
+  }
+}
+
+/**************** SUBPROJECTS ********************/
+
+.fact_site_menu .menu_3 {
+  li {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 8px;
   }
 }
