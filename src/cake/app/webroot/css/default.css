@@ -1548,6 +1548,9 @@ div.related_content {
 #about .pie_text p {
   font-size: 20px;
 }
+#main {
+  /**************** SUBPROJECTS ********************/
+}
 #main .home-project {
   padding-top: 40px;
   background-size: auto, auto;
@@ -1594,4 +1597,8 @@ div.related_content {
   margin-bottom: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.fact_site_menu .menu_3 li {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 8px;
 }
