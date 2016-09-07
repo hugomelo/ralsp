@@ -22,6 +22,10 @@ case 'view':
 			echo $this->Jodel->insertModule('MexcGalleries.MexcGallery', array('preview', 'unified_search'), $data);
 			break;
 
+		case 'MexcDocument':
+			echo $this->Jodel->insertModule('MexcDocuments.MexcDocument', array('preview', 'unified_search'), $data);
+			break;
+
 		default:
 			trigger_error("Model '{$data['SblSearchItem']['model']}' not known.");
 		}

@@ -40,7 +40,7 @@ class SblSearchItem extends UnifiedSearchAppModel {
 		$conditions = array(
 			array("{$this->alias}.publishing_status" => 'published'),
 			'OR' => array(
-				"{$this->alias}.date <=" => date('Y-m-d'),
+				"{$this->alias}.date <=" => date('Y-m-d H:i:s'),
 				"{$this->alias}.date" => NULL,
 			)
 		);

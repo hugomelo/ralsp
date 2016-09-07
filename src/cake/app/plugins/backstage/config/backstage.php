@@ -91,7 +91,7 @@ Configure::write('Backstage.itemSettings',array(
 		'limitSize' => 30,
 		'statusOptions' => array('published', 'draft'),
 		'columns' => array(
-			'title' => array('label' => __d('cn', 'Nome', true), 'field' => 'title', 'size' => 3),
+			'name' => array('label' => __d('cn', 'Nome', true), 'field' => 'name', 'size' => 3),
 			'author' => array('label' => __d('cn', 'Apelido', true), 'field' => 'author', 'size' => 2),
 			'summary' => array('label' => __d('cn', 'Mini descrição', true), 'field' => 'summary', 'size' => 4),
 			'projeto' => array('label' => __d('cn', 'Projeto', true), 'field' => 'mexc_space_id', 'size' => 1),

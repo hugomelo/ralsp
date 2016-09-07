@@ -949,7 +949,7 @@ nav.navbar ul li.galleries a:hover, nav.navbar ul li.galleries a:focus, nav.navb
   background-color: #e389e8;
 }
 nav.navbar ul li.documents a:hover, nav.navbar ul li.documents a:focus, nav.navbar ul li.documents a.active {
-  background-color: #4a1234;
+  background-color: #009444;
 }
 nav.navbar ul li a:hover, nav.navbar ul li a:focus, nav.navbar ul li a.active {
   background-color: #036d70;
@@ -1244,7 +1244,7 @@ div.about_project .about {
   color: #f2c9f4;
 }
 .documents .header .header-data h1.title {
-  color: #4a1234;
+  color: #009444;
   /********* POST LISTING ***********/
 }
 .posts-list {
@@ -1291,6 +1291,18 @@ div.about_project .about {
 .posts-list .post.gallery h6 {
   background-color: rgba(227, 137, 232, 0.29);
   color: #e389e8;
+}
+.posts-list .post.document {
+  border-color: rgba(0, 148, 68, 0.29);
+}
+.posts-list .post.document h6 {
+  background-color: rgba(0, 148, 68, 0.29);
+  color: #009444;
+}
+.posts-list .post.document a.visitable {
+  display: inline-flex;
+  width: 180px;
+  overflow: hidden;
 }
 .posts-list .post .project {
   position: absolute;

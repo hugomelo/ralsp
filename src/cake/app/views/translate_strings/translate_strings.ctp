@@ -1,12 +1,12 @@
 <?php
 /** Backstage special translation strings
  */
-__d('backstage', 'Editing a event');
+__d('backstage', 'Editing a events');
 __d('backstage', 'Editing a scientific_news');
-__d('backstage', 'Editing a new');
-__d('backstage', 'Editing a document');
-__d('backstage', 'Editing a gallery');
-__d('backstage', 'Editing a factory');
+__d('backstage', 'Editing a news');
+__d('backstage', 'Editing a documents');
+__d('backstage', 'Editing a galleries');
+__d('backstage', 'Editing a factorys');
 __d('backstage', 'Editing a highlight');
 __d('backstage', 'Editing a lecture');
 __d('backstage', 'Editing a speaker');
@@ -121,12 +121,17 @@ __d('dashboard', 'Dashboard status: published');
 __d('dashboard', 'Dashboard status: draft');
 
 __d('dashboard', 'Dashboard types: new');
+__d('dashboard', 'Dashboard types: news');
 __d('dashboard', 'Dashboard types: corktile');
 __d('dashboard', 'Dashboard types: scientific_news');
 __d('dashboard', 'Dashboard types: event');
+__d('dashboard', 'Dashboard types: events');
 __d('dashboard', 'Dashboard types: document');
+__d('dashboard', 'Dashboard types: documents');
 __d('dashboard', 'Dashboard types: gallery');
+__d('dashboard', 'Dashboard types: galleries');
 __d('dashboard', 'Dashboard types: factory');
+__d('dashboard', 'Dashboard types: factorys');
 __d('dashboard', 'Dashboard types: highlight');
 __d('dashboard', 'Dashboard types: lecture');
 __d('dashboard', 'Dashboard types: speaker');
@@ -172,6 +177,9 @@ __d('backstage','Language name: ger');
 
 __d('backstage', 'Add new events');
 __d('backstage', 'Add new news');
+__d('backstage', 'Add new galleres');
+__d('backstage', 'Add new gallerys');
+__d('backstage', 'Add new gallerys');
 __d('backstage', 'Add new galleries');
 __d('backstage', 'Add new documents');
 __d('backstage', 'Add new projects');

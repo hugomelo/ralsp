@@ -549,23 +549,37 @@ div.about_project {
     &.new {
       border-color: $news-border;
       h6 {
-        background-color: rgba(130, 120, 179, 0.29);
-        color: #8278b3;
+        background-color: rgba($news, 0.29);
+        color: $news;
       }
     }
     &.event {
       border-color: $agenda-border;
       h6 {
-        background-color: rgba(78, 170, 207, 0.29);
-        color: #4eaacf;
+        background-color: rgba($events, 0.29);
+        color: $events;
       }
     }
     &.gallery {
       border-color: $galeria-border;
       h6 {
-        background-color: rgba(227, 137, 232, 0.29);
-        color: #e389e8;
+        background-color: rgba($galleries, 0.29);
+        color: $galleries;
       }
+    }
+    &.document {
+      border-color: $document-border;
+      h6 {
+        background-color: $document-border;
+        color: $documents;
+      }
+
+      a.visitable {
+        display: inline-flex;
+        width: 180px;
+        overflow: hidden;
+      }
+  
     }
 
     .project {
@@ -620,7 +634,6 @@ div.about_project {
   a {
     color: $fg;
   }
-  
 }
 
 
