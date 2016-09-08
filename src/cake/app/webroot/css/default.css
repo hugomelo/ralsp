@@ -1244,7 +1244,7 @@ div.about_project .about {
   color: #f2c9f4;
 }
 .documents .header .header-data h1.title {
-  color: #009444;
+  color: #b0daba;
   /********* POST LISTING ***********/
 }
 .posts-list {
@@ -1639,9 +1639,11 @@ div.related_content {
   text-transform: uppercase;
   font-size: 14px;
 }
-.fact_site_menu .menu_3 li:hover {
-  background-color: #ddd;
-  color: #fdd;
+.fact_site_menu .menu_3 li:hover, .fact_site_menu .menu_3 li.active {
+  background-color: #eee;
+}
+.fact_site_menu .menu_3 li:hover a, .fact_site_menu .menu_3 li.active a {
+  color: #d77;
 }
 .documents .main-file {
   margin-bottom: 20px;
