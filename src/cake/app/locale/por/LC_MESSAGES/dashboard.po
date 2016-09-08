@@ -4,291 +4,314 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-02-29 11:16+0000\n"
-"PO-Revision-Date: 2012-02-29 08:24-0300\n"
-"Last-Translator: Rodrigo  <rodrigo@preface.com.br>\n"
+"POT-Creation-Date: 2016-09-07 16:31-0300\n"
+"PO-Revision-Date: 2016-09-07 16:33-0300\n"
+"Last-Translator: Hugo Melo <hugo.melo@gmail.com>\n"
 "Language-Team: \n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.7.5\n"
 
-#: \plugins\backstage\views\back_contents\index.ctp:31
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:66
+#: /plugins/backstage/views/back_contents/index.ctp:67
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:87
 msgid "Text"
 msgstr "Texto"
 
-#: \plugins\backstage\views\back_contents\index.ctp:34
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:69
+#: /plugins/backstage/views/back_contents/index.ctp:70
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:90
 msgid "or search for a content previously inserted"
 msgstr "ou procure por um conteúdo já cadastrado"
 
-#: \plugins\backstage\views\back_contents\index.ctp:50
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:85
+#: /plugins/backstage/views/back_contents/index.ctp:88
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:106
 msgid "Status"
 msgstr "Status"
 
-#: \plugins\backstage\views\back_contents\index.ctp:55
-#: \plugins\backstage\views\elements\filter.ctp:104;117
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:90
-msgid "Dashboard status: "
-msgstr ""
-
-#: \plugins\backstage\views\back_contents\index.ctp:79
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:115;190;275
+#: /plugins/backstage/views/back_contents/index.ctp:117
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:128;199;288
 msgid "Show All"
 msgstr "Todos"
 
-#: \plugins\backstage\views\back_contents\index.ctp:121
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:318
+#: /plugins/backstage/views/back_contents/index.ctp:164
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:324
 msgid "Notice of marking as draft success - TITLE"
 msgstr "Conteúdo marcado como rascunho"
 
-#: \plugins\backstage\views\back_contents\index.ctp:122
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:319
+#: /plugins/backstage/views/back_contents/index.ctp:165
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:325
 msgid "Notice of marking as draft success - TEXT"
-msgstr "O conteúdo foi marcado como rascunho com sucesso, ele não aparecerá mais na página pública."
+msgstr ""
+"O conteúdo foi marcado como rascunho com sucesso, ele não aparecerá mais na "
+"página pública."
 
-#: \plugins\backstage\views\back_contents\index.ctp:129
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:326
+#: /plugins/backstage/views/back_contents/index.ctp:172
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:332
 msgid "Notice of marking as draft failure - TITLE"
 msgstr "Falha em marcar como rascunho"
 
-#: \plugins\backstage\views\back_contents\index.ctp:130
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:327
+#: /plugins/backstage/views/back_contents/index.ctp:173
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:333
 msgid "Notice of marking as draft failure - TEXT"
-msgstr "Não foi possível marcar como rascunho este conteúdo. Tente de novo mais uma vez. É possível que você não tenha permissão de executar esta operação."
+msgstr ""
+"Não foi possível marcar como rascunho este conteúdo. Tente de novo mais uma "
+"vez. É possível que você não tenha permissão de executar esta operação."
 
-#: \plugins\backstage\views\back_contents\index.ctp:136
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:333
+#: /plugins/backstage/views/back_contents/index.ctp:179
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:339
 msgid "Notice of publishing success - TITLE"
 msgstr "Conteúdo publicado"
 
-#: \plugins\backstage\views\back_contents\index.ctp:137
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:334
+#: /plugins/backstage/views/back_contents/index.ctp:180
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:340
 msgid "Notice of publishing success - TEXT"
 msgstr "O conteúdo foi publicado com sucesso"
 
-#: \plugins\backstage\views\back_contents\index.ctp:144
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:341
+#: /plugins/backstage/views/back_contents/index.ctp:187
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:347
 msgid "Notice of publishing failure - TITLE"
 msgstr "Falha ao publicar conteúdo"
 
-#: \plugins\backstage\views\back_contents\index.ctp:145
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:342
+#: /plugins/backstage/views/back_contents/index.ctp:188
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:348
 msgid "Notice of publishing failure - TEXT"
-msgstr "Não foi possível publicar este conteúdo. Tente de novo mais uma vez. É possível que você não tenha permissão de executar esta operação."
+msgstr ""
+"Não foi possível publicar este conteúdo. Tente de novo mais uma vez. É "
+"possível que você não tenha permissão de executar esta operação."
 
-#: \plugins\backstage\views\back_contents\index.ctp:152
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:349
+#: /plugins/backstage/views/back_contents/index.ctp:195
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:355
 msgid "Confirm the delete - TITLE"
 msgstr "Confirmação de exclusão"
 
-#: \plugins\backstage\views\back_contents\index.ctp:153
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:350
+#: /plugins/backstage/views/back_contents/index.ctp:196
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:356
 msgid "Confirm the delete - TEXT"
-msgstr "Você deseja realmente excluir este conteúdo? Todos os dados serão perdidos e não poderão mais ser recuperados."
+msgstr ""
+"Você deseja realmente excluir este conteúdo? Todos os dados serão perdidos e "
+"não poderão mais ser recuperados."
 
-#: \plugins\backstage\views\back_contents\index.ctp:154
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:351
+#: /plugins/backstage/views/back_contents/index.ctp:197
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:357
 msgid "DELETE - YES"
 msgstr "Sim"
 
-#: \plugins\backstage\views\back_contents\index.ctp:154
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:351
+#: /plugins/backstage/views/back_contents/index.ctp:197
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:357
 msgid "DELETE - NO"
 msgstr "Não"
 
-#: \plugins\backstage\views\back_contents\index.ctp:176
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:373
+#: /plugins/backstage/views/back_contents/index.ctp:219
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:379
 msgid "Notice of delete success - TITLE"
 msgstr "Conteúdo excluído"
 
-#: \plugins\backstage\views\back_contents\index.ctp:177
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:374
+#: /plugins/backstage/views/back_contents/index.ctp:220
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:380
 msgid "Notice of delete success - TEXT"
 msgstr "Sucesso ao excluir conteúdo."
 
-#: \plugins\backstage\views\back_contents\index.ctp:185
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:382
+#: /plugins/backstage/views/back_contents/index.ctp:228
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:388
 msgid "Notice of delete failure - TITLE"
 msgstr "Falha na exclusão"
 
-#: \plugins\backstage\views\back_contents\index.ctp:186
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:383
+#: /plugins/backstage/views/back_contents/index.ctp:229
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:389
 msgid "Notice of delete failure - TEXT"
-msgstr "Não foi possível excluir este conteúdo. Tente de novo uma segunda vez. É possível que você não tenha permissão para excluir conteúdos."
+msgstr ""
+"Não foi possível excluir este conteúdo. Tente de novo uma segunda vez. É "
+"possível que você não tenha permissão para excluir conteúdos."
 
-#: \plugins\backstage\views\elements\filter.ctp:144
-#: \plugins\dashboard\views\elements\filter.ctp:134
+#: /plugins/backstage/views/elements/filter.ctp:167
+#: /plugins/dashboard/views/elements/filter.ctp:166
 msgid "Hide from public"
 msgstr "Tirar do ar"
 
-#: \plugins\backstage\views\elements\filter.ctp:157
-#: \plugins\dashboard\views\elements\filter.ctp:147
+#: /plugins/backstage/views/elements/filter.ctp:181
+#: /plugins/dashboard/views/elements/filter.ctp:180
 msgid "Publish to the great public"
 msgstr "Publicar"
 
-#: \plugins\backstage\views\elements\filter.ctp:182
-#: \plugins\dashboard\views\elements\filter.ctp:172
+#: /plugins/backstage/views/elements/filter.ctp:223
+#: /plugins/dashboard/views/elements/filter.ctp:223
 msgid "Delete content"
 msgstr "Excluir"
 
-#: \plugins\backstage\views\elements\filter.ctp:198
-#: \plugins\dashboard\views\elements\filter.ctp:191
+#: /plugins/backstage/views/elements/filter.ctp:239
+#: /plugins/dashboard/views/elements/filter.ctp:242
 msgid "Dashboard: See on the page"
 msgstr "Visualizar"
 
-#: \plugins\backstage\views\elements\filter.ctp:212
-#: \plugins\dashboard\views\elements\filter.ctp:207;222
+#: /plugins/backstage/views/elements/filter.ctp:280
+#: /plugins/dashboard/views/elements/filter.ctp:284;299
 msgid "Dashboard: Edit"
 msgstr "Editar"
 
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:12
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:25
 msgid "Page title - Dashboard"
 msgstr "Página do editor"
 
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:18
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:31
 msgid "Add new content:"
 msgstr "Adicione novo conteúdo"
 
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:38
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:61
 msgid "or"
 msgstr "ou"
 
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:42
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:65
 msgid "Close item list"
 msgstr "Cancelar"
 
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:49
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:72
 msgid "Open item list"
 msgstr "Adicione novo conteúdo"
 
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:142
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:216
 msgid "Type"
 msgstr "Tipo"
 
-#: \plugins\dashboard\views\dash_dashboard\index.ctp:222
+#: /plugins/dashboard/views/dash_dashboard/index.ctp:304
 msgid "Spaces"
 msgstr "Espaços"
 
-#: \plugins\dashboard\views\elements\filter.ctp:42
+#: /plugins/dashboard/views/elements/filter.ctp:56
 msgid "Dashboard header: Type"
 msgstr "Tipo"
 
-#: \plugins\dashboard\views\elements\filter.ctp:43
+#: /plugins/dashboard/views/elements/filter.ctp:57
 msgid "Dashboard header: Space"
 msgstr "Espaços"
 
-#: \plugins\dashboard\views\elements\filter.ctp:44
+#: /plugins/dashboard/views/elements/filter.ctp:58
 msgid "Dashboard header: Status"
 msgstr "Status"
 
-#: \plugins\dashboard\views\elements\filter.ctp:45
+#: /plugins/dashboard/views/elements/filter.ctp:59
 msgid "Dashboard header: Name"
 msgstr "Nome"
 
-#: \plugins\dashboard\views\elements\filter.ctp:46
+#: /plugins/dashboard/views/elements/filter.ctp:60
 msgid "Dashboard header: Extra info"
 msgstr "Informação extra"
 
-#: \plugins\dashboard\views\elements\filter.ctp:47
+#: /plugins/dashboard/views/elements/filter.ctp:61
 msgid "Dashboard header: Created"
 msgstr "Criado"
 
-#: \plugins\dashboard\views\elements\filter.ctp:48
+#: /plugins/dashboard/views/elements/filter.ctp:62
 msgid "Dashboard header: Modified"
 msgstr "Modificado"
 
-#: \plugins\dashboard\views\elements\filter.ctp:50
+#: /plugins/dashboard/views/elements/filter.ctp:64
 msgid "Dashboard - dashboard header: Translations"
 msgstr "Linguagens"
 
-#: \views\translate_strings\translate_strings.ctp:19
+#: /views/translate_strings/translate_strings.ctp:120
 msgid "Dashboard status: published"
 msgstr "Publicado"
 
-#: \views\translate_strings\translate_strings.ctp:20
+#: /views/translate_strings/translate_strings.ctp:121
 msgid "Dashboard status: draft"
 msgstr "Rascunho"
 
-#: \views\translate_strings\translate_strings.ctp:22
+#: /views/translate_strings/translate_strings.ctp:123
 msgid "Dashboard types: new"
 msgstr "Novidade"
 
-#: \views\translate_strings\translate_strings.ctp:23
+#: /views/translate_strings/translate_strings.ctp:124
+msgid "Dashboard types: news"
+msgstr "Novidade"
+
+#: /views/translate_strings/translate_strings.ctp:125
 msgid "Dashboard types: corktile"
 msgstr "Conteúdo fixo"
 
-#: \views\translate_strings\translate_strings.ctp:24
+#: /views/translate_strings/translate_strings.ctp:126
 msgid "Dashboard types: scientific_news"
 msgstr "Notícia científica"
 
-#: \views\translate_strings\translate_strings.ctp:25
+#: /views/translate_strings/translate_strings.ctp:127
 msgid "Dashboard types: event"
 msgstr "Evento"
 
-#: \views\translate_strings\translate_strings.ctp:26
+#: /views/translate_strings/translate_strings.ctp:128
+msgid "Dashboard types: events"
+msgstr "Evento"
+
+#: /views/translate_strings/translate_strings.ctp:129
 msgid "Dashboard types: document"
 msgstr "Documento"
 
-#: \views\translate_strings\translate_strings.ctp:27
+#: /views/translate_strings/translate_strings.ctp:130
+msgid "Dashboard types: documents"
+msgstr "Documento"
+
+#: /views/translate_strings/translate_strings.ctp:131
 msgid "Dashboard types: gallery"
 msgstr "Fotos"
 
-#: \views\translate_strings\translate_strings.ctp:28
+#: /views/translate_strings/translate_strings.ctp:132
+msgid "Dashboard types: galleries"
+msgstr "Galeria"
+
+#: /views/translate_strings/translate_strings.ctp:133
 msgid "Dashboard types: factory"
 msgstr "Programa"
 
-#: \views\translate_strings\translate_strings.ctp:29
+#: /views/translate_strings/translate_strings.ctp:134
+msgid "Dashboard types: factorys"
+msgstr "Subsite"
+
+#: /views/translate_strings/translate_strings.ctp:135
 msgid "Dashboard types: highlight"
 msgstr "Destaque"
 
-#: \views\translate_strings\translate_strings.ctp:30
+#: /views/translate_strings/translate_strings.ctp:136
 msgid "Dashboard types: lecture"
 msgstr "Palestra"
 
-#: \views\translate_strings\translate_strings.ctp:31
+#: /views/translate_strings/translate_strings.ctp:137
 msgid "Dashboard types: speaker"
 msgstr "Palestrante"
 
-#: \views\translate_strings\translate_strings.ctp:32
+#: /views/translate_strings/translate_strings.ctp:138
 msgid "Dashboard types: digital_collection"
 msgstr "Documento de Acervo"
 
-#: \views\translate_strings\translate_strings.ctp:51
+#: /views/translate_strings/translate_strings.ctp:158
 msgid "Dashboard language abrev.: por"
 msgstr "pt"
 
-#: \views\translate_strings\translate_strings.ctp:52
+#: /views/translate_strings/translate_strings.ctp:159
 msgid "Dashboard language abrev.: eng"
 msgstr "en"
 
-#: \views\translate_strings\translate_strings.ctp:53
-#, fuzzy
+#: /views/translate_strings/translate_strings.ctp:160
 msgid "Dashboard language abrev.: nno"
 msgstr "pt"
 
-#: \views\translate_strings\translate_strings.ctp:54
-#, fuzzy
+#: /views/translate_strings/translate_strings.ctp:161
 msgid "Dashboard language abrev.: lav"
 msgstr "pt"
 
-#: \views\translate_strings\translate_strings.ctp:55
-#, fuzzy
+#: /views/translate_strings/translate_strings.ctp:162
 msgid "Dashboard language abrev.: gre"
 msgstr "pt"
 
-#: \views\translate_strings\translate_strings.ctp:56
-#, fuzzy
+#: /views/translate_strings/translate_strings.ctp:163
 msgid "Dashboard language abrev.: ukr"
 msgstr "pt"
 
-#: \views\translate_strings\translate_strings.ctp:57
-#, fuzzy
+#: /views/translate_strings/translate_strings.ctp:164
 msgid "Dashboard language abrev.: ger"
 msgstr "pt"
+
+#~ msgid "Dashboard status: "
+#~ msgstr "Estado do dashboard"
 
 #~ msgid "Dashboard types: person"
 #~ msgstr "Pessoa"

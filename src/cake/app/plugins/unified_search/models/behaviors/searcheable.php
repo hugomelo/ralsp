@@ -235,6 +235,10 @@ class SearcheableBehavior extends ModelBehavior
 				$searchInfo['SblSearchItem']['type'] = 'agenda';
 				break;
 			}
+			case 'MexcDocument': {
+				$searchInfo['SblSearchItem']['type'] = 'documento';
+				break;
+			}
 		}
 		
 		if (isset($data['Tag'])) {

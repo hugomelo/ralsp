@@ -184,22 +184,22 @@ $sections = array(
 						//),
 					//),
 					'documents' => array(
-						'linkCaption' => __('Biblioteca', true),
-						'pageTitle' => array(null,__('Biblioteca', true)),
+						'linkCaption' => __('Documentos', true),
+						'pageTitle' => array(null,__('Documentos', true)),
 						'collapse' => true,
 						'display' => false,
 						'url' => array(
 							'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'),
 						'subSections' => array(
 							'index' => array(
-								'linkCaption' => __('Biblioteca', true),
-								'pageTitle'   => array(null, null, __('Biblioteca', true)),
+								'linkCaption' => __('Documentos', true),
+								'pageTitle'   => array(null, null, __('Documentos', true)),
 								'url' => array(
 									'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'),
 							),
 							'item' => array(
-								'linkCaption' => __('Biblioteca', true),
-								'pageTitle'   => array(null, null, __('Biblioteca', true)),
+								'linkCaption' => __('Documentos', true),
+								'pageTitle'   => array(null, null, __('Documentos', true)),
 								'jj_module'   => 'document',
 								'url' => array(
 									'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'read'),
@@ -207,8 +207,8 @@ $sections = array(
 						),
 					),
 					'files' => array(
-						'linkCaption' => __('Arquivos', true),
-						'pageTitle' => array(null,__('Arquivos', true)),
+						'linkCaption' => __('Documentos', true),
+						'pageTitle' => array(null,__('Documentos', true)),
 						'collapse' => true,
 						'url' => array(
 							'plugin' => 'mexc_documents', 'controller' => 'mexc_documents', 'action' => 'index'

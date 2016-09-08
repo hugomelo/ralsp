@@ -217,6 +217,11 @@ nav.navbar {
           background-color: $galleries;
         }
       }
+      &.documents {
+        a:hover, a:focus, a.active {
+          background-color: $documents;
+        }
+      }
       a:hover, a:focus, a.active {
           background-color: $active-default;
       }
@@ -268,8 +273,7 @@ nav.navbar {
     padding: 48px 0 100px;
     border-bottom: 5px solid $main-border;
     border-left: 2px none $main-border;
-    background-image: url(/img/layout/bg_texture.png);
-
+    background-image: url(/img/layout/washi3.png);
   }
   .container {
     margin-left: auto;
@@ -500,14 +504,18 @@ div.about_project {
   font-weight: 500;
 }
 
-.agenda .header .header-data h1.title {
+.events .header .header-data h1.title {
   color: $agenda-h1;
 }
 .news .header .header-data h1.title {
   color: $news-h1;
 }
-.galeria .header .header-data h1.title {
-  color: $galleries-h1;
+.galleries .header .header-data h1.title {
+  color: lighten($galleries-h1, 0.15);
+}
+
+.documents .header .header-data h1.title {
+  color: #b0daba;
 }
 
 
@@ -540,23 +548,37 @@ div.about_project {
     &.new {
       border-color: $news-border;
       h6 {
-        background-color: rgba(130, 120, 179, 0.29);
-        color: #8278b3;
+        background-color: rgba($news, 0.29);
+        color: $news;
       }
     }
     &.event {
       border-color: $agenda-border;
       h6 {
-        background-color: rgba(78, 170, 207, 0.29);
-        color: #4eaacf;
+        background-color: rgba($events, 0.29);
+        color: $events;
       }
     }
     &.gallery {
       border-color: $galeria-border;
       h6 {
-        background-color: rgba(227, 137, 232, 0.29);
-        color: #e389e8;
+        background-color: rgba($galleries, 0.29);
+        color: $galleries;
       }
+    }
+    &.document {
+      border-color: $document-border;
+      h6 {
+        background-color: $document-border;
+        color: $documents;
+      }
+
+      a.visitable {
+        display: inline-flex;
+        width: 180px;
+        overflow: hidden;
+      }
+  
     }
 
     .project {
@@ -611,7 +633,6 @@ div.about_project {
   a {
     color: $fg;
   }
-  
 }
 
 
@@ -755,13 +776,17 @@ hr.full {
   font-style: italic;
   font-weight: 500;
 }
+.pie_file {
+  margin-bottom: 20px;
+}
 .pie_image {
+  margin-bottom: 20px;
   .subtitle {
     width: 75%;
     margin-bottom: 26px;
     float: right;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 19px;
     font-style: italic;
   }
@@ -891,7 +916,7 @@ div.related_content {
       padding-bottom: 15px;
       font-family: 'Alegreya Sans', sans-serif;
       position: relative;
-      padding: 2.5% 0% 60px;
+      padding: 2.5% 0% 10px;
 
       h4.project-title { color: #9e5837; }
       h3.project-title-inside {
@@ -901,6 +926,9 @@ div.related_content {
     	font-size: 27px;
     	line-height: 36px;
     	font-style: normal;
+      }
+      .header .header-data {
+        padding: 0;
       }
 
     }
@@ -915,8 +943,30 @@ div.related_content {
 /**************** SUBPROJECTS ********************/
 
 .fact_site_menu .menu_3 {
+  margin-top: 10px;
+
   li {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 8px;
+    padding: 8px 10px;
+    display: inline-block;
+    a {
+      color: black;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    &:hover, &.active {
+      background-color: #eee;
+      a { color: #d77; }
+    }
   }
 }
+
+
+/**************** DOCUMENTS ********************/
+
+.documents {
+  .main-file {
+    margin-bottom: 20px;
+  }
+}
+

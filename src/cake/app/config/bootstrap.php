@@ -485,9 +485,3 @@ function _formatInterval($begin, $end)
 		} 
 	}
 
-	if (Configure::read('debug') > 0) {
-		App::Import('Vendor', 'scssc', array('file' => 'scssphp/scss.inc.php'));
-		App::Import('Vendor', 'SassCompiler', array('file' => 'php-sass' . DS . 'sass-compiler.php'));
-
-		SassCompiler::run(WWW_ROOT."scss/", WWW_ROOT."css/");
-	}

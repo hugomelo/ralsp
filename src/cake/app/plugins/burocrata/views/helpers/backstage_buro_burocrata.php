@@ -191,17 +191,18 @@ class BackstageBuroBurocrataHelper extends BuroBurocrataHelper
 			array(),
 			array(
 				'type' => 'relational',
-				'label' => __d('mexc', 'Espaço de publicação', true),
-				'error' => __d('mexc', 'Escolha onde você deseja publicar', true),
+				'label' => __d('mexc', 'Publicação em projeto', true),
+				'error' => __d('mexc', 'Escolha se quer publicar dentro de um projeto ou deixe em branco para nenhum', true),
+				'instructions' => 'Escolha se quer publicar dentro de um projeto ou deixe em branco para nenhum',
 				'container' => false,
 				'options' => array(
 					'type' => 'unitaryAutocomplete',
 					'model' => 'MexcSpace.MexcSpace',
 					'allow' => array('relate'),
 					'texts' => array(
-						'nothing_found' => __d('mexc', 'Espaço não encontrado', true),
-						'reset_item' => __d('mexc', 'Buscar um novo espaço', true),
-						'undo_reset' => __d('mexc', 'Usar o último espaço selecionado', true)
+						'nothing_found' => __d('mexc', 'Nem projeto não encontrado', true),
+						'reset_item' => __d('mexc', 'Buscar um novo projeto', true),
+						'undo_reset' => __d('mexc', 'Usar o último projeto selecionado', true)
 					)
 				)
 			)

@@ -4,6 +4,11 @@ $menu-fg: rgba(255,255,255,0.85);
 $fg: #340a0b; 
 $bg: transparent;
 
+$news:      #8278b3;
+$events:    #4eaacf;
+$galleries: #e389e8;
+$documents: #009444;
+
 $border-top: rgba(237, 237, 199);
 $border-top-nav: rgba($border-top, 0.09);
 $border-top-li: rgba($border-top, 0.11);
@@ -13,9 +18,7 @@ $menu-a: rgba(255, 255, 255, 0.85);
 $a-fg: #340a0b;
 
 $active-default: #036d70;
-$news: #8278b3;
-$events: #4eaacf;
-$galleries: #e389e8;
+
 $inside-projetos: rgba(255, 255, 255, 0.09);
 $inside-projetos-h: rgba(0, 0, 0, 0.09);
 
@@ -49,8 +52,10 @@ $select-project-link-selected-fg: #f7f7ed;
 $agenda-h1: #0a8d91;
 $news-h1: $news;
 $galleries-h1: $galleries;
+$documents-h1: $documents;
 
 /**** POST LISTING ****/
 $news-border: rgba(130, 120, 179, 0.29);
 $agenda-border: rgba(78, 170, 207, 0.29);
 $galeria-border: rgba(227, 137, 232, 0.29);
+$document-border: rgba($documents, 0.29);

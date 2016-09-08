@@ -948,6 +948,9 @@ nav.navbar ul li.events a:hover, nav.navbar ul li.events a:focus, nav.navbar ul 
 nav.navbar ul li.galleries a:hover, nav.navbar ul li.galleries a:focus, nav.navbar ul li.galleries a.active {
   background-color: #e389e8;
 }
+nav.navbar ul li.documents a:hover, nav.navbar ul li.documents a:focus, nav.navbar ul li.documents a.active {
+  background-color: #009444;
+}
 nav.navbar ul li a:hover, nav.navbar ul li a:focus, nav.navbar ul li a.active {
   background-color: #036d70;
 }
@@ -1001,7 +1004,7 @@ nav.navbar a {
   padding: 48px 0 100px;
   border-bottom: 5px solid #ff5d47;
   border-left: 2px none #ff5d47;
-  background-image: url(/img/layout/bg_texture.png);
+  background-image: url(/img/layout/washi3.png);
 }
 #main .container {
   margin-left: auto;
@@ -1231,14 +1234,17 @@ div.about_project .about {
   font-size: 37px;
   font-weight: 500;
 }
-.agenda .header .header-data h1.title {
+.events .header .header-data h1.title {
   color: #0a8d91;
 }
 .news .header .header-data h1.title {
   color: #8278b3;
 }
-.galeria .header .header-data h1.title {
-  color: #e389e8;
+.galleries .header .header-data h1.title {
+  color: #f2c9f4;
+}
+.documents .header .header-data h1.title {
+  color: #b0daba;
   /********* POST LISTING ***********/
 }
 .posts-list {
@@ -1285,6 +1291,18 @@ div.about_project .about {
 .posts-list .post.gallery h6 {
   background-color: rgba(227, 137, 232, 0.29);
   color: #e389e8;
+}
+.posts-list .post.document {
+  border-color: rgba(0, 148, 68, 0.29);
+}
+.posts-list .post.document h6 {
+  background-color: rgba(0, 148, 68, 0.29);
+  color: #009444;
+}
+.posts-list .post.document a.visitable {
+  display: inline-flex;
+  width: 180px;
+  overflow: hidden;
 }
 .posts-list .post .project {
   position: absolute;
@@ -1459,12 +1477,18 @@ hr.full {
   font-style: italic;
   font-weight: 500;
 }
+.pie_file {
+  margin-bottom: 20px;
+}
+.pie_image {
+  margin-bottom: 20px;
+}
 .pie_image .subtitle {
   width: 75%;
   margin-bottom: 26px;
   float: right;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 19px;
   font-style: italic;
 }
@@ -1580,7 +1604,7 @@ div.related_content {
   padding-bottom: 15px;
   font-family: 'Alegreya Sans', sans-serif;
   position: relative;
-  padding: 2.5% 0% 60px;
+  padding: 2.5% 0% 10px;
 }
 #main .home-project .projeto h4.project-title {
   color: #9e5837;
@@ -1593,12 +1617,34 @@ div.related_content {
   line-height: 36px;
   font-style: normal;
 }
+#main .home-project .projeto .header .header-data {
+  padding: 0;
+}
 #main .home-project .about_project {
   margin-bottom: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.fact_site_menu .menu_3 {
+  margin-top: 10px;
+  /**************** DOCUMENTS ********************/
+}
 .fact_site_menu .menu_3 li {
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 8px;
+  padding: 8px 10px;
+  display: inline-block;
+}
+.fact_site_menu .menu_3 li a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.fact_site_menu .menu_3 li:hover, .fact_site_menu .menu_3 li.active {
+  background-color: #eee;
+}
+.fact_site_menu .menu_3 li:hover a, .fact_site_menu .menu_3 li.active a {
+  color: #d77;
+}
+.documents .main-file {
+  margin-bottom: 20px;
 }

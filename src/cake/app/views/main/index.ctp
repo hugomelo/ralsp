@@ -45,3 +45,4 @@ echo $this->Bl->srow(array('class' => 'home'));
 	echo $this->Jodel->insertModule('UnifiedSearch.SblUnifiedSearch', array('view', 'index_listing'), $items);
 echo $this->Bl->erow();
 		
+echo $this->element('sql_dump');
