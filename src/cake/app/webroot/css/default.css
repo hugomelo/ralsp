@@ -1604,7 +1604,7 @@ div.related_content {
   padding-bottom: 15px;
   font-family: 'Alegreya Sans', sans-serif;
   position: relative;
-  padding: 2.5% 0% 60px;
+  padding: 2.5% 0% 10px;
 }
 #main .home-project .projeto h4.project-title {
   color: #9e5837;
@@ -1617,17 +1617,31 @@ div.related_content {
   line-height: 36px;
   font-style: normal;
 }
+#main .home-project .projeto .header .header-data {
+  padding: 0;
+}
 #main .home-project .about_project {
   margin-bottom: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .fact_site_menu .menu_3 {
+  margin-top: 10px;
   /**************** DOCUMENTS ********************/
 }
 .fact_site_menu .menu_3 li {
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 8px;
+  padding: 8px 10px;
+  display: inline-block;
+}
+.fact_site_menu .menu_3 li a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.fact_site_menu .menu_3 li:hover {
+  background-color: #ddd;
+  color: #fdd;
 }
 .documents .main-file {
   margin-bottom: 20px;

@@ -18,9 +18,9 @@ echo $this->Bl->sdiv(array('class' => 'row'), array());
 						</form>
 					</div><?php
 
-			if (!empty($ourLocation[1]) && $ourLocation[1] == 'fact_sites' && !empty($ourLocation[2]) && !empty($site)) {
-                   echo $this->Jodel->insertModule('SiteFactory.FactSite', array('header')); 
-			}
+					if (!empty($ourLocation[1]) && $ourLocation[1] == 'fact_sites' && !empty($ourLocation[2]) && !empty($site)) {
+						   echo $this->Jodel->insertModule('SiteFactory.FactSite', array('header')); 
+					}
 
 					echo $content_for_layout;	
 				echo $this->Bl->ediv(); // container
