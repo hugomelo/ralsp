@@ -505,10 +505,10 @@ div.about_project {
 }
 
 .events .header .header-data h1.title {
-  color: $agenda-h1;
+  color: lighten($agenda-h1, 0.2);
 }
 .news .header .header-data h1.title {
-  color: $news-h1;
+  color: lighten($news-h1, 0.2);
 }
 .galleries .header .header-data h1.title {
   color: lighten($galleries-h1, 0.15);
