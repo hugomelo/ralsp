@@ -48,6 +48,10 @@ Configure::write('ContentStream.streams', array(
 		'model' => 'PieMember.PieMember',
 		'title' => __d('content_stream', 'Title for PieMember content', true)
 	),
+	'pie_gadget' => array(
+		'model' => 'PieGadget.PieGadget',
+		'title' => __d('content_stream', 'Title for PieGadget content', true)
+	),
 	'pie_logo' => array(
 		'model' => 'PieLogo.PieLogo',
 		'title' => __d('content_stream', 'Title for PieLogo content', true)
@@ -61,11 +65,11 @@ Configure::write('ContentStream.streams', array(
  * @todo Type validation? Like "can´t publish gallery if number of images is less than X"
  */
 Configure::write('ContentStream.types', array(
-	'document' => array('pie_text', 'pie_image', 'pie_file', 'pie_title'),
-	'event' => array('pie_text', 'pie_image', 'pie_file', 'pie_divider', 'pie_title'),
-	'new' => array('pie_text', 'pie_image', 'pie_divider', 'pie_title', 'pie_file'),
+	'document' => array('pie_text', 'pie_image', 'pie_file', 'pie_title', 'pie_gadget'),
+	'event' => array('pie_text', 'pie_image', 'pie_file', 'pie_divider', 'pie_title', 'pie_gadget'),
+	'new' => array('pie_text', 'pie_image', 'pie_divider', 'pie_title', 'pie_file', 'pie_gadget'),
 	'about_fact_site' => array('pie_text', 'pie_image', 'pie_title'),
-	'about_rede' => array('pie_text', 'pie_image', 'pie_title'),
+	'about_rede' => array('pie_text', 'pie_image', 'pie_title', 'pie_gadget'),
 	'about_section_title' => array('pie_title'),
 	'about_texts' => array('pie_text', 'pie_title'),
 	'about_images' => array('pie_image'),

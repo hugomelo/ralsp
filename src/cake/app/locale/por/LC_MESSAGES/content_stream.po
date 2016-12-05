@@ -4,264 +4,274 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-03-14 17:44+0000\n"
-"PO-Revision-Date: 2012-03-14 14:57-0300\n"
-"Last-Translator: Rodrigo  <rodrigo@preface.com.br>\n"
+"POT-Creation-Date: 2016-12-05 18:38-0200\n"
+"PO-Revision-Date: 2016-12-05 18:42-0300\n"
+"Last-Translator: Hugo Melo <hugo.melo@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"Language: pt_BR\n"
 
-#: \plugins\content_stream\config\config.php:16
+#: /plugins/content_stream/config/config.php:29
 msgid "Title for PieImage content"
 msgstr "Imagem"
 
-#: \plugins\content_stream\config\config.php:20
+#: /plugins/content_stream/config/config.php:33
 msgid "Title for PieFile content"
 msgstr "Arquivo"
 
-#: \plugins\content_stream\config\config.php:24
+#: /plugins/content_stream/config/config.php:37
 msgid "Title for PieText content"
 msgstr "Texto"
 
-#: \plugins\content_stream\config\config.php:28
+#: /plugins/content_stream/config/config.php:41
 msgid "Title for PieDivider content"
 msgstr "Divisória"
 
-#: \plugins\content_stream\config\config.php:32
+#: /plugins/content_stream/config/config.php:45
 msgid "Title for PieTitle content"
 msgstr "Título"
 
-#: \plugins\content_stream\config\config.php:36
+#: /plugins/content_stream/config/config.php:49
 msgid "Title for PieMember content"
 msgstr "Membro do Museu"
 
-#: \plugins\content_stream\config\config.php:40
+#: /plugins/content_stream/config/config.php:53
+msgid "Title for PieGadget content"
+msgstr "Vídeo/Áudio"
+
+#: /plugins/content_stream/config/config.php:57
 msgid "Title for PieLogo content"
 msgstr "Logo"
 
-#: \plugins\pie_divider\views\elements\pie_divider.ctp:31
+#: /plugins/pie_divider/views/elements/pie_divider.ctp:44
 msgid "PieDivider instructions"
 msgstr "Confirme a inserção de um divisor clicando no botão:"
 
-#: \plugins\pie_file\views\elements\pie_file.ctp:86
+#: /plugins/pie_file/views/elements/pie_file.ctp:97
 msgid "PieFile.file_id label"
 msgstr "Arquivo"
 
-#: \plugins\pie_file\views\elements\pie_file.ctp:87
+#: /plugins/pie_file/views/elements/pie_file.ctp:98
 msgid "PieFile.file_id instructions"
 msgstr "Escolha o arquivo e espere até que ele seja carregado."
 
-#: \plugins\pie_file\views\elements\pie_file.ctp:106
+#: /plugins/pie_file/views/elements/pie_file.ctp:117
 msgid "PieFile.title label"
 msgstr "Título (opcional)"
 
-#: \plugins\pie_file\views\elements\pie_file.ctp:107
+#: /plugins/pie_file/views/elements/pie_file.ctp:118
 msgid "PieFile.title instructions"
 msgstr " "
 
-#: \plugins\pie_file\views\elements\pie_file.ctp:116
+#: /plugins/pie_file/views/elements/pie_file.ctp:127
 msgid "PieFile.description label"
 msgstr "Descrição (opcional)"
 
-#: \plugins\pie_file\views\elements\pie_file.ctp:117
+#: /plugins/pie_file/views/elements/pie_file.ctp:128
 msgid "PieFile.description instructions"
 msgstr " "
 
-#: \plugins\pie_file\views\elements\pie_file.ctp:134
+#: /plugins/pie_file/views/elements/pie_file.ctp:145
 msgid "PieFile - Download file:"
 msgstr "Baixar o arquivo:"
 
-#: \plugins\pie_image\views\elements\pie_image.ctp:87
+#: /plugins/pie_image/views/elements/pie_image.ctp:92
 msgid "PieImage.file_id label"
 msgstr "Arquivo da imagem"
 
-#: \plugins\pie_image\views\elements\pie_image.ctp:88
+#: /plugins/pie_image/views/elements/pie_image.ctp:93
 msgid "PieImage.file_id instructions"
 msgstr "Escolha o arquivo e espere até que ele seja carregado."
 
-#: \plugins\pie_image\views\elements\pie_image.ctp:100
+#: /plugins/pie_image/views/elements/pie_image.ctp:105
 msgid "PieImage.title label"
 msgstr "Título (opcional)"
 
-#: \plugins\pie_image\views\elements\pie_image.ctp:101
+#: /plugins/pie_image/views/elements/pie_image.ctp:106
 msgid "PieImage.title instructions"
 msgstr " "
 
-#: \plugins\pie_image\views\elements\pie_image.ctp:110
+#: /plugins/pie_image/views/elements/pie_image.ctp:115
 msgid "PieImage.subtitle label"
 msgstr "Subtítulo (opcional)"
 
-#: \plugins\pie_image\views\elements\pie_image.ctp:111
+#: /plugins/pie_image/views/elements/pie_image.ctp:116
 msgid "PieImage.subtitle instructions"
 msgstr " "
 
-#: \plugins\pie_logo\views\elements\pie_logo.ctp:47
+#: /plugins/pie_logo/views/elements/pie_logo.ctp:47
 msgid "PieLogo.file_id label"
 msgstr "Arquivo da imagem"
 
-#: \plugins\pie_logo\views\elements\pie_logo.ctp:48
+#: /plugins/pie_logo/views/elements/pie_logo.ctp:48
 msgid "PieLogo.file_id instructions"
 msgstr "Escolha o arquivo e espere até que ele seja carregado."
 
-#: \plugins\pie_logo\views\elements\pie_logo.ctp:60
+#: /plugins/pie_logo/views/elements/pie_logo.ctp:60
 msgid "PieLogo.name label"
 msgstr "Nome da entidade/empresa"
 
-#: \plugins\pie_logo\views\elements\pie_logo.ctp:61
+#: /plugins/pie_logo/views/elements/pie_logo.ctp:61
 msgid "PieLogo.name instructions"
 msgstr " "
 
-#: \plugins\pie_logo\views\elements\pie_logo.ctp:70
+#: /plugins/pie_logo/views/elements/pie_logo.ctp:70
 msgid "PieLogo.link label"
 msgstr "Link do site"
 
-#: \plugins\pie_logo\views\elements\pie_logo.ctp:71
+#: /plugins/pie_logo/views/elements/pie_logo.ctp:71
 msgid "PieLogo.link instructions"
-msgstr "O link deve iniciar com http://. Deixe em branco caso não queira que a imagem fique com link."
+msgstr ""
+"O link deve iniciar com http://. Deixe em branco caso não queira que a "
+"imagem fique com link."
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:39
+#: /plugins/pie_member/views/elements/pie_member.ctp:39
 msgid "PieMember.file_id label"
 msgstr "Foto"
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:40
+#: /plugins/pie_member/views/elements/pie_member.ctp:40
 msgid "PieMember.file_id instructions"
-msgstr "Escolha o arquivo e espere até que ele seja carregado. Dê preferêcia para fotos no em \"paisagem\"."
+msgstr ""
+"Escolha o arquivo e espere até que ele seja carregado. Dê preferêcia para "
+"fotos no em \"paisagem\"."
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:52
+#: /plugins/pie_member/views/elements/pie_member.ctp:52
 msgid "PieMember.name label"
 msgstr "Nome"
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:53
+#: /plugins/pie_member/views/elements/pie_member.ctp:53
 msgid "PieMember.name instructions"
 msgstr " "
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:62
+#: /plugins/pie_member/views/elements/pie_member.ctp:62
 msgid "PieMember.cargo label"
 msgstr "Cargo"
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:63
+#: /plugins/pie_member/views/elements/pie_member.ctp:63
 msgid "PieMember.cargo instructions"
 msgstr " "
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:72
+#: /plugins/pie_member/views/elements/pie_member.ctp:72
 msgid "PieMember.description label"
 msgstr "Descrição"
 
-#: \plugins\pie_member\views\elements\pie_member.ctp:73
+#: /plugins/pie_member/views/elements/pie_member.ctp:73
 msgid "PieMember.description instructions"
 msgstr " "
 
-#: \plugins\pie_text\views\elements\pie_text.ctp:44
+#: /plugins/pie_text/views/elements/pie_text.ctp:57
 msgid "PieText.text label"
 msgstr "Texto"
 
-#: \plugins\pie_text\views\elements\pie_text.ctp:45
+#: /plugins/pie_text/views/elements/pie_text.ctp:58
 msgid "PieText.text instructions"
 msgstr " "
 
-#: \plugins\pie_title\views\elements\pie_title.ctp:36
+#: /plugins/pie_title/views/elements/pie_title.ctp:49
 msgid "PieTitle.level label"
 msgstr "Tamanho do título"
 
-#: \plugins\pie_title\views\elements\pie_title.ctp:37
+#: /plugins/pie_title/views/elements/pie_title.ctp:50
 msgid "PieTitle.level instructions"
 msgstr " "
 
-#: \plugins\pie_title\views\elements\pie_title.ctp:40
+#: /plugins/pie_title/views/elements/pie_title.ctp:53
 msgid "PieTitle level 1"
 msgstr "Grande"
 
-#: \plugins\pie_title\views\elements\pie_title.ctp:41
+#: /plugins/pie_title/views/elements/pie_title.ctp:54
 msgid "PieTitle level 2"
 msgstr "Médio"
 
-#: \plugins\pie_title\views\elements\pie_title.ctp:52
+#: /plugins/pie_title/views/elements/pie_title.ctp:65
 msgid "PieTitle.title label"
 msgstr "O título"
 
-#: \plugins\pie_title\views\elements\pie_title.ctp:53
+#: /plugins/pie_title/views/elements/pie_title.ctp:66
 msgid "PieTitle.title instructions"
 msgstr " "
 
-#: \views\translate_strings\translate_strings.ctp:39
+#: /views/translate_strings/translate_strings.ctp:81
 msgid "Corktile input label for cork"
 msgstr "Fluxo de texto"
 
-#: \views\translate_strings\translate_strings.ctp:40
+#: /views/translate_strings/translate_strings.ctp:82
 msgid "Corktile input instructions for cork"
 msgstr "Adicione textos, imagens, títulos e/ou divisórias"
 
-#: \views\translate_strings\translate_strings.ctp:41
+#: /views/translate_strings/translate_strings.ctp:83
 msgid "Corktile input label for about_just_logos"
 msgstr "Logos"
 
-#: \views\translate_strings\translate_strings.ctp:42
+#: /views/translate_strings/translate_strings.ctp:84
 msgid "Corktile input instructions for about_just_logos"
 msgstr "Adicione logos de parceiros/apoiadores"
 
-#: \views\translate_strings\translate_strings.ctp:43
+#: /views/translate_strings/translate_strings.ctp:85
 msgid "Corktile input label for staff_council"
 msgstr "Conselho diretor"
 
-#: \views\translate_strings\translate_strings.ctp:44
+#: /views/translate_strings/translate_strings.ctp:86
 msgid "Corktile input instructions for staff_council"
 msgstr "Adicione os membros do conselho diretor"
 
-#: \views\translate_strings\translate_strings.ctp:45
+#: /views/translate_strings/translate_strings.ctp:87
 msgid "Corktile input label for about_members"
 msgstr "Membros"
 
-#: \views\translate_strings\translate_strings.ctp:46
+#: /views/translate_strings/translate_strings.ctp:88
 msgid "Corktile input instructions for about_members"
 msgstr "Adicione os membros do Museu"
 
-#: \views\translate_strings\translate_strings.ctp:47
+#: /views/translate_strings/translate_strings.ctp:89
 msgid "Corktile input label for about_texts"
 msgstr "Textos"
 
-#: \views\translate_strings\translate_strings.ctp:48
+#: /views/translate_strings/translate_strings.ctp:90
 msgid "Corktile input instructions for about_texts"
 msgstr "Adicione textos e/ou títulos"
 
-#: \views\translate_strings\translate_strings.ctp:49
+#: /views/translate_strings/translate_strings.ctp:91
 msgid "Corktile input label for about_images"
 msgstr "Imagens"
 
-#: \views\translate_strings\translate_strings.ctp:50
+#: /views/translate_strings/translate_strings.ctp:92
 msgid "Corktile input instructions for about_images"
 msgstr "Adicione imagens"
 
-#: \views\translate_strings\translate_strings.ctp:51
+#: /views/translate_strings/translate_strings.ctp:93
 msgid "Corktile input label for document"
 msgstr "Documento"
 
-#: \views\translate_strings\translate_strings.ctp:52
+#: /views/translate_strings/translate_strings.ctp:94
 msgid "Corktile input instructions for document"
-msgstr "Um docmento completo, com textos, títulos, arquivos, imagens, divisórias"
+msgstr ""
+"Um docmento completo, com textos, títulos, arquivos, imagens, divisórias"
 
-#: \views\translate_strings\translate_strings.ctp:53
+#: /views/translate_strings/translate_strings.ctp:95
 msgid "Corktile input label for about_logos"
 msgstr "Títulos e logos"
 
-#: \views\translate_strings\translate_strings.ctp:54
+#: /views/translate_strings/translate_strings.ctp:96
 msgid "Corktile input instructions for about_logos"
 msgstr "Adicione títulos e logos de parceiros/apoiadores"
 
-#: \views\translate_strings\translate_strings.ctp:55
+#: /views/translate_strings/translate_strings.ctp:97
 msgid "Corktile input label for only_text"
 msgstr "Textos"
 
-#: \views\translate_strings\translate_strings.ctp:56
+#: /views/translate_strings/translate_strings.ctp:98
 msgid "Corktile input instructions for only_text"
 msgstr "Adicione apenas textos"
 
-#: \views\translate_strings\translate_strings.ctp:57
+#: /views/translate_strings/translate_strings.ctp:99
 msgid "Corktile input label for text_and_title"
 msgstr "Textos e títulos"
 
-#: \views\translate_strings\translate_strings.ctp:58
+#: /views/translate_strings/translate_strings.ctp:100
 msgid "Corktile input instructions for text_and_title"
 msgstr "Adicione textos e/ou títulos"
-
