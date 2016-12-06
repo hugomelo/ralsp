@@ -4,12 +4,15 @@ switch ($type[0]) {
 case 'full':
 	switch ($type[1]) {
 	case 'cork':
+	case 'mexc_new':
+	case 'mexc_event':
+	case 'mexc_document':
 		echo $this->element(
 			$data['PieGadget']['source'], 
 			array(
 				'plugin' => 'pie_gadget', 
 				'data' => $data, 
-				'width' => $data['PieGadget']['width']
+				'width' => '675',
 			)
 		);
 		break;

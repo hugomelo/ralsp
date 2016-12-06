@@ -898,7 +898,7 @@ nav.navbar ul li a:focus, nav.navbar ul li a:hover, nav.navbar ul li a.active {
   outline: 0;
 }
 nav.navbar ul li.home {
-  background-image: url("/img/layout/logo.svg");
+  background-image: url("/img/layout/logo.png");
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 4% 50%;
@@ -1191,7 +1191,7 @@ nav.navbar a {
   margin-left: -30px;
   padding-top: 87px;
   padding-left: 30px;
-  background-image: url(/img/layout/logo.svg);
+  background-image: url(/img/layout/logo.png);
   background-size: 110px;
   background-repeat: no-repeat;
   /*text-shadow: white -1px -1px 0px, white 1px -1px 0px;*/
