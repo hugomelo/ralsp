@@ -171,9 +171,10 @@ nav.navbar {
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: 4% 50%;
+	background-color: white;
         position: relative;
         @include breakpoint(medium) {
-          background-size: 50px;
+          background-size: 100px;
           background-position: 50% 50%;
         }
         
@@ -181,16 +182,17 @@ nav.navbar {
           background-color: transparent;
         }
         &.active {
-          background-color: $active-default;
+          //background-color: $active-default;
+          background-color: #EEE;
         }
         a {
           &:hover, &:focus {
             background-color: transparent;
           }
-          min-height: 16px;
+          min-height: 35px;
           padding-left: 32px;
           @include breakpoint(medium) {
-            min-height: 80px;
+            min-height: 140px;
           }
 
           span {
